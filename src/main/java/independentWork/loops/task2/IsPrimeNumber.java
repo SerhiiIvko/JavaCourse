@@ -1,9 +1,9 @@
-package loops.task2;
+package independentWork.loops.task2;
 
 /**
  * Проверить простое ли число? (число называется простым, если оно делится только само на себя и на 1)
  */
-public class Main {
+public class IsPrimeNumber {
     public static void main(String[] args) {
         boolean isPrime = true;
         int a = 190;

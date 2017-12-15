@@ -1,4 +1,4 @@
-package ifelseTasks.task4;
+package independentWork.ifelseTasks.task4;
 
 /**
  * Посчитать выражение макс(а*б*с, а+б+с)+3

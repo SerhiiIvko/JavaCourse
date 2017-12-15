@@ -1,4 +1,4 @@
-package methods;
+package independentWork.methods;
 
 /**
  * Created by ivko on 13.12.17.

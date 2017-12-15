@@ -1,4 +1,4 @@
-package ifelseTasks.task2;
+package independentWork.ifelseTasks.task2;
 
 /**
  * Определить какой четверти принадлежит точка с координатами (х,у)

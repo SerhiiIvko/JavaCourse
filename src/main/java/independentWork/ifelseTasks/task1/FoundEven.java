@@ -1,4 +1,4 @@
-package ifelseTasks.task1;
+package independentWork.ifelseTasks.task1;
 
 /**
  * Если а – четное посчитать а*б, иначе а+б

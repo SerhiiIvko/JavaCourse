@@ -1,4 +1,4 @@
-package ifelseTasks.task3;
+package independentWork.ifelseTasks.task3;
 
 /**
  * Найти сумму только положительных из трех чисел

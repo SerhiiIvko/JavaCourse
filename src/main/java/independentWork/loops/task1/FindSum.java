@@ -1,9 +1,9 @@
-package loops.task1;
+package independentWork.loops.task1;
 
 /**
  * Найти сумму четных чисел и их количество в диапазоне от 1 до 99
  */
-public class Main {
+public class FindSum {
     public static void main(String[] args) {
         int countEvens = 0;
         int sumEvens = 0;
