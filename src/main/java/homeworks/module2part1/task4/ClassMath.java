@@ -22,7 +22,5 @@ public class ClassMath {
 
         System.out.println("First result is " + result1);
         System.out.println("Second result is " + result2);
-
     }
-
 }

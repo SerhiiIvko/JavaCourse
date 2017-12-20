@@ -11,3 +11,4 @@ public class DiameterFinder {
         System.out.println("Diameter is " + diameter);
     }
 }
+

@@ -21,3 +21,4 @@ public class GetStudentName {
         System.out.println("Student age: " + ageStudent);
     }
 }
+

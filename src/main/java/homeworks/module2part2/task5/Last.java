@@ -12,7 +12,6 @@ public class Last {
         int firstNumber = output / 100;
         int leftPart = output - (firstNumber * 100);
         int input = leftPart * 10 + firstNumber;
-
         System.out.println(String.format("Было введено число %d", input));
     }
 }

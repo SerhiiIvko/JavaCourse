@@ -26,3 +26,4 @@ public class Multitask {
         System.out.println(multiply);
     }
 }
+

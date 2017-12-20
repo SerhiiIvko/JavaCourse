@@ -12,3 +12,4 @@ public class OutputDigits {
         System.out.println("3\t67\t9\n67\t6\t50\n4\t80\t6");
     }
 }
+

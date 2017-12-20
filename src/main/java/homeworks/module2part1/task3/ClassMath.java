@@ -1,5 +1,4 @@
 package homeworks.module2part1.task3;
-
 /**
  * Задание 4.  Записать следующие выражения (используя Java операторы и класс Math):
  */
@@ -35,3 +34,4 @@ public class ClassMath {
         System.out.println(mnogoVsego);
     }
 }
+
