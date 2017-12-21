@@ -2,9 +2,6 @@ package homeworks.module2part2.task1.task1part2;
 
 import java.util.Scanner;
 
-/**
- * Created by ivko on 15.12.17.
- */
 public class NextFunction {
     public static void main(String[] args) {
         System.out.println("Input x value for get function: ");
