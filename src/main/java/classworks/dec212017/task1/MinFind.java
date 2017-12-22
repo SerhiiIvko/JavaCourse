@@ -9,17 +9,14 @@ public class MinFind {
         int number2 = 45;
         int number3 = 23;
         int number4 = 12;
-        int min = number1;
-
-        if (number2 < min) {
-            min = number2;
-        } else if (number3 < min) {
-            min = number3;
-        } else if (number4 < min) {
-            min = number4;
+        int min1;
+        int min2;
+        min1 = Math.min(number1, number2);
+        min2 = Math.min(number3, number4);
+        if (min1 < min2) {
+            System.out.println(min1);
         } else {
-            min = number1;
+            System.out.println(min2);
         }
-        System.out.println(min);
     }
 }

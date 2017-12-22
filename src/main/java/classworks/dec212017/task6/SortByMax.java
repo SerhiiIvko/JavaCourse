@@ -7,24 +7,22 @@ package classworks.dec212017.task6;
  */
 public class SortByMax {
     public static void main(String[] args) {
-        int a = 56;
-        int b = 23;
-        int c = 42;
+        int a = 80;
+        int b = 26;
+        int c = 2;
+        System.out.println("First input: " + a + " " + b + " " + c);
 
-        int m1;
-        int m2;
-        int m3 = 0;
+        int smaller = (Math.min(Math.min(a, b), c));
+        int medium;
+        int bigger = (Math.max(Math.max(a, b), c));
 
-        if (a > b) {
-            m3 = a;
-        }
-        if (b > c) {
-            m2 = b;
-            m1 = c;
+        if (a != smaller && a != bigger) {
+            medium = a;
+        } else if (b != smaller && b != bigger) {
+            medium = b;
         } else {
-            m1 = b;
-            m2 = c;
+            medium = c;
         }
-        System.out.println(m1 + " " + m2 + " " + m3);
+        System.out.println("Sorted output: " + smaller + " " + medium + " " + bigger);
     }
 }
