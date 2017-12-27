@@ -11,91 +11,32 @@ public class DayOfYearOutput {
         int date = (int) (1 + Math.random() * 31);
         int month = (int) (1 + Math.random() * 12);
 
-        switch (month) {
-            case 1:
-                if (date > 30) {
-                    System.out.println("Date is not valid");
-                } else {
-                    System.out.println(date + " January");
-                }
-                break;
-            case 2:
-                if (date >= 30) {
-                    System.out.println("Date is not valid");
-                } else {
-                    System.out.println(date + " February");
-                }
-                break;
-            case 3:
-                if (date > 30) {
-                    System.out.println("Date is not valid");
-                } else {
-                    System.out.println(date + " March");
-                }
-                break;
-            case 4:
-                if (date > 30) {
-                    System.out.println("Date is not valid");
-                } else {
-                    System.out.println(date + " April");
-                }
-                break;
-            case 5:
-                if (date > 30) {
-                    System.out.println("Date is not valid");
-                } else {
-                    System.out.println(date + " May");
-                }
-                break;
-            case 6:
-                if (date > 30) {
-                    System.out.println("Date is not valid");
-                } else {
-                    System.out.println(date + " June");
-                }
-                break;
-            case 7:
-                if (date > 30) {
-                    System.out.println("Date is not valid");
-                } else {
-                    System.out.println(date + " July");
-                }
-                break;
-            case 8:
-                if (date > 30) {
-                    System.out.println("Date is not valid");
-                } else {
-                    System.out.println(date + " August");
-                }
-                break;
-            case 9:
-                if (date > 30) {
-                    System.out.println("Date is not valid");
-                } else {
-                    System.out.println(date + " September");
-                }
-                break;
-            case 10:
-                if (date > 30) {
-                    System.out.println("Date is not valid");
-                } else {
-                    System.out.println(date + " October");
-                }
-                break;
-            case 11:
-                if (date > 30) {
-                    System.out.println("Date is not valid");
-                } else {
-                    System.out.println(date + " November");
-                }
-                break;
-            case 12:
-                if (date > 30) {
-                    System.out.println("Date is not valid");
-                } else {
-                    System.out.println(date + " December");
-                }
-                break;
+        if (month == 1 && date <= 31) {
+            System.out.println(date + " January");
+        } else if (month == 2 && date <= 28) {
+            System.out.println(date + " February");
+        } else if (month == 3 && date <= 31) {
+            System.out.println(date + " March");
+        } else if (month == 4 && date <= 30) {
+            System.out.println(date + " April");
+        } else if (month == 5 && date <= 31) {
+            System.out.println(date + " May");
+        } else if (month == 6 && date <= 30) {
+            System.out.println(date + " June");
+        } else if (month == 7 && date <= 31) {
+            System.out.println(date + " July");
+        } else if (month == 8 && date <= 31) {
+            System.out.println(date + " August");
+        } else if (month == 9 && date <= 30) {
+            System.out.println(date + " September");
+        } else if (month == 10 && date <= 31) {
+            System.out.println(date + " October");
+        } else if (month == 11 && date <= 30) {
+            System.out.println(date + " November");
+        } else if (month == 12 && date <= 31) {
+            System.out.println(date + " December");
+        } else {
+            System.out.println(date + " is not valid date for " + month);
         }
     }
 }

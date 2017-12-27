@@ -23,10 +23,10 @@ public class Ugadaika {
                 System.out.println("So much!");
             } else if (number1 == secret) {
                 System.out.println("You win! Secret number is " + secret);
-                System.exit(0);
+                return;
             } else {
                 System.out.println("You loose!");
-                System.exit(0);
+                return;
             }
             userTry++;
         }

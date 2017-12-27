@@ -2,9 +2,6 @@ package classworks.dec212017.task3;
 
 import java.util.Scanner;
 
-/**
- * Created by ivko on 21.12.17.
- */
 public class MonthFinder {
     public static void main(String[] args) {
         System.out.println("Input month");

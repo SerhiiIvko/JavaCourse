@@ -19,11 +19,6 @@ public class CalculatorInSwitch {
 
         double result = 0;
 
-        if (num2 == 0) {
-            System.out.println("На ноль делить нельзя!!!");
-            System.exit(0);
-        }
-
         switch (operations) {
             case '+':
                 result = num1 + num2;
@@ -35,6 +30,10 @@ public class CalculatorInSwitch {
                 result = num1 * num2;
                 break;
             case '/':
+                if (num2 == 0) {
+                    System.out.println("На ноль делить нельзя!!!");
+                    return;
+                }
                 result = num1 / num2;
                 break;
             default:

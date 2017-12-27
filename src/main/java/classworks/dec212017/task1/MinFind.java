@@ -1,8 +1,5 @@
 package classworks.dec212017.task1;
 
-/**
- * Created by ivko on 21.12.17.
- */
 public class MinFind {
     public static void main(String[] args) {
         int number1 = 34;
