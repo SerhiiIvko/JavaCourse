@@ -14,8 +14,14 @@ public class EvensOutput {
         int number3 = scanner.nextInt();
         scanner.close();
 
-        System.out.println(number1 % 2 == 0 ? number1 : " ");
-        System.out.println(number2 % 2 == 0 ? number2 : " ");
-        System.out.println(number3 % 2 == 0 ? number3 : " ");
+        if (number1 % 2 == 0) {
+            System.out.println(number1);
+        }
+        if (number2 % 2 == 0) {
+            System.out.println(number2);
+        }
+        if (number3 % 2 == 0) {
+            System.out.println(number3);
+        }
     }
 }
