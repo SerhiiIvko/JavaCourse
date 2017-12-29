@@ -86,8 +86,6 @@ public class WhatDate {
         if (yesterdayYear == -1) {
             yesterdayYear = year;
         }
-
-
         System.out.println();
         System.out.println("Previous date: " + yesterdayDay + "." + yesterdayMonth + "." + yesterdayYear);
         System.out.println("Next date: " + tomorrowDay + "." + tomorrowMonth + "." + tomorrowYear);
