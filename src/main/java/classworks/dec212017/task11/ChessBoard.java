@@ -13,10 +13,9 @@ public class ChessBoard {
 
         if (Math.abs(a - c) == Math.abs(b - d)) {
             System.out.println("Слон (a,b) угрожает фигуре (c,d)");
-
         }
 
-        if (Math.abs(a - c) == 1 && Math.abs(b - d) == 1) {
+        if (Math.abs(a - c) == 1 || Math.abs(b - d) == 1) {
             System.out.println("Король (a,b) может одним ходом попасть на (c,d)");
         }
 
