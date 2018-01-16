@@ -14,6 +14,7 @@ public class RandomNumber {
         System.out.println("Input code operation: 1 = '+', 2 = '-'");
         Scanner scanner = new Scanner(System.in);
         int code = scanner.nextInt();
+        scanner.close();
 
         if (code < 1 || code > 2) {
             System.out.println("Incorrect code");

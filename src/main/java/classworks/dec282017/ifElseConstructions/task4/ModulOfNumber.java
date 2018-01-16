@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * 4.Составить программу, которая уменьшает первое введенное число в два раза, если оно больше второго
- * введенного числа по пбсолютной величине.
+ * введенного числа по aбсолютной величине.
  */
 public class ModulOfNumber {
     public static void main(String[] args) {
@@ -13,6 +13,10 @@ public class ModulOfNumber {
         double number1 = scanner.nextDouble();
         double number2 = scanner.nextDouble();
         scanner.close();
+
+        if (number1 == number2) {
+            System.out.println("Values are equals");
+        }
 
         double minuent;
         double subtracted;
@@ -35,8 +39,10 @@ public class ModulOfNumber {
         double difference2 = minuent - subtracted;
 
         if (difference1 > difference2) {
-            number1 /= 2;
+            System.out.println(number1 / 2);
+        } else {
+            System.out.println("Condition is not valid for operation");
         }
-        System.out.println(number1);
+
     }
 }

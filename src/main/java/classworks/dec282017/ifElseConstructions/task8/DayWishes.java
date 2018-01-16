@@ -18,16 +18,16 @@ public class DayWishes {
             return;
         }
 
-        if (time > 5 && time < 10) {
+        if (time >= 5 && time <= 10) {
             System.out.println("Good morning!");
         }
-        if (time > 10 && time < 16) {
+        if (time > 10 && time <= 16) {
             System.out.println("Good day!");
         }
-        if (time > 16 && time < 22) {
+        if (time > 16 && time <= 22) {
             System.out.println("Good evening!");
         }
-        if (time > 22 && time < 24 || time > 0 && time < 5) {
+        if (time >= 22 && time <= 24 || time >= 0 && time < 5) {
             System.out.println("Good night!");
         }
     }
