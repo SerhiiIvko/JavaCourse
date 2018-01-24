@@ -12,7 +12,7 @@ public class PrintValue {
         int value = scanner.nextInt();
         scanner.close();
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < value; i++) {
             System.out.print(value + " ");
         }
     }
