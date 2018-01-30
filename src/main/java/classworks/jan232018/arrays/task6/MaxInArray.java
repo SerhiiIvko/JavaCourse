@@ -13,13 +13,19 @@ public class MaxInArray {
         }
         System.out.println();
         int max = array[0];
-        int index = 0;
+        int index;
         for (int i = 0; i < array.length; i++) {
-            if (max < array[i]) {
+            if (array[i] > max) {
                 max = array[i];
-                index = i;
             }
         }
-        System.out.println("Max element in array is " + max + ", index of max is " + index);
+        System.out.print("Max element in array is " + max + ", index of max is ");
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] >= max) {
+                max = array[i];
+                index = i;
+                System.out.print(index + ", ");
+            }
+        }
     }
 }

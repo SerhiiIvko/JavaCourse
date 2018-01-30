@@ -30,12 +30,10 @@ public class SortingArray {
 
         for (int j = 1; j <= arr.length - 1; j++) {
             int tmp1 = arr[j];
-
             for (int i = j - 1; i >= 0 && arr[i] > tmp1; i--) {
                 arr[i + 1] = arr[i];
                 arr[i] = tmp1;
             }
-
         }
         System.out.println("Insertion sort: ");
         System.out.println(Arrays.toString(arr));
