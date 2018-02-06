@@ -1,4 +1,4 @@
-package classworks.jan302018;
+package homeworks;
 
 public class Main {
     public static void main(String[] args) {

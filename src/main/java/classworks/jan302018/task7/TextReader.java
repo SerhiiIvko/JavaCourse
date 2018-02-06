@@ -16,11 +16,29 @@ public class TextReader {
         String text = scanner.nextLine();
         scanner.close();
         char e = 'e';
-        int index = 0;
         int counter = 0;
+        text = text.toLowerCase();
         char[] array = text.toCharArray();
+        System.out.println("A");
+        System.out.print("Буква 'e' встречается в тексте по индексам ");
         for (int i = 0; i < array.length; i++) {
-
+            if (array[i] == e) {
+                counter++;
+                System.out.print(i + ", ");
+            }
         }
+        System.out.println();
+        System.out.println("Буква 'e' встречается в тексте " + counter + " раз");
+        System.out.println("B");
+        System.out.print("Буква 'e' встречается в тексте по индексам ");
+        counter = 0;
+        for (int i = 0; i < text.length(); i++) {
+            if (text.charAt(i) == e) {
+                counter++;
+                System.out.print(i + ", ");
+            }
+        }
+        System.out.println();
+        System.out.println("Буква 'e' встречается в тексте " + counter + " раз");
     }
 }

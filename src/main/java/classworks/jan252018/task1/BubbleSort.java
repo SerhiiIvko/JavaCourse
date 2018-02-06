@@ -14,7 +14,7 @@ public class BubbleSort {
 
         int tmp;
         boolean isSorted = false;
-
+        //first algorytm bubble sort
         while (!isSorted) {
             isSorted = true;
             for (int i = 0; i < array.length - 1; i++) {
@@ -30,7 +30,8 @@ public class BubbleSort {
             System.out.print(anArray + " ");
         }
         System.out.println();
-        System.out.println("Next array:");
+        //other algorytm bubble sort
+        System.out.println("Next algoritm sorting array:");
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 20);
             System.out.print(array[i] + " ");
