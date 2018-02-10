@@ -27,18 +27,26 @@ public class TextReader {
                 System.out.print(i + ", ");
             }
         }
+
         System.out.println();
-        System.out.println("Буква 'e' встречается в тексте " + counter + " раз");
-        System.out.println("B");
-        System.out.print("Буква 'e' встречается в тексте по индексам ");
+        System.out.println(String.format("Буква 'e' встречается в тексте %d раз", counter));
+        StringBuilder stringBuilder = new StringBuilder();
         counter = 0;
-        for (int i = 0; i < text.length(); i++) {
-            if (text.charAt(i) == e) {
+        int index = -1;
+        String delimiter = ", ";
+        do {
+            index++;
+            index = text.indexOf("e", index);
+            if (index >= 0) {
+                stringBuilder.append(index).append(delimiter);
                 counter++;
-                System.out.print(i + ", ");
             }
+        } while (index > 0 && index < text.length());
+        if (stringBuilder.length() > 0) {
+            stringBuilder.setLength(stringBuilder.length() - delimiter.length());
         }
-        System.out.println();
-        System.out.println("Буква 'e' встречается в тексте " + counter + " раз");
+        System.out.println("B");
+        System.out.println(String.format("Буква 'e' встречается в тексте по индексам %s", stringBuilder.toString()));
+        System.out.println("Буква 'e' встречается в тексте " + (counter) + " раз");
     }
 }

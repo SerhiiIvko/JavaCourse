@@ -11,10 +11,10 @@ public class BubbleSort {
             System.out.print(array[i] + " ");
         }
         System.out.println();
-
+        //first algorytm bubble sort
         int tmp;
         boolean isSorted = false;
-        //first algorytm bubble sort
+
         while (!isSorted) {
             isSorted = true;
             for (int i = 0; i < array.length - 1; i++) {

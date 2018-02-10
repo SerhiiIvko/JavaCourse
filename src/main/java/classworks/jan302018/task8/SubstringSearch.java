@@ -23,30 +23,26 @@ public class SubstringSearch {
             System.out.println("Incorrect input");
             return;
         }
-//        boolean isStringContainSubstring = userString.contains(userSubString);
-        boolean isStringContainSubstring = false;
-        //System.out.println(isStringContainSubstring);
+        boolean isStringContainSubstring = userString.contains(userSubString);
+        System.out.println(isStringContainSubstring);
         System.out.println();
-
-        int userStringIndex = 0;
-        int userSubStringIndex = 0;
-        int tmp;
-        while (userStringIndex < userString.length() && userSubStringIndex < userSubString.length()) {
-            if (userString.charAt(userStringIndex) == userSubString.charAt(userSubStringIndex)) {
-                userSubStringIndex++;
-                userStringIndex++;
-                tmp = userStringIndex;
+        char[] userStringCharArray = userString.toCharArray();
+        char[] subStringCharArray = userSubString.toCharArray();
+        int expectedCoincidenceStartIndex = 0;
+        int currentIndex = 0;
+        isStringContainSubstring = false;
+        while (expectedCoincidenceStartIndex <= userStringCharArray.length - subStringCharArray.length && currentIndex < subStringCharArray.length) {
+            if (userStringCharArray[expectedCoincidenceStartIndex + currentIndex] == subStringCharArray[currentIndex]) {
+                currentIndex++;
+                if (currentIndex == subStringCharArray.length) {
+                    isStringContainSubstring = true;
+                    break;
+                }
             } else {
-                tmp = userStringIndex;
-                userSubStringIndex = 0;
-            }
-            if (userString.charAt(tmp) == userSubString.charAt(userSubStringIndex)) {
-                userSubStringIndex++;
-                userStringIndex++;
-                isStringContainSubstring = true;
+                expectedCoincidenceStartIndex++;
+                currentIndex = 0;
             }
         }
-
         System.out.println(isStringContainSubstring);
     }
 }
