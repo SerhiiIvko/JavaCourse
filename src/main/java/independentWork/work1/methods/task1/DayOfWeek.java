@@ -8,37 +8,21 @@ import java.util.Scanner;
 public class DayOfWeek {
     public static void main(String[] args) {
         System.out.println("Input number day of week: ");
-        System.out.println(getNameOfDay());
+        getNameOfDay();
     }
 
-    static String getNameOfDay() {
+    public static void getNameOfDay() {
+        String[] days = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
         Scanner scanner = new Scanner(System.in);
         int numOfDay = scanner.nextInt();
         scanner.close();
-        String name = "Input correct number";
-        switch (numOfDay) {
-            case 1:
-                name = "Sunday";
-                break;
-            case 2:
-                name = "Monday";
-                break;
-            case 3:
-                name = "Tuesday";
-                break;
-            case 4:
-                name = "Wednesday";
-                break;
-            case 5:
-                name = "Thursday";
-                break;
-            case 6:
-                name = "Friday";
-                break;
-            case 7:
-                name = "Saturday";
-                break;
+        if (numOfDay < 1 || numOfDay > 7) {
+            System.out.println("Input correct number of week!");
         }
-        return "Day is: " + name;
+        for (int i = 1; i <= days.length; i++) {
+            if (numOfDay == i) {
+                System.out.println(days[i - 1]);
+            }
+        }
     }
 }

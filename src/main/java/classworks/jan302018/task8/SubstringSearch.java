@@ -31,7 +31,8 @@ public class SubstringSearch {
         int expectedCoincidenceStartIndex = 0;
         int currentIndex = 0;
         isStringContainSubstring = false;
-        while (expectedCoincidenceStartIndex <= userStringCharArray.length - subStringCharArray.length && currentIndex < subStringCharArray.length) {
+        while (expectedCoincidenceStartIndex <= userStringCharArray.length - subStringCharArray.length && currentIndex <
+                subStringCharArray.length) {
             if (userStringCharArray[expectedCoincidenceStartIndex + currentIndex] == subStringCharArray[currentIndex]) {
                 currentIndex++;
                 if (currentIndex == subStringCharArray.length) {

@@ -11,7 +11,7 @@ public class NameOfValue {
         System.out.print(getNameOfValue());
     }
 
-    static String getNameOfValue() {
+    public static String getNameOfValue() {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         scanner.close();

@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class StringsArr {
     public static void main(String[] args) {
-
+        System.out.println("Input string or sentence: ");
         Scanner scanner = new Scanner(System.in);
         String[] array = new String[10];
         for (int i = 0; i < array.length; i++) {
@@ -17,6 +17,7 @@ public class StringsArr {
         }
         scanner.close();
         Arrays.sort(array);
+        System.out.println("Words with repeatable first character:");
         for (int i = 0; i < array.length; i++) {
             if ((i > 0 && array[i].charAt(0) == array[i - 1].charAt(0)) ||
                     (i < array.length - 1 && array[i].charAt(0) == array[i + 1].charAt(0))) {

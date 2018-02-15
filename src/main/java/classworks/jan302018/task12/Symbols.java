@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class Symbols {
     public static void main(String[] args) {
+        System.out.println("Input sentence:");
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         scanner.close();
@@ -27,7 +28,7 @@ public class Symbols {
                 currentMaxCount = 1;
             }
         }
-        System.out.println(repeatChar);
-        System.out.println(maxCount);
+        System.out.println("Maximum repeatable character is " + "'" + repeatChar + "'");
+        System.out.println("It's repeat " + maxCount + " times");
     }
 }
