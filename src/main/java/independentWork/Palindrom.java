@@ -19,5 +19,9 @@ public class Palindrom {
             isPalindrom = true;
         }
         System.out.println(isPalindrom);
+        System.out.println("other part:");
+        StringBuilder stringBuilder = new StringBuilder(string);
+        isPalindrom = stringBuilder.toString().equals(stringBuilder.reverse().toString());
+        System.out.println(isPalindrom);
     }
 }

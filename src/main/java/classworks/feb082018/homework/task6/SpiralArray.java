@@ -5,13 +5,15 @@ package classworks.feb082018.homework.task6;
  */
 public class SpiralArray {
     public static void main(String[] args) {
-        int[][] array = new int[7][7];
+        int rowSize = 7;
+        int columnSize = 7;
+        int[][] array = new int[rowSize][columnSize];
         int value = 1;
         int minCol = 0;
-        int maxCol = 7 - 1;
+        int maxCol = columnSize - 1;
         int minRow = 0;
-        int maxRow = 7 - 1;
-        while (value <= 7 * 7) {
+        int maxRow = rowSize - 1;
+        while (value <= rowSize * columnSize) {
             for (int i = minCol; i <= maxCol; i++) {
                 array[minCol][i] = value;
                 value++;
@@ -32,11 +34,10 @@ public class SpiralArray {
             minRow++;
             maxCol--;
             maxRow--;
-
         }
-        for (int i = 0; i < 7; i++) {
-            for (int j = 0; j < 7; j++) {
-                System.out.print(array[i][j] + " ");
+        for (int i = 0; i < rowSize; i++) {
+            for (int j = 0; j < columnSize; j++) {
+                System.out.print(array[i][j] + "\t");
             }
             System.out.println();
         }

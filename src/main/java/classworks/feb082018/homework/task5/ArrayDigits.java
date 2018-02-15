@@ -11,9 +11,11 @@ package classworks.feb082018.homework.task5;
  **/
 public class ArrayDigits {
     public static void main(String[] args) {
-        int[][] array = new int[6][6];
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < 6; j++) {
+        int rowSize = 6;
+        int columnSize = 6;
+        int[][] array = new int[rowSize][columnSize];
+        for (int i = 0; i < rowSize; i++) {
+            for (int j = 0; j < columnSize; j++) {
                 if (i == 0 || j == 0) {
                     array[i][j] = 1;
                 } else {
@@ -21,9 +23,9 @@ public class ArrayDigits {
                 }
             }
         }
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < 6; j++) {
-                System.out.print(array[i][j] + " ");
+        for (int i = 0; i < rowSize; i++) {
+            for (int j = 0; j < columnSize; j++) {
+                System.out.print(array[i][j] + "\t");
             }
             System.out.println();
         }

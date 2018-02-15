@@ -7,15 +7,17 @@ package classworks.feb082018.homework.task3;
  */
 public class EvenFive {
     public static void main(String[] args) {
-        int[][] array = new int[10][10];
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < 10; j++) {
+        int rowSize = 10;
+        int columnSize = 10;
+        int[][] array = new int[rowSize][columnSize];
+        for (int i = 0; i < rowSize; i++) {
+            for (int j = 0; j < columnSize; j++) {
                 array[i][j] = (int) (Math.random() * 50);
             }
         }
 
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < 10; j++) {
+        for (int i = 0; i < rowSize; i++) {
+            for (int j = 0; j < columnSize; j++) {
                 System.out.print(array[i][j] + "  ");
             }
             System.out.println();
@@ -23,12 +25,12 @@ public class EvenFive {
         System.out.println();
 
         boolean isEvenHave = false;
-        if (array[0][9] % 2 != 0 || array[9][9] % 2 != 0) {
+        if (array[0][columnSize - 1] % 2 != 0 || array[rowSize - 1][columnSize - 1] % 2 != 0) {
             isEvenHave = true;
         }
         System.out.println(isEvenHave);
         boolean isHaveFive = false;
-        if (array[0][0] == 5 || array[9][0] == 5 || array[0][0] % 10 == 5 || array[9][0] % 10 == 5) {
+        if (array[0][0] == 5 || array[rowSize - 1][0] == 5 || array[0][0] % 10 == 5 || array[rowSize - 1][0] % 10 == 5) {
             isHaveFive = true;
         }
         System.out.println(isHaveFive);

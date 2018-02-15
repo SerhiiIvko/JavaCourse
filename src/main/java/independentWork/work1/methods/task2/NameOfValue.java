@@ -1,4 +1,4 @@
-package independentWork.work1.methods.task2.one;
+package independentWork.work1.methods.task2;
 
 import java.util.Scanner;
 
@@ -7,19 +7,19 @@ import java.util.Scanner;
  */
 public class NameOfValue {
     public static void main(String[] args) {
-        System.out.println("Input number from 0 to 999");
+        System.out.println("Введите число от 0 до 999");
         System.out.print(getNameOfValue());
     }
 
-    public static String getNameOfValue() {
+    static String getNameOfValue() {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         scanner.close();
 
-        String name = new String();
-        String tensName = new String();
-        String onesName = new String();
-        String hungredsName = new String();
+        String name = "";
+        String tensName = "";
+        String onesName = "";
+        String hungredsName = "";
         String[] hungreds = {"Сто", "Двести", "Триста", "Четыреста", "Пятьсот", "Шестьсот", "Семьсот", "Восемьсот", "Девятьсот"};
         String[] tens = {" двадцать ", " тридцать ", " сорок ", " пятьдесят ", " шестьдесят ", " семьдесят ", " восемьдесят", " девяносто"};
         String[] ones = {" один ", " два ", " три ", " четыре ", " пять ", " шесть ", " семь ", " восемь ", " девять "};

@@ -43,5 +43,6 @@ public class ArrayMaxSize {
             }
         }
         System.out.println(Arrays.toString(array));
+        System.out.println(count);
     }
 }

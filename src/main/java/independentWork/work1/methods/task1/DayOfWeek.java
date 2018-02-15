@@ -11,7 +11,7 @@ public class DayOfWeek {
         System.out.println(getNameOfDay());
     }
 
-    public static String getNameOfDay() {
+    static String getNameOfDay() {
         Scanner scanner = new Scanner(System.in);
         int numOfDay = scanner.nextInt();
         scanner.close();

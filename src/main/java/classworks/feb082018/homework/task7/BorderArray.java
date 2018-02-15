@@ -5,18 +5,20 @@ package classworks.feb082018.homework.task7;
  */
 public class BorderArray {
     public static void main(String[] args) {
-        char[][] array = new char[7][7];
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < 7; j++) {
-                if ((i == 0 || j == 7 - 1) || (i == 7 - 1 || j == 0)) {
+        int rowSize = 7;
+        int columnSize = 7;
+        char[][] array = new char[rowSize][columnSize];
+        for (int i = 0; i < rowSize; i++) {
+            for (int j = 0; j < columnSize; j++) {
+                if ((i == 0 || j == columnSize - 1) || (i == rowSize - 1 || j == 0)) {
                     array[i][j] = '#';
                 } else {
                     array[i][j] = ' ';
                 }
             }
         }
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < 7; j++) {
+        for (int i = 0; i < rowSize; i++) {
+            for (int j = 0; j < columnSize; j++) {
                 System.out.print(array[i][j] + " ");
             }
             System.out.println();
