@@ -13,7 +13,7 @@ package classworks.feb132018.homework.task2;
  */
 public class StringAverage {
     public static String getAverageOfString(String string) {
-        String average = "";
+        String average;
         if (string.length() % 2 == 0) {
             average = String.valueOf(string.charAt(string.length() / 2 - 1)).concat(String.valueOf(string.charAt(string.length() / 2)));
         } else {
@@ -23,6 +23,6 @@ public class StringAverage {
     }
 
     public static void main(String[] args) {
-        System.out.println(getAverageOfString("Hello"));
+        System.out.println(getAverageOfString("wowowowowowoww"));
     }
 }
