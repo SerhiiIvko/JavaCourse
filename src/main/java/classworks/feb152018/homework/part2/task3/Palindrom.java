@@ -8,14 +8,10 @@ import java.util.Scanner;
  */
 public class Palindrom {
 
-    static boolean isPalindrom(String str1, String str2, String str3) {
+    static boolean isPalindrom(String s) {
         boolean isPalindrom = false;
-        StringBuilder stringBuilder = new StringBuilder(str1);
-        StringBuilder stringBuilder1 = new StringBuilder(str2);
-        StringBuilder stringBuilder2 = new StringBuilder(str3);
-        if (stringBuilder.toString().equals(stringBuilder.reverse().toString()) ||
-                stringBuilder1.toString().equals(stringBuilder1.reverse().toString()) ||
-                stringBuilder2.toString().equals(stringBuilder2.reverse().toString())) {
+        StringBuilder stringBuilder = new StringBuilder(s);
+        if (stringBuilder.toString().equals(stringBuilder.reverse().toString())) {
             isPalindrom = true;
         }
         return isPalindrom;
@@ -31,6 +27,8 @@ public class Palindrom {
         System.out.println("Input third word:");
         String str3 = scanner.nextLine();
         scanner.close();
-        System.out.println(isPalindrom(str1, str2, str3));
+        System.out.println(isPalindrom(str1) || isPalindrom(str2) || isPalindrom(str3) ?
+                "One or more from strings is palindrome." :
+                "No palindromes.");
     }
 }

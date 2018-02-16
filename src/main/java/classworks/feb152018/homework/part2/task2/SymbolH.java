@@ -8,19 +8,18 @@ import java.util.Scanner;
  */
 public class SymbolH {
 
-    static int countHinText(String text) {
+    static void countHinText(String text) {
         char h = 'h';
         int counter = 0;
         text = text.toLowerCase();
         char[] array = text.toCharArray();
 
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] == h) {
+        for (char anArray : array) {
+            if (anArray == h) {
                 counter++;
             }
         }
-        System.out.print("Буква 'h' встречается в тексте ");
-        return counter;
+        System.out.println("Буква 'h' встречается в тексте " + counter + " раз");
     }
 
     public static void main(String[] args) {
@@ -30,7 +29,7 @@ public class SymbolH {
         System.out.println("Input your second sentence");
         String text2 = scanner.nextLine();
         scanner.close();
-        System.out.println(countHinText(text1));
-        System.out.println(countHinText(text2));
+        countHinText(text1);
+        countHinText(text2);
     }
 }
