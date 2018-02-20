@@ -39,6 +39,6 @@ public class FigurePerimeter {
         double ab = readNumber(scanner, "Input first side of polygon: ");
         double ac = readNumber(scanner, "Input second side of polygon: ");
         double cd = readNumber(scanner, "Input third side of polygon: ");
-        System.out.println("Perimeter of polygon is " + getPerimeter(ab, ac, cd));
+        System.out.println("Perimeter of polygon = " + getPerimeter(ab, ac, cd));
     }
 }

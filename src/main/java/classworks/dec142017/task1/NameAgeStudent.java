@@ -2,9 +2,6 @@ package classworks.dec142017.task1;
 
 import java.util.Scanner;
 
-/**
- * Created by ivko on 14.12.17.
- */
 public class NameAgeStudent {
     public static void main(String[] args) {
 
