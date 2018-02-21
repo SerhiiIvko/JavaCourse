@@ -58,4 +58,14 @@ public class JunitMathProvider_1 {
         System.out.println("Ending test " + new Object() {
         }.getClass().getEnclosingMethod().getName());
     }
+
+    @Test
+    public void division() {
+        System.out.println("Starting test " + new Object() {
+        }.getClass().getEnclosingMethod().getName());
+
+        int firstNumber = 6;
+        int secondNumber = 3;
+        assertEquals(2, provider.divide(firstNumber, secondNumber), 0.0);
+    }
 }

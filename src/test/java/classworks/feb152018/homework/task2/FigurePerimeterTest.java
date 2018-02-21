@@ -4,9 +4,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by ivko on 19.02.18.
- */
 public class FigurePerimeterTest {
 
     @Test
