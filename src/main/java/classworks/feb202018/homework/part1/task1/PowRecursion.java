@@ -31,6 +31,7 @@ public class PowRecursion {
         Scanner scanner = new Scanner(System.in);
         int number = readNumber(scanner, "Input number");
         int pow = readNumber(scanner, "Input pow");
+        scanner.close();
         System.out.println(getPow(number, pow));
     }
 }
