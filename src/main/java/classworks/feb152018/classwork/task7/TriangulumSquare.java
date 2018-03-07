@@ -43,7 +43,7 @@ public class TriangulumSquare {
         scanner.close();
         System.out.println();
         float triangulumSquare = getTriangulumSquare(a, b, c);
-        System.out.println("Square of triangulum " + triangulumSquare);
+        System.out.println("Rectangle of triangulum " + triangulumSquare);
         System.out.println(String.format("%.3f", triangulumSquare));
     }
 }
