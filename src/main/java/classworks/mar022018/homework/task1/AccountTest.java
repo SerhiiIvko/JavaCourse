@@ -1,8 +1,5 @@
 package classworks.mar022018.homework.task1;
 
-import classworks.feb152018.classwork.task4.A;
-
-import javax.swing.text.Segment;
 import java.util.Scanner;
 
 /**

@@ -9,26 +9,22 @@ public class CarRunner {
         cars[3] = new Car(107, 3684, 2016, 11000, "BMW", "X5", "white");
         cars[4] = new Car(109, 9788, 2000, 4000, "Renault", "Logan", "yellow");
 
+        CarManager carManager = new CarManager(cars);
 
-        for (int i = 0; i < cars.length; i++) {
-            cars[i].getOldCars(15, cars);
-            break;
-        }
-        System.out.println();
-        for (int i = 0; i < cars.length; i++) {
-            cars[i].getType("Daewoo", cars);
-            break;
-        }
-        System.out.println();
-        for (int i = 0; i < cars.length; i++) {
-            cars[i].getCarByPrice(3000, cars);
-            break;
-        }
-        System.out.println();
-        cars[3].setType("Lexus");
-        for (int i = 0; i < cars.length; i++) {
-            cars[i].getType("Lexus", cars);
-            break;
-        }
+        int price = 3000;
+        String type = "Daewoo";
+        int year = 10;
+
+        Car[] carsByPrice = carManager.getCarsMoreExpensiveThan(price);
+        Car[] carsByType = carManager.getCarsByType(type);
+        Car[] carsByAge = carManager.getCarsExploitedMoreThan(year);
+
+        System.out.println(String.format("cars more expensive than %d", price));
+        carManager.printCars(carsByPrice);
+        System.out.println(String.format("cars with type %s", type));
+        carManager.printCars(carsByType);
+        System.out.println(String.format("cars older than %d", year));
+        carManager.printCars(carsByAge);
+        cars[1].setType("Lexus");
     }
 }

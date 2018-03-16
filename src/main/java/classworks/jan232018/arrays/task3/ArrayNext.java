@@ -12,7 +12,7 @@ public class ArrayNext {
             System.out.print(array[i] + " ");
         }
         System.out.println();
-        System.out.println("After change elements: ");
+        System.out.println("After changeField elements: ");
         int tmp = array[array.length - 1];
         array[array.length - 1] = array[0];
         array[0] = tmp;

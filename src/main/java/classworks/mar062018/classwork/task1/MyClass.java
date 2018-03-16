@@ -7,24 +7,11 @@ public class MyClass {
         this.s = s;
     }
 
-    static void change(MyClass other) {
+    public static void changeField(MyClass other) {
         other.s = "=====";
     }
 
-    static void change2(MyClass other) {
+    static void changeRef(MyClass other) {
         other = new MyClass("------");
-    }
-}
-
-class Runner {
-    public static void main(String[] args) {
-        MyClass myClass = new MyClass("1");
-        MyClass myClass1 = new MyClass("2");
-
-        MyClass.change(myClass);
-        MyClass.change2(myClass1);
-
-        System.out.println(myClass.s);
-        System.out.println(myClass1.s);
     }
 }
