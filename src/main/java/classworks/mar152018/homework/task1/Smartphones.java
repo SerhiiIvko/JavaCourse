@@ -1,12 +1,5 @@
 package classworks.mar152018.homework.task1;
 
-/**
- * Создать интерфейсы: Товар <- Телефоны и планшеты <- Мобильные телефоны
- * Класс Смартфоны должен реализовать указанные интерфейсы и содержать дополнительно 4-5 полей.
- * На базе класса Смартфоны создать как минимум пять экземпляров класса.
- * В качестве источника информации о характеристиках товаров можно взять магазины
- * fotomag.com.ua или rozetka.com.ua
- */
 public class Smartphones implements Product, PhonesAndTablets, MobilePhones {
     private String brandName;
     private String modelName;
@@ -83,7 +76,7 @@ public class Smartphones implements Product, PhonesAndTablets, MobilePhones {
 
     @Override
     public void printPriceDevice() {
-        System.out.println("Price of device $" + getPrice());
+        System.out.println("Price of device UAH " + getPrice());
     }
 
     @Override
@@ -91,12 +84,12 @@ public class Smartphones implements Product, PhonesAndTablets, MobilePhones {
         System.out.println("Country of production " + getCountryProduction());
     }
 
-    public String toStringInfo() {
+    public String toString() {
         return "Smartphone description: \n" +
                 "Brand: '" + brandName + '\'' + "\n" +
                 "Model: '" + modelName + '\'' + "\n" +
                 "Country production: " + countryProduction + "\n" +
-                "Price: $" + price + "\n" +
+                "Price: UAH " + price + "\n" +
                 "Year production: " + yearProduction;
     }
 }

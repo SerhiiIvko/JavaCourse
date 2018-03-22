@@ -19,9 +19,16 @@ public class Segments {
     }
 
     public boolean isSegmentEquals(Segments segments) {
-        return (Math.sqrt((Math.pow((this.xSegmentEnd - this.xSegmentStart), 2)) +
-                (Math.pow((this.ySegmentEnd - this.ySegmentStart), 2)))) ==
-                (Math.sqrt((Math.pow((segments.xSegmentEnd - segments.xSegmentStart), 2)) +
-                        (Math.pow((segments.ySegmentEnd - segments.ySegmentStart), 2))));
+        return getLenghtSegment() ==
+                (segments.getLenghtSegment());
+    }
+
+    private double getLenghtSegment() {
+        return Math.sqrt(getPow((this.xSegmentEnd - this.xSegmentStart)) +
+                (getPow(this.ySegmentEnd - this.ySegmentStart)));
+    }
+
+    private double getPow(double a) {
+        return Math.pow(a, 2);
     }
 }

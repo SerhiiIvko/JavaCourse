@@ -1,5 +1,6 @@
 package classworks.mar022018.homework.task2;
 
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.function.Predicate;
 
@@ -30,15 +31,17 @@ public class CarManager {
     }
 
     private Car[] findCars(Predicate<Car> predicate) {
-        Car[] foundCars = new Car[cars.length];
-        int counterFoundCars = 0;
-        for (int i = 0; i < cars.length; i++) {
-            if (predicate.test(cars[i])) {
-                foundCars[counterFoundCars++] = cars[i];
-            }
-        }
-        Car[] result = new Car[counterFoundCars];
-        System.arraycopy(foundCars, 0, result, 0, counterFoundCars);
-        return result;
+        return Arrays.stream(this.cars).filter(predicate).toArray(Car[]::new);
+
+//        Car[] foundCars = new Car[this.cars.length];
+//        int counterFoundCars = 0;
+//        for (int i = 0; i < this.cars.length; i++) {
+//            if (predicate.test(this.cars[i])) {
+//                foundCars[counterFoundCars++] = this.cars[i];
+//            }
+//        }
+//        Car[] result = new Car[counterFoundCars];
+//        System.arraycopy(foundCars, 0, result, 0, counterFoundCars);
+//        return result;
     }
 }
