@@ -1,4 +1,4 @@
-package classworks.mar202018.homework.task1;
+package classworks.mar202018.homework.task1.shape;
 
 import java.util.Scanner;
 
@@ -11,13 +11,13 @@ public abstract class Shape {
     public static Shape create(ShapeType shapeType, Scanner scanner) {
         switch (shapeType) {
             case BLOCK:
-                System.out.println("Input parameters for block (length, width, height):");
+                System.out.println("Введите параметры блока (длину, ширину, высоту):");
                 return createBlock(scanner);
             case SPHERE:
-                System.out.println("Input parameters for sphere (radius):");
+                System.out.println("Введите параметры сферы (радиус):");
                 return createSphere(scanner);
             case PYRAMID:
-                System.out.println("Input parameters for pyramid (length, width, height):");
+                System.out.println("Введите параметры пирамиды (длину, ширину, высоту):");
                 return createPyramid(scanner);
         }
         throw new IllegalArgumentException();

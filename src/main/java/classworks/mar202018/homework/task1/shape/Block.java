@@ -1,4 +1,4 @@
-package classworks.mar202018.homework.task1;
+package classworks.mar202018.homework.task1.shape;
 
 public class Block extends Shape {
     private double length;
@@ -23,9 +23,9 @@ public class Block extends Shape {
 
     @Override
     public String toString() {
-        return "Block parameters: " +
-                "length = " + length +
-                ", width = " + width +
-                ", height = " + height;
+        return "Параметры блока: " +
+                "длина = " + length +
+                ", ширина = " + width +
+                ", высота = " + height;
     }
 }

@@ -1,4 +1,4 @@
-package classworks.mar202018.homework.task1;
+package classworks.mar202018.homework.task1.shape;
 
 public class Sphere extends Shape {
     private double radius;
@@ -20,7 +20,7 @@ public class Sphere extends Shape {
 
     @Override
     public String toString() {
-        return "Sphere parameters: " +
-                "radius = " + radius;
+        return "Параметры сферы: " +
+                "радиус = " + radius;
     }
 }

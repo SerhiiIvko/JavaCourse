@@ -1,5 +1,7 @@
 package classworks.mar202018.homework.task1;
 
+import classworks.mar202018.homework.task1.shape.Shape;
+
 import java.util.function.Function;
 
 public class ShapeManager {
@@ -16,6 +18,10 @@ public class ShapeManager {
         if (shapeCounter < MAX_SHAPES_NUMBER) {
             shapes[shapeCounter++] = shape;
         }
+    }
+
+    public boolean isFull() {
+        return shapeCounter >= MAX_SHAPES_NUMBER;
     }
 
     public double getAverageArea() {
@@ -37,10 +43,11 @@ public class ShapeManager {
     public void print() {
         for (int i = 0; i < shapeCounter; i++) {
             System.out.println(shapes[i].toString());
-            System.out.println("Area of this shape = " + (float) shapes[i].getArea());
-            System.out.println("Volume of this shape = " + (float) shapes[i].getVolume());
+            System.out.println("Площадь данной фигуры = " + (float) shapes[i].getArea());
+            System.out.println("Объём данной фигуры = " + (float) shapes[i].getVolume());
+            System.out.println();
         }
-        System.out.println("Average area of shapes = " + (float) getAverageArea());
-        System.out.println("Average volume of shapes = " + (float) getAverageVolume());
+        System.out.println("Средняя площадь введённых фигур = " + (float) getAverageArea());
+        System.out.println("Средний объём введённых фигур = " + (float) getAverageVolume());
     }
 }

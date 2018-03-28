@@ -1,4 +1,4 @@
-package classworks.mar202018.homework.task1;
+package classworks.mar202018.homework.task1.shape;
 
 public class Pyramid extends Shape {
     private double length;
@@ -31,9 +31,9 @@ public class Pyramid extends Shape {
 
     @Override
     public String toString() {
-        return "Pyramid parameters: " +
-                "length = " + length +
-                ", width = " + width +
-                ", height = " + height;
+        return "Параметры пирамиды: " +
+                "длина = " + length +
+                ", ширина = " + width +
+                ", высота = " + height;
     }
 }

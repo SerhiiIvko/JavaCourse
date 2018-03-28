@@ -1,5 +1,13 @@
 package classworks.mar202018.homework.task1;
 
+import classworks.mar202018.homework.task1.command.AddShapeCommand;
+import classworks.mar202018.homework.task1.command.Command;
+import classworks.mar202018.homework.task1.command.ExitCommand;
+import classworks.mar202018.homework.task1.command.PrintCommand;
+import classworks.mar202018.homework.task1.shape.ShapeType;
+
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -23,18 +31,29 @@ import java.util.Scanner;
  */
 public class Runner {
     public static void main(String[] args) {
-        System.out.println("Input shape parameters");
         Scanner scanner = new Scanner(System.in);
-        Shape shape = Shape.create(ShapeType.getByCode(1), scanner);
-        Shape shape1 = Shape.create(ShapeType.getByCode(2), scanner);
-        Shape shape2 = Shape.create(ShapeType.getByCode(3), scanner);
-        scanner.close();
-
         ShapeManager shapeManager = new ShapeManager();
-        shapeManager.addShape(shape);
-        shapeManager.addShape(shape1);
-        shapeManager.addShape(shape2);
 
-        shapeManager.print();
+        Map<Integer, Command> menu = new HashMap<>();
+        menu.put(1, new AddShapeCommand(ShapeType.BLOCK, shapeManager, scanner));
+        menu.put(2, new AddShapeCommand(ShapeType.SPHERE, shapeManager, scanner));
+        menu.put(3, new AddShapeCommand(ShapeType.PYRAMID, shapeManager, scanner));
+        menu.put(4, new PrintCommand(shapeManager));
+        menu.put(5, new ExitCommand());
+
+        String description = " * 1) Введите блок\n" +
+                " * 2) Введите сферу\n" +
+                " * 3) Введите пирамиду\n" +
+                " * 4) Показать данные\n" +
+                " * 5) Выход";
+
+        while (true) {
+            System.out.println(description);
+            int id = scanner.nextInt();
+            if (id >= 1 && id <= 5) {
+                Command command = menu.get(id);
+                command.execute();
+            }
+        }
     }
 }
