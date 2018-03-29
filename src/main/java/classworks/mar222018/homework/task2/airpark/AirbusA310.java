@@ -1,4 +1,6 @@
-package classworks.mar222018.homework.task2;
+package classworks.mar222018.homework.task2.airpark;
+
+import classworks.mar222018.homework.task2.Aircraft;
 
 public class AirbusA310 extends Aircraft {
     public AirbusA310(String name, double valueBagage, int countPassengers, double flyingRange, double consumer) {

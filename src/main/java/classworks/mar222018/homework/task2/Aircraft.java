@@ -1,22 +1,24 @@
 package classworks.mar222018.homework.task2;
 
-public class Aircraft implements Comparable<Aircraft> {
+import classworks.mar222018.homework.airparkrenovated.IPlane;
+
+public class Aircraft implements Comparable<Aircraft>, IPlane {
     private String name;
     private double valueBaggage;
     private int countPassengers;
     private double flyingRange;
-    private double consumer;
+    private double fuelConsumption;
 
-    public Aircraft(String name, double valueBaggage, int countPassengers, double flyingRange, double consumer) {
+    public Aircraft(String name, double valueBaggage, int countPassengers, double flyingRange, double fuelConsumption) {
         this.name = name;
         this.valueBaggage = valueBaggage;
         this.countPassengers = countPassengers;
         this.flyingRange = flyingRange;
-        this.consumer = consumer;
+        this.fuelConsumption = fuelConsumption;
     }
 
-    public double getConsumer() {
-        return consumer;
+    public double getFuelConsumption() {
+        return fuelConsumption;
     }
 
     public double getValueBaggage() {
@@ -28,12 +30,22 @@ public class Aircraft implements Comparable<Aircraft> {
     }
 
     @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public double getFlyingRange() {
+        return flyingRange;
+    }
+
+    @Override
     public String toString() {
         return "Aircraft type '" + name + "'\n" +
                 "Value of baggage camera = " + valueBaggage + " cube meters " +
                 ", Count of passengers places = " + countPassengers +
                 ", Flying range = " + flyingRange + " km" +
-                ", Consumer = " + consumer + " liters for 1 km\n";
+                ", Consumer = " + fuelConsumption + " liters for 1 km\n";
     }
 
     @Override
