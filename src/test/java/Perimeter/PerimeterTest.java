@@ -3,7 +3,7 @@ package Perimeter;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-import classworks.feb152018.homework.task2.FigurePerimeter;
+import classworks.february2018.feb152018.homework.task2.FigurePerimeter;
 
 public class PerimeterTest {
     FigurePerimeter figurePerimeter;
