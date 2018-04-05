@@ -2,9 +2,6 @@ package classworks.march2018.mar152018.homework.lanaEdition.task2;
 
 import java.util.Arrays;
 
-/**
- * Created by ivko on 16.03.18.
- */
 public enum DeveloperState {
     BREATH("breath", 0), WORK("work state", 1), ENJOY("enjoy life", 2);
 

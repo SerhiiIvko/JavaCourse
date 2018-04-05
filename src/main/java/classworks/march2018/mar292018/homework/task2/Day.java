@@ -1,5 +1,7 @@
 package classworks.march2018.mar292018.homework.task2;
 
-public class Day {
+public enum Day {
+    MONDAY,
+    TUESDAY
 
 }

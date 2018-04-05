@@ -1,9 +1,16 @@
 package classworks.march2018.mar292018.homework.task2;
 
+import java.util.Calendar;
+import java.util.Date;
+
 public class Year {
     private int day;
     private int month;
     private int year;
+
+    public Year() {
+
+    }
 
     public Year(int day, int month, int year) {
         this.day = day;
@@ -11,40 +18,29 @@ public class Year {
         this.year = year;
     }
 
-    public int getDay() {
-        return day;
+    public boolean getIsYearIntercalary(int year) {
+        return ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
     }
 
-    public void setDay(int day) {
-        this.day = day;
+    public int dayOfWeek() {
+        Date yourDate = new Date();
+        yourDate.getDate();
+        Calendar c = Calendar.getInstance();
+        c.setTime(yourDate);
+        int dayOfWeek = c.get(Calendar.DAY_OF_WEEK);
+//        System.out.println(yourDate.toString());
+        return dayOfWeek;
     }
 
-    public int getMonth() {
-        return month;
-    }
-
-    public void setMonth(int month) {
-        this.month = month;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
-    public void setYear(int year) {
-        this.year = year;
-    }
-
-    public int getCountDaysInRange(Year that) {
-        return Math.abs(that.getDay() - this.getDay());
-    }
-
-    public int getCountMonthsInRange(Year that) {
-        return Math.abs(that.getMonth() - this.getMonth());
-    }
-
-    @Override
-    public String toString() {
-        return "Date: " + day + "." + month + "." + year;
+    public String printDayOfWeek(int dayOfWeek) {
+        switch (dayOfWeek) {
+            case 1:
+                return "Monday";
+            case 5:
+                return "Tuesday";
+            default:
+                System.out.println("Incorrect date");
+        }
+        throw new IllegalArgumentException();
     }
 }

@@ -14,7 +14,6 @@ public class ArraysAndMethods {
             if (array[i] > average) {
                 System.out.print(i + " ");
                 count++;
-
             }
         }
         System.out.println();
