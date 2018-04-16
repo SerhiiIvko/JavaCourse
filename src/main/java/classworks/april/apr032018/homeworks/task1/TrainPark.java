@@ -1,9 +1,12 @@
 package classworks.april.apr032018.homeworks.task1;
 
+import com.sun.istack.internal.Nullable;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class TrainPark implements ITrains {
+
     private PassTrain[] passTrains;
 
     public TrainPark(PassTrain[] passTrains) {
@@ -44,5 +47,20 @@ public class TrainPark implements ITrains {
             stringBuilder = stringBuilder.append(passTrain.toString()).append("\n");
         }
         return stringBuilder.toString();
+    }
+
+    @Nullable
+    public PassTrain getTrainByIndex(int index) {
+        PassTrain passTrain = null;
+        try {
+            for (int i = 0; i < this.passTrains.length; i++) {
+                if (i == index) {
+                    passTrain = this.passTrains[i];
+                }
+            }
+        } catch (ArrayIndexOutOfBoundsException ae) {
+            System.out.println("No trains for this index: " + index);
+        }
+        return passTrain;
     }
 }
