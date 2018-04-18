@@ -1,28 +1,37 @@
 package classworks.april.apr122018.homework.task2;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
-/**
- * Создать класс Team, который содержит коллекции экземпляров класс Developer.
- * ● Класс Developer содержит коллекцию классов Skill
- * ● Создать класс Project, который содержит экземпляр класса Team.
- * ● Необходимо реализовать методы для вывода на экран всех разработчиков в команде и вывести их навыки.
- */
 public class Team {
-    private String teamName;
     private int id;
-    private List<Developer> team;
+    private String teamName;
+    private List<Developer> developers;
 
-    public Team(String teamName, List<Developer> team, int id) {
-        this.teamName = teamName;
+    public Team(int id, String teamName) {
         this.id = id;
-        this.team = team;
+        this.teamName = teamName;
+        this.developers = new ArrayList<>();
+    }
+
+    public void addDeveloper(Developer developer) {
+        developers.add(developer);
+    }
+
+    public String getDevelopersNamesAsString() {
+        return developers.stream().map(Developer::getName).collect(Collectors.joining(", "));
+    }
+
+    public String getFullDevelopersInfo() {
+        return developers
+                .stream()
+                .map(developer -> developer.getName() + " (Developer's skills: " + developer.getSkillsAsString() + ")")
+                .collect(Collectors.joining(";\n"));
     }
 
     @Override
     public String toString() {
-        return "Team: " + teamName +
-                ", team id: " + id +
-                "\n" + team;
+        return "Team: " + teamName + ", team id: " + id + "\nDevelopers list:\n" + getFullDevelopersInfo();
     }
 }

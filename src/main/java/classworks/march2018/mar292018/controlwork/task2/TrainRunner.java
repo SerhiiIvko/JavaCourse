@@ -28,11 +28,11 @@ public class TrainRunner {
         int startRangePassengers = scanner.nextInt();
         int endRangePassengers = scanner.nextInt();
         scanner.close();
-        List<PassTrain> filteredPlanes = trainPark.filterTrainsByPassengersCount(passTrain, startRangePassengers, endRangePassengers);
-        if (filteredPlanes.isEmpty()) {
+        List<PassTrain> passTrains = trainPark.filterTrainsByPassengersCount(passTrain, startRangePassengers, endRangePassengers);
+        if (passTrains.isEmpty()) {
             System.out.println("Нет поездов с заданными параметрами количества пассажиров в вагоне!");
         } else {
-            filteredPlanes.stream().map(PassTrain::toString).forEach(System.out::println);
+            passTrains.stream().map(PassTrain::toString).forEach(System.out::println);
         }
     }
 }

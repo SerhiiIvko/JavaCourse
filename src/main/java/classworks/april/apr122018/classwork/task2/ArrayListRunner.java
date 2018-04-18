@@ -2,7 +2,6 @@ package classworks.april.apr122018.classwork.task2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -50,6 +49,7 @@ public class ArrayListRunner {
 
         List<Integer> integers = Arrays.asList(arr3);
         System.out.println("New list: " + integers);
+
         //integers.remove(1);
 //        integers.
     }

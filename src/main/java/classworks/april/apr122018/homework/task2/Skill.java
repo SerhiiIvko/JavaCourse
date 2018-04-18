@@ -1,15 +1,16 @@
 package classworks.april.apr122018.homework.task2;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
- * Created by ivko on 13.04.18.
+ * Created by ivko on 17.04.18.
  */
 public class Skill {
-    private List<String> skills;
+    private String name;
 
-    public Skill() {
-        this.skills = new ArrayList<>();
+    public Skill(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 }

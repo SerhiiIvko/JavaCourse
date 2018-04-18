@@ -6,30 +6,29 @@ import java.util.List;
 /**
  * Created by ivko on 13.04.18.
  */
+
+/**
+ * Создать класс Team, который содержит коллекции экземпляров класс Developer.
+ * ● Класс Developer содержит коллекцию классов Skill
+ * ● Создать класс Project, который содержит экземпляр класса Team.
+ * ● Необходимо реализовать методы для вывода на экран всех разработчиков в команде и вывести их навыки.
+ */
+
 public class Project {
     public static void main(String[] args) {
-        List<String> skillsFirstDeveloper = new ArrayList<>();
-        String javaSkill = "Java";
-        String cppSkill = "C++";
-        String javaScriptSkill = "JavaScript";
-        String htmlSkill = "HTML";
-        String sqlSkill = "SQL";
-        skillsFirstDeveloper.add(javaSkill);
-        skillsFirstDeveloper.add(cppSkill);
-        skillsFirstDeveloper.add(javaScriptSkill);
-        skillsFirstDeveloper.add(htmlSkill);
-        skillsFirstDeveloper.add(sqlSkill);
-
-        List<String> skillsSecondDeveloper = new ArrayList<>();
-        skillsSecondDeveloper.add(javaScriptSkill);
-        skillsSecondDeveloper.add(htmlSkill);
-        Developer developer1 = new Developer(1, skillsFirstDeveloper, "Ivan");
-        Developer developer2 = new Developer(2, skillsSecondDeveloper, "Philipp");
-        List<Developer> developers = new ArrayList<>();
-        developers.add(developer1);
-        developers.add(developer2);
-        Team team = new Team("New team", developers, 555);
-
+        Team team = new Team(101, "New team");
+        Developer developer1 = new Developer(1, "Ivan");
+        developer1.addSkill(new Skill("Java"));
+        developer1.addSkill(new Skill("C++"));
+        developer1.addSkill(new Skill("JavaScript"));
+        developer1.addSkill(new Skill("HTML"));
+        developer1.addSkill(new Skill("SQL"));
+        team.addDeveloper(developer1);
+        Developer developer2 = new Developer(2, "Philip");
+        developer2.addSkill(new Skill("JavaScript"));
+        developer2.addSkill(new Skill("HTML"));
+        developer2.addSkill(new Skill("SQL"));
+        team.addDeveloper(developer2);
         System.out.println(team.toString());
     }
 }

@@ -2,26 +2,31 @@ package classworks.april.apr122018.homework.task2;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Created by ivko on 13.04.18.
  */
 public class Developer {
-    private int developerId;
+    private int id;
     private String name;
-    private List<String> skills;
+    private List<Skill> skills;
 
-    public Developer(int developerId, List<String> skills, String name) {
-        this.developerId = developerId;
+    public Developer(int id, String name) {
+        this.id = id;
         this.name = name;
-        this.skills = new ArrayList<>(skills);
+        this.skills = new ArrayList<>();
     }
 
-    @Override
-    public String toString() {
-        return "Developer ID: " + developerId +
-                ", name: '" + name + '\'' +
-                ", skills: " + skills
-                + "\n";
+    public void addSkill(Skill skill) {
+        skills.add(skill);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSkillsAsString() {
+        return skills.stream().map(Skill::getName).collect(Collectors.joining(", "));
     }
 }
