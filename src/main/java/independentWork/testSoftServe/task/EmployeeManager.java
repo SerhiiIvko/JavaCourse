@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmployeeManager {
+public class EmployeeManager implements Serializable {
     public static final String FILE_NAME = "Employee.dat";
     private List<Employee> employeeList;
 

@@ -7,7 +7,7 @@ public class Group {
         this.student = student;
     }
 
-    String printGroupInfo() {
+    public String printGroupInfo() {
         StringBuilder sb = new StringBuilder();
         for (Student aStudent : student) {
             sb.append(aStudent.toString()).append("\n");

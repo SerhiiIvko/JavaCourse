@@ -9,8 +9,13 @@
         <module name="JavaCourse" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
-      <module name="JavaCourse" target="1.8" />
+    <bytecodeTargetLevel target="8">
+      <module name="JavaCourse" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="JavaCourse" options="" />
+    </option>
   </component>
 </project>
