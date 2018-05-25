@@ -1,0 +1,1 @@
+[Employee {name: 'Kolyan', id: 3, salary: 3328.0}, Employee {name: 'Steeve', id: 6, salary: 2995.2}, Employee {name: 'Vovan', id: 2, salary: 2496.0}, Employee {name: 'Bill', id: 5, salary: 2000.0}, Employee {name: 'Tolyan', id: 4, salary: 1100.0}, Employee {name: 'Ivan', id: 1, salary: 1000.0}]

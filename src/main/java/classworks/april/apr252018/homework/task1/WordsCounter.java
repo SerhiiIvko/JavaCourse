@@ -42,7 +42,7 @@ public class WordsCounter {
             }
             String[] text = strings.toArray(new String[strings.size()]);
             String message = Arrays.toString(text);
-            String[] words = message.toLowerCase().replaceAll("[-.?!)(,:;<>]", " ").split("\\s");
+            String[] words = message.toLowerCase().replaceAll("[-.?!)(,:;_]", " ").split("\\s");
             Map<String, Integer> counterMap = new HashMap<>();
             for (String word : words) {
                 if (!word.isEmpty() && word.length() > 3) {

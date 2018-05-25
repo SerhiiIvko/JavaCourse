@@ -68,7 +68,6 @@ public class PathExample {
         //Удаление с обязательной проверкой
 
         if (Files.isRegularFile(pathToFile1)) {
-
             Files.delete(pathToFile1);
         } else
             System.out.println("Файл уже удален");
@@ -90,7 +89,6 @@ public class PathExample {
         if (!Files.exists(path1)) {
             Files.move(folder3, path1);
         }
-
 
         //Атрибуты файла
 
@@ -154,7 +152,5 @@ public class PathExample {
                 .toString()
                 .endsWith(".java"))
                 .forEach(System.out::println);
-
-
     }
 }
