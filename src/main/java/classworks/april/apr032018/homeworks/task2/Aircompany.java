@@ -1,6 +1,6 @@
 package classworks.april.apr032018.homeworks.task2;
 
-import com.sun.istack.internal.Nullable;
+//import com.sun.istack.internal.Nullable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,7 +48,7 @@ public class Aircompany {
         return filteredPlanes;
     }
 
-    @Nullable
+    //    @Nullable
     public Aircraft getAircraftByIndex(int index) {
         Aircraft aircraft = null;
         try {

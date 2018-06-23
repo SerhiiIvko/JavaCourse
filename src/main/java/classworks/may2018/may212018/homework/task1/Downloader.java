@@ -5,7 +5,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  * Создать программу для загрузки файлов из сети интернет.
  * Реализовать работу в многопоточном режиме (одновременная загрузка до 5 файлов).

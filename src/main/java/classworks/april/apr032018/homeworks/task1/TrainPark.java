@@ -1,6 +1,6 @@
 package classworks.april.apr032018.homeworks.task1;
 
-import com.sun.istack.internal.Nullable;
+//import com.sun.istack.internal.Nullable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,7 +49,7 @@ public class TrainPark implements ITrains {
         return stringBuilder.toString();
     }
 
-    @Nullable
+    //    @Nullable
     public PassTrain getTrainByIndex(int index) {
         PassTrain passTrain = null;
         try {

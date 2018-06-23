@@ -1,6 +1,6 @@
 package classworks.may2018.may162018.classwork.task4;
 
-import com.sun.xml.internal.bind.v2.TODO;
+//import com.sun.xml.internal.bind.v2.TODO;
 
 public class Demo4 {
     public static void main(String[] args) throws InterruptedException {
