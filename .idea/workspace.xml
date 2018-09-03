@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="websession-test:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="be783faf-f2e2-4e25-b9b7-1c9eacae0557" name="Default" comment="git adjusting">
-      <change afterPath="$PROJECT_DIR$/web-course/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaCourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCourse.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <ignored path="$PROJECT_DIR$/web-course/target/" />
+    <ignored path="$PROJECT_DIR$/web-course/epam-java-rd/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,21 +71,101 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1651408120">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="jsp" value="1" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="JSP" value="1" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="xml" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="XML" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/module2part2/task5/Last.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="10" selection-start-column="8" selection-end-line="15" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/listener/ApplicationLifecycleListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/error-page.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-course/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -149,9 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may162018/classwork/task6/Demo6.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may162018/classwork/task7/Demo7.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may162018/classwork/task8/Demo8.java" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/examples/demo1/SequenceGeneratorBrocken.java" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/examples/demo1/SequenceGeneratorGood1.java" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/examples/demo1/SequenceGeneratorGood2.java" />
@@ -200,6 +285,9 @@
         <option value="$PROJECT_DIR$/src/main/java/classworks/april/apr032018/homeworks/task1/TrainPark.java" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/april/apr032018/homeworks/task2/Aircompany.java" />
         <option value="$PROJECT_DIR$/src/main/java/independentWork/circle/MovingCircle.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/pom.xml" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -208,6 +296,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -223,9 +318,35 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="JavaCourse" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="JavaCourse" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="web-course" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="web-course" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="websession-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="websession-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-3" />
@@ -258,6 +379,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,24 +387,13 @@
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,7 +409,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -344,7 +455,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MovingCircle">
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -484,8 +595,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.11" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="websession-test:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_JavaCourse" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="36077" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="websession-test:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CalcGUI" />
+      <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="Application.CalculatorRun" />
       <item itemvalue="Application.Circle" />
       <item itemvalue="Application.Frame" />
@@ -508,7 +691,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="be783faf-f2e2-4e25-b9b7-1c9eacae0557" name="Default" comment="" />
-      <changelist id="d94fe19f-1c4a-4144-a801-9c39b5f9da59" name="lanaNumEditField" comment="" />
       <created>1513177577497</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -519,6 +701,7 @@
       <workItem from="1528982347745" duration="704000" />
       <workItem from="1528985384975" duration="1930000" />
       <workItem from="1529005910909" duration="654000" />
+      <workItem from="1535981379605" duration="1076000" />
     </task>
     <task id="LOCAL-00001" summary="First commit and push">
       <created>1513257446395</created>
@@ -829,7 +1012,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11518000" />
+    <option name="totallyTimeSpent" value="13319000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -841,9 +1024,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74733096" visible="true" weight="0.31073827" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74733096" visible="true" weight="0.27055067" />
       <window_info id="Structure" order="1" sideWeight="0.25266904" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -852,25 +1035,28 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Nl-Palette" order="7" />
       <window_info id="Learn" order="8" />
+      <window_info id="Web" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.3298791" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5082482" weight="0.32820514" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5082482" weight="0.4058722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.51846033" weight="0.21025641" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.51846033" weight="0.20998278" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.49175176" side_tool="true" weight="0.32820514" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.21880342" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.21880342" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32820514" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.17989002" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.16919394" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Properties" order="8" />
       <window_info anchor="right" id="Database" order="9" weight="0.32954547" />
@@ -961,28 +1147,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/may2018/may142018/homework/task1/MyThreadClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/may2018/may142018/homework/task1/RunnableClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/may2018/may232018/controlwork/Ship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/happy.txt" />
     <entry file="file://$PROJECT_DIR$/new_happy.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/Employees/AbstractCostHolder.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1129,9 +1293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/calculatorGraphic/LogicCalc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1214,29 +1375,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/epam-java-rd/src/main/java/org/epam/rd/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/epam-java-rd/src/main/java/org/epam/rd/dao/DBManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/epam-java-rd/src/main/java/org/epam/rd/config/SecurityConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/epam-java-rd/src/main/java/org/epam/rd/dao/DBManager.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/module2part2/task5/Last.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="10" selection-start-column="8" selection-end-line="15" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-course/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/listener/ApplicationLifecycleListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/error-page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
