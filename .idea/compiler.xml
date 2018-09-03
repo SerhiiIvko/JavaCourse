@@ -12,8 +12,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="JavaCourse" target="8" />
-      <module name="webcourse" target="8" />
+      <module name="JavaCourse" target="1.5" />
+      <module name="webcourse" target="1.5" />
       <module name="websession-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>

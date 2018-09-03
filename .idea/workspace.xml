@@ -7,13 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be783faf-f2e2-4e25-b9b7-1c9eacae0557" name="Default" comment="git adjusting">
-      <change afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/classwork.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/jquery-3.3.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/websession-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/websession-test.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,35 +78,43 @@
     <session id="-1651408120">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
-          <entry key="jsp" value="1" />
+          <entry key="html" value="3" />
+          <entry key="java" value="7" />
+          <entry key="js" value="4" />
+          <entry key="jsp" value="4" />
           <entry key="properties" value="1" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
-          <entry key="JSP" value="1" />
+          <entry key="HTML" value="3" />
+          <entry key="JAVA" value="7" />
+          <entry key="JSP" value="4" />
+          <entry key="JavaScript" value="4" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="html" value="557" />
+          <entry key="js" value="71" />
           <entry key="xml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="557" />
+          <entry key="JavaScript" value="71" />
           <entry key="XML" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -110,60 +122,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/module2part2/task5/Last.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/classwork.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="10" selection-start-column="8" selection-end-line="15" selection-end-column="74" />
+            <state relative-caret-position="75">
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/jquery-3.3.1.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            <state relative-caret-position="270">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/listener/ApplicationLifecycleListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/error-page.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="315">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/config/PropertiesManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="75">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/converter/AppUserConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/dao/AppUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/validator/UserValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -177,6 +223,8 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -237,11 +285,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/examples/demo1/SequenceGeneratorBrocken.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/examples/demo1/SequenceGeneratorGood1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/examples/demo1/SequenceGeneratorGood2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/examples/demo2/SemaphoreDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/examples/demo3/CountDownLatchDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/examples/demo4/LockDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/examples/demo4/Safelock.java" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/examples/demo5/ExecutorServiceDemo.java" />
@@ -288,6 +331,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web-course/epam-java-rd/pom.xml" />
         <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/classwork.js" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index1.html" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index2.html" />
       </list>
     </option>
   </component>
@@ -326,11 +374,6 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="web-course" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="web-course" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -380,6 +423,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -387,16 +431,298 @@
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScriptCourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScriptCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sep03_2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="rd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="rd" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="rd" type="462c0819:PsiDirectoryNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="rd" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="rd" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="rd" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="rd" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="rd" type="462c0819:PsiDirectoryNode" />
+              <item name="validator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="rd" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="rd" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="rd" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="rd" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="rd" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
+              <item name="epam-java-rd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535978121317" />
@@ -432,13 +758,14 @@
       <recent name="classworks.dec262017.task7" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018" />
       <recent name="C:\Users\sergi\IdeaProjects\JavaCourse\web-course" />
       <recent name="C:\Users\sergi\IdeaProjects\JavaCourse\src\main\java\independentWork\epam-java-rd\src\main\java\org\epam\rd\config" />
       <recent name="C:\Users\sergi\IdeaProjects\JavaCourse\src\main\java\independentWork\epam-java-rd\src\main\java\org\epam\rd" />
       <recent name="C:\Users\sergi\IdeaProjects\JavaCourse\src\main\java\independentWork\epam-java-rd" />
-      <recent name="C:\Users\sergi\IdeaProjects\JavaCourse\src\main\java\independentWork" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/learningJavaCourse" />
     </key>
@@ -455,7 +782,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
+  <component name="RunManager" selected="JavaScript Debug.index2.html">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -505,64 +832,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="independentWork.calculatorGraphic.CalculatorRun" />
-      <module name="JavaCourse" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="independentWork.circle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="independentWork.circle.Circle" />
-      <module name="JavaCourse" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="independentWork.circle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Frame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="independentWork.circle.Frame" />
-      <module name="JavaCourse" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="independentWork.circle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MovingCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="independentWork.circle.MovingCircle" />
-      <module name="JavaCourse" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="independentWork.circle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OvalsDrawing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="independentWork.circle.OvalsDrawing" />
       <module name="JavaCourse" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -586,6 +857,18 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="index1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/JavaScriptCourse/sep03_2018/index1.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/JavaScriptCourse/sep03_2018/index2.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/JavaScriptCourse/sep03_2018/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="classwork.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="classwork.js" working-dir="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018">
+      <method v="2" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -669,19 +952,19 @@
     <list>
       <item itemvalue="Application.CalcGUI" />
       <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="Application.CalculatorRun" />
-      <item itemvalue="Application.Circle" />
-      <item itemvalue="Application.Frame" />
       <item itemvalue="Application.MovingCircle" />
-      <item itemvalue="Application.OvalsDrawing" />
+      <item itemvalue="Node.js.classwork.js" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.index1.html" />
+      <item itemvalue="JavaScript Debug.index2.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index2.html" />
+        <item itemvalue="JavaScript Debug.index1.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.classwork.js" />
         <item itemvalue="Application.MovingCircle" />
-        <item itemvalue="Application.OvalsDrawing" />
-        <item itemvalue="Application.Frame" />
-        <item itemvalue="Application.Circle" />
-        <item itemvalue="Application.CalculatorRun" />
       </list>
     </recent_temporary>
   </component>
@@ -702,6 +985,7 @@
       <workItem from="1528985384975" duration="1930000" />
       <workItem from="1529005910909" duration="654000" />
       <workItem from="1535981379605" duration="1076000" />
+      <workItem from="1535990275078" duration="6727000" />
     </task>
     <task id="LOCAL-00001" summary="First commit and push">
       <created>1513257446395</created>
@@ -1012,7 +1296,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13319000" />
+    <option name="totallyTimeSpent" value="20046000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1025,8 +1309,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74733096" visible="true" weight="0.27055067" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74733096" visible="true" weight="0.25538707" />
       <window_info id="Structure" order="1" sideWeight="0.25266904" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1036,10 +1321,9 @@
       <window_info id="Nl-Palette" order="7" />
       <window_info id="Learn" order="8" />
       <window_info id="Web" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.3298791" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5082482" weight="0.4058722" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5082482" weight="0.42314336" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1047,16 +1331,17 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.51846033" weight="0.20998278" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.49175176" side_tool="true" weight="0.32820514" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.21880342" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32820514" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.328152" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3298791" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.16919394" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.1396648" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Properties" order="8" />
       <window_info anchor="right" id="Database" order="9" weight="0.32954547" />
@@ -1147,106 +1432,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/new_happy.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/Employees/AbstractCostHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/Employees/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/Employees/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/TestingTasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/Foo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/task/EmployeeManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/may2018/may232018/controlwork/PortRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/may2018/may232018/controlwork/Port.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/homework/task1/FileDownloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/homework/task1/Downloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/ByteIncr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/FindSeven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/FindDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/CalculatorGraphic/MyDrawingPad.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/classworks/may2018/may162018/homework/task1/OpenReaderAndWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -1384,20 +1569,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        <state relative-caret-position="780">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1415,10 +1590,135 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/error-page.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/model/AppUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="6" lean-forward="true" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/libs/jquery-3.3.1/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/libs/jquery-3.3.1/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/classwork.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/config/PropertiesManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/converter/AppUserConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/dao/AppUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/validator/UserValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
