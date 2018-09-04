@@ -15,6 +15,7 @@ public class AppUserDaoImpl implements AppUserDao {
     private PropertiesManager propertiesManager = new PropertiesManager();
 
     private static final String USER_BY_EMAIL_QUERY = "select * from app_user where email = '%s'";
+
     @Override
     public AppUser getByEmail(String email) {
         AppUser user = null;
@@ -40,6 +41,7 @@ public class AppUserDaoImpl implements AppUserDao {
     }
 
     private static final String INSER_USER_QUERY = "insert into app_user (name, surname, age, email, password) values (?, ?, ?, ?, ?)";
+
     @Override
     public AppUser create(AppUser user) {
         try (Connection connection = retrieveConnection();

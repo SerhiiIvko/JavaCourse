@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaCourse.iml" filepath="$PROJECT_DIR$/JavaCourse.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-course/webcourse.iml" filepath="$PROJECT_DIR$/web-course/webcourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-course/epam-java-rd/websession-test.iml" filepath="$PROJECT_DIR$/web-course/epam-java-rd/websession-test.iml" />
     </modules>
   </component>
 </project>

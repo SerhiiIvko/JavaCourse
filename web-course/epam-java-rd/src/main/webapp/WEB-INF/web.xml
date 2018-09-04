@@ -25,12 +25,12 @@
     </servlet-mapping>
 
     <!--<servlet>-->
-        <!--<servlet-name>indexPage</servlet-name>-->
-        <!--<jsp-file>/index.jsp</jsp-file>-->
+    <!--<servlet-name>indexPage</servlet-name>-->
+    <!--<jsp-file>/index.jsp</jsp-file>-->
     <!--</servlet>-->
     <!--<servlet-mapping>-->
-        <!--<servlet-name>indexPage</servlet-name>-->
-        <!--<url-pattern>/index</url-pattern>-->
+    <!--<servlet-name>indexPage</servlet-name>-->
+    <!--<url-pattern>/index</url-pattern>-->
     <!--</servlet-mapping>-->
 
     <servlet>

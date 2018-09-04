@@ -32,24 +32,29 @@
                 <form class="col-6" action="/login" method="post">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email</label>
-                        <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите email">
-                        <small id="emailHelp" class="form-text text-muted">Мы никому не будем передавать Ваш email</small>
+                        <input name="email" type="email" class="form-control" id="exampleInputEmail1"
+                               aria-describedby="emailHelp" placeholder="Введите email">
+                        <small id="emailHelp" class="form-text text-muted">Мы никому не будем передавать Ваш email
+                        </small>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Пароль</label>
-                        <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
+                        <input name="password" type="password" class="form-control" id="exampleInputPassword1"
+                               placeholder="Пароль">
                     </div>
                     <button type="submit" class="btn btn-primary">Login</button>
                 </form>
                 <form class="col-6" action="/register" method="post">
                     <div class="form-group">
                         <label for="registrationEmail">Email</label>
-                        <input name="email" type="email" class="form-control" id="registrationEmail" aria-describedby="emailHelp" placeholder="Введите email">
+                        <input name="email" type="email" class="form-control" id="registrationEmail"
+                               aria-describedby="emailHelp" placeholder="Введите email">
                         <small id="registrationEmailHelp" class="form-text text-muted">Введите валидный email</small>
                     </div>
                     <div class="form-group">
                         <label for="registrationPassword">Пароль</label>
-                        <input name="password" type="password" class="form-control" id="registrationPassword" placeholder="Пароль">
+                        <input name="password" type="password" class="form-control" id="registrationPassword"
+                               placeholder="Пароль">
                     </div>
                     <div class="form-group">
                         <label for="registrationName">Имя</label>
@@ -57,7 +62,8 @@
                     </div>
                     <div class="form-group">
                         <label for="registrationSurname">Фамилия</label>
-                        <input name="surname" type="text" class="form-control" id="registrationSurname" placeholder="Фамилия">
+                        <input name="surname" type="text" class="form-control" id="registrationSurname"
+                               placeholder="Фамилия">
                     </div>
                     <div class="form-group">
                         <label for="registrationAge">Возраст</label>

@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="webcourse" />
+        <module name="websession-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="JavaCourse" target="8" />
       <module name="webcourse" target="8" />
+      <module name="websession-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

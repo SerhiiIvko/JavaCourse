@@ -36,12 +36,14 @@
                 <form class="col-6" action="/register" method="post">
                     <div class="form-group">
                         <label for="registrationEmail">Email</label>
-                        <input name="email" type="email" class="form-control" id="registrationEmail" aria-describedby="emailHelp" placeholder="Email">
+                        <input name="email" type="email" class="form-control" id="registrationEmail"
+                               aria-describedby="emailHelp" placeholder="Email">
                         <small id="registrationEmailHelp" class="form-text text-muted">Input correct email</small>
                     </div>
                     <div class="form-group">
                         <label for="registrationPassword">Password</label>
-                        <input name="password" type="password" class="form-control" id="registrationPassword" placeholder="Password">
+                        <input name="password" type="password" class="form-control" id="registrationPassword"
+                               placeholder="Password">
                     </div>
                     <div class="form-group">
                         <label for="registrationName">Name</label>
@@ -49,7 +51,8 @@
                     </div>
                     <div class="form-group">
                         <label for="registrationSurname">Surname</label>
-                        <input name="surname" type="text" class="form-control" id="registrationSurname" placeholder="Surname">
+                        <input name="surname" type="text" class="form-control" id="registrationSurname"
+                               placeholder="Surname">
                     </div>
                     <div class="form-group">
                         <label for="registrationAge">Age</label>
