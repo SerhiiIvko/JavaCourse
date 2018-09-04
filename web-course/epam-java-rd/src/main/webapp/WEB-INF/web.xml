@@ -17,7 +17,7 @@
 
     <servlet>
         <servlet-name>indexPage</servlet-name>
-        <jsp-file>/welcome.jsp</jsp-file>
+        <jsp-file>/index.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>indexPage</servlet-name>
@@ -41,6 +41,11 @@
         <servlet-name>profilePage</servlet-name>
         <url-pattern>/profile</url-pattern>
     </servlet-mapping>
+
+    <error-page>
+        <error-code>500</error-code>
+        <location>/WEB-INF/error-invalid-data.jsp</location>
+    </error-page>
 
     <session-config>
         <session-timeout>300</session-timeout>

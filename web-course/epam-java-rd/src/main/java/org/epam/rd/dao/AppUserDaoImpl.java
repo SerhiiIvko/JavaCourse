@@ -15,6 +15,7 @@ public class AppUserDaoImpl implements AppUserDao {
     private PropertiesManager propertiesManager = new PropertiesManager();
 
     private static final String USER_BY_EMAIL_QUERY = "select * from app_user where email = '%s'";
+
     @Override
     public AppUser getByEmail(String email) {
         AppUser user = null;

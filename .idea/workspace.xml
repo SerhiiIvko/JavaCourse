@@ -6,17 +6,26 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be783faf-f2e2-4e25-b9b7-1c9eacae0557" name="Default" comment="git adjusting">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/classwork.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/jquery-3.3.1.min.js" afterDir="false" />
+    <list default="true" id="be783faf-f2e2-4e25-b9b7-1c9eacae0557" name="Default" comment="git classwork js 03 sep 2018">
+      <change afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/CustomTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/ErrorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/custom.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/error-invalid-data.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/error-user-exists.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/dao/AppUserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/dao/AppUserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/filter/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/filter/SecurityFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/RegistrationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/WelcomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/WelcomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/error-page.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/websession-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/websession-test.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -79,35 +88,43 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="3" />
-          <entry key="java" value="7" />
+          <entry key="java" value="42" />
           <entry key="js" value="4" />
-          <entry key="jsp" value="4" />
+          <entry key="jsp" value="15" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="3" />
+          <entry key="tld" value="1" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="3" />
-          <entry key="JAVA" value="7" />
-          <entry key="JSP" value="4" />
+          <entry key="JAVA" value="42" />
+          <entry key="JSP" value="15" />
           <entry key="JavaScript" value="4" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="557" />
+          <entry key="java" value="335" />
           <entry key="js" value="71" />
-          <entry key="xml" value="28" />
+          <entry key="jsp" value="463" />
+          <entry key="tld" value="50" />
+          <entry key="txt" value="24" />
+          <entry key="xml" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="557" />
+          <entry key="JAVA" value="335" />
+          <entry key="JSP" value="463" />
           <entry key="JavaScript" value="71" />
-          <entry key="XML" value="28" />
+          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="XML" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -122,94 +139,98 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/classwork.js">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="750">
+              <caret line="50" column="87" selection-start-line="50" selection-start-column="87" selection-end-line="50" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/jquery-3.3.1.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index.html">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/validator/UserValidatorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="285">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index1.html">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="170">
+              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="33" column="45" selection-start-line="31" selection-start-column="10" selection-end-line="33" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/exception/ValidationException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/error-user-exists.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/error-invalid-data.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/dao/AppUserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index2.html">
+        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/dao/DBManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
-                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/config/PropertiesManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/config/SecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/converter/AppUserConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/dao/AppUserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/validator/UserValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -222,9 +243,10 @@
         <option value="JUnit4 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -282,28 +304,12 @@
       </map>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/examples/demo4/LockDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/examples/demo4/Safelock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/examples/demo5/ExecutorServiceDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/examples/demo6/ForkJoinPoolDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/homework/task2/Run.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may162018/homework/task1/MyThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may162018/homework/task1/RunnerClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/april/apr252018/homework/task1/WordsCounter.java" />
-        <option value="$PROJECT_DIR$/new.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/homework/task1/Run.java" />
-        <option value="$PROJECT_DIR$/happy.txt" />
-        <option value="$PROJECT_DIR$/new_happy.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may162018/homework/task1/OpenFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may162018/homework/task1/OpenReaderAndWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/path_file/PathExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may232018/controlwork/Dock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may232018/controlwork/Ship.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may232018/controlwork/PortRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may232018/controlwork/Port.java" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/homework/task1/FileDownloader.java" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/homework/task1/Downloader.java" />
         <option value="$PROJECT_DIR$/src/main/java/independentWork/ByteIncr.java" />
@@ -331,11 +337,30 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web-course/epam-java-rd/pom.xml" />
         <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/classwork.js" />
         <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index1.html" />
         <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index2.html" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/HelloTag.java" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/custom.tld" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/CustomTag.java" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/error-page.jsp" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/error-user-exists.jsp" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/error-invalid-data.jsp" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/WelcomeServlet.java" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/RegistrationServlet.java" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/ErrorServlet.java" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/error-invalid-data.jsp" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/filter/SecurityFilter.java" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/profile.jsp" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/dao/AppUserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/service/UserService.java" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/error-user-exists.jsp" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/register.jsp" />
       </list>
     </option>
   </component>
@@ -448,23 +473,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScriptCourse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScriptCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="sep03_2018" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
@@ -711,7 +719,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -765,6 +773,7 @@
       <recent name="C:\Users\sergi\IdeaProjects\JavaCourse\src\main\java\independentWork\epam-java-rd" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/learningJavaCourse" />
@@ -782,7 +791,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index2.html">
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -832,20 +841,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovingCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="independentWork.circle.MovingCircle" />
-      <module name="JavaCourse" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="independentWork.circle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -857,18 +852,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="index1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/JavaScriptCourse/sep03_2018/index1.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="index2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/JavaScriptCourse/sep03_2018/index2.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/JavaScriptCourse/sep03_2018/index.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="classwork.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="classwork.js" working-dir="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018">
-      <method v="2" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -949,22 +932,217 @@
         </option>
       </method>
     </configuration>
+    <configuration name="error-invalid-data.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.11" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/error-invalid-data.jsp" />
+      <deployment>
+        <artifact name="websession-test:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="error-invalid-data_jsp_(1)_JavaCourse_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="websession-test:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="error-invalid-data.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.11" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/error-invalid-data.jsp" />
+      <deployment>
+        <artifact name="websession-test:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="error-invalid-data_jsp_JavaCourse_3" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="websession-test:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="error-user-exists.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.11" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/error-user-exists.jsp" />
+      <deployment>
+        <artifact name="websession-test:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="error-user-exists_jsp_JavaCourse_3" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="websession-test:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="register.jsp (3)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.11" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/register.jsp" />
+      <deployment>
+        <artifact name="websession-test:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="register_jsp_(3)_JavaCourse" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="websession-test:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="register.jsp (4)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.11" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/register.jsp" />
+      <deployment>
+        <artifact name="websession-test:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="register_jsp_(4)_JavaCourse" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="websession-test:war" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CalcGUI" />
       <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="Application.MovingCircle" />
-      <item itemvalue="Node.js.classwork.js" />
-      <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JavaScript Debug.index1.html" />
-      <item itemvalue="JavaScript Debug.index2.html" />
+      <item itemvalue="Tomcat Server.register.jsp (3)" />
+      <item itemvalue="Tomcat Server.register.jsp (4)" />
+      <item itemvalue="Tomcat Server.error-invalid-data.jsp" />
+      <item itemvalue="Tomcat Server.error-user-exists.jsp" />
+      <item itemvalue="Tomcat Server.error-invalid-data.jsp (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index2.html" />
-        <item itemvalue="JavaScript Debug.index1.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Node.js.classwork.js" />
-        <item itemvalue="Application.MovingCircle" />
+        <item itemvalue="Tomcat Server.error-invalid-data.jsp (1)" />
+        <item itemvalue="Tomcat Server.error-user-exists.jsp" />
+        <item itemvalue="Tomcat Server.error-invalid-data.jsp" />
+        <item itemvalue="Tomcat Server.register.jsp (4)" />
+        <item itemvalue="Tomcat Server.register.jsp (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -985,7 +1163,7 @@
       <workItem from="1528985384975" duration="1930000" />
       <workItem from="1529005910909" duration="654000" />
       <workItem from="1535981379605" duration="1076000" />
-      <workItem from="1535990275078" duration="6727000" />
+      <workItem from="1535990275078" duration="21852000" />
     </task>
     <task id="LOCAL-00001" summary="First commit and push">
       <created>1513257446395</created>
@@ -1260,7 +1438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527262780512</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="git classwork js 03 sep 2018">
+      <created>1535999026885</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1535999026885</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1296,7 +1481,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20046000" />
+    <option name="totallyTimeSpent" value="35171000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1311,7 +1496,7 @@
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74733096" visible="true" weight="0.25538707" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74733096" visible="true" weight="0.31763768" />
       <window_info id="Structure" order="1" sideWeight="0.25266904" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1323,7 +1508,7 @@
       <window_info id="Web" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5082482" weight="0.42314336" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5082482" visible="true" weight="0.38169256" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1341,7 +1526,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.1396648" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.13088587" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Properties" order="8" />
       <window_info anchor="right" id="Database" order="9" weight="0.32954547" />
@@ -1381,7 +1566,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="git adjusting" />
     <MESSAGE value="before refactoring chess" />
     <MESSAGE value="after refactoring chess" />
     <MESSAGE value="homeworks 19.12.2017&#10;&#10;(cherry picked from commit 385dd8a)" />
@@ -1406,7 +1590,8 @@
     <MESSAGE value="lanaNumEditField" />
     <MESSAGE value="my commit 23 may 2018" />
     <MESSAGE value="my commit 25 may 2018" />
-    <option name="LAST_COMMIT_MESSAGE" value="my commit 25 may 2018" />
+    <MESSAGE value="git classwork js 03 sep 2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="git classwork js 03 sep 2018" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1432,92 +1617,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/may2018/may162018/homework/task1/OpenReaderAndWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="57" column="55" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/may2018/may212018/classwork/path_file/PathExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="155" column="1" selection-start-line="155" selection-start-column="1" selection-end-line="155" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_131/src.zip!/javax/swing/JFrame.java" />
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_131/src.zip!/javax/swing/JComboBox.java" />
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_131/src.zip!/javax/swing/UIDefaults.java" />
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_131/src.zip!/javax/swing/plaf/metal/MetalRootPaneUI.java" />
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_131/src.zip!/javax/swing/JComponent.java" />
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_131/src.zip!/java/awt/Container.java" />
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_131/src.zip!/java/awt/Component.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/calculatorGraphic/CalculatorRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/calculatorGraphic/CalcGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="112" column="28" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_131/src.zip!/java/awt/event/ActionListener.java" />
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_131/src.zip!/javax/swing/JLabel.java" />
-    <entry file="uml://JAVA/independentWork.circle.Circle" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/circle/Ball.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/StrangeLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/calculatorGraphic/LogicCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/circle/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/may2018/may162018/classwork/task4/Demo4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/april/apr032018/homeworks/task1/TrainPark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/april/apr032018/homeworks/task2/Aircompany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/circle/OvalsDrawing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1583,13 +1682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/listener/ApplicationLifecycleListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-course/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1597,37 +1689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/error-page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/model/AppUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/register.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="6" lean-forward="true" selection-end-line="27" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1652,7 +1713,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/classwork.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1670,20 +1731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/converter/AppUserConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/dao/AppUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/validator/UserValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1697,7 +1744,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1718,6 +1765,238 @@
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/custom.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/WelcomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/ErrorServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/dao/AppUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/converter/AppUserConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/exception/ApplicationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/model/AppUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/service/SecurityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/service/SecurityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="67" lean-forward="true" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/filter/SecurityFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/listener/ApplicationLifecycleListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/CustomTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/dto/AppUserCreateDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/dto/AppUserViewDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/RegistrationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/exception/ValidationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/error-invalid-data.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/error-user-exists.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="33" column="45" selection-start-line="31" selection-start-column="10" selection-end-line="33" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="87" selection-start-line="50" selection-start-column="87" selection-end-line="50" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/validator/UserValidatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/dao/AppUserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/dao/DBManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

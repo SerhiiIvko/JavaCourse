@@ -27,12 +27,11 @@ public class SecurityFilter implements Filter {
         throws IOException, ServletException {
         HttpServletRequest httpRequest = (HttpServletRequest) request;
         HttpServletResponse httpResponse = (HttpServletResponse) response;
-
         String url = httpRequest.getRequestURL().toString();
         if (shouldBeProtected(url)) {
             HttpSession session = httpRequest.getSession();
             if (session == null || session.getAttribute("user") == null) {
-                httpResponse.sendRedirect("/welcome.jsp");
+                httpResponse.sendRedirect("/index.jsp");
             }
         }
         chain.doFilter(request, response);

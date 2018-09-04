@@ -26,7 +26,7 @@ public class RegistrationServlet extends HttpServlet {
         AppUserViewDto user = userService.registerUser(appUserCreateDto);
         HttpSession session = req.getSession(true);
         session.setAttribute("user", user);
-        resp.sendRedirect("/profile");
+        resp.sendRedirect("/index.jsp");
     }
 
     private AppUserCreateDto extractUserFromRequest(HttpServletRequest req) {
