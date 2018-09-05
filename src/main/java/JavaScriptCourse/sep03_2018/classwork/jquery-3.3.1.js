@@ -2049,7 +2049,7 @@
                     },
 
                     // Element/input types
-                    "header": function (elem) {
+                    "inner_header": function (elem) {
                         return rheader.test(elem.nodeName);
                     },
 
@@ -8791,7 +8791,7 @@
         // Counter for holding the number of active queries
         active: 0,
 
-        // Last-Modified header cache for next request
+        // Last-Modified inner_header cache for next request
         lastModified: {},
         etag: {},
 
@@ -8968,7 +8968,7 @@
                         return completed ? responseHeadersString : null;
                     },
 
-                    // Caches the header
+                    // Caches the inner_header
                     setRequestHeader: function (name, value) {
                         if (completed == null) {
                             name = requestHeadersNames[name.toLowerCase()] =
@@ -8978,7 +8978,7 @@
                         return this;
                     },
 
-                    // Overrides response content-type header
+                    // Overrides response content-type inner_header
                     overrideMimeType: function (type) {
                         if (completed == null) {
                             s.mimeType = type;
@@ -9083,7 +9083,7 @@
             s.hasContent = !rnoContent.test(s.type);
 
             // Save the URL in case we're toying with the If-Modified-Since
-            // and/or If-None-Match header later on
+            // and/or If-None-Match inner_header later on
             // Remove hash to simplify url manipulation
             cacheURL = s.url.replace(rhash, "");
 
@@ -9116,7 +9116,7 @@
                 s.data = s.data.replace(r20, "+");
             }
 
-            // Set the If-Modified-Since and/or If-None-Match header, if in ifModified mode.
+            // Set the If-Modified-Since and/or If-None-Match inner_header, if in ifModified mode.
             if (s.ifModified) {
                 if (jQuery.lastModified[cacheURL]) {
                     jqXHR.setRequestHeader("If-Modified-Since", jQuery.lastModified[cacheURL]);
@@ -9126,12 +9126,12 @@
                 }
             }
 
-            // Set the correct header, if data is being sent
+            // Set the correct inner_header, if data is being sent
             if (s.data && s.hasContent && s.contentType !== false || options.contentType) {
                 jqXHR.setRequestHeader("Content-Type", s.contentType);
             }
 
-            // Set the Accepts header for the server, depending on the dataType
+            // Set the Accepts inner_header for the server, depending on the dataType
             jqXHR.setRequestHeader(
                 "Accept",
                 s.dataTypes[0] && s.accepts[s.dataTypes[0]] ?
@@ -9243,7 +9243,7 @@
                 // If successful, handle type chaining
                 if (isSuccess) {
 
-                    // Set the If-Modified-Since and/or If-None-Match header, if in ifModified mode.
+                    // Set the If-Modified-Since and/or If-None-Match inner_header, if in ifModified mode.
                     if (s.ifModified) {
                         modified = jqXHR.getResponseHeader("Last-Modified");
                         if (modified) {
@@ -9490,11 +9490,11 @@
                         xhr.overrideMimeType(options.mimeType);
                     }
 
-                    // X-Requested-With header
+                    // X-Requested-With inner_header
                     // For cross-domain requests, seeing as conditions for a preflight are
                     // akin to a jigsaw puzzle, we simply never set it to be sure.
                     // (it can always be set on a per-request basis or even using ajaxSetup)
-                    // For same-domain requests, won't change header if already provided.
+                    // For same-domain requests, won't change inner_header if already provided.
                     if (!options.crossDomain && !headers["X-Requested-With"]) {
                         headers["X-Requested-With"] = "XMLHttpRequest";
                     }

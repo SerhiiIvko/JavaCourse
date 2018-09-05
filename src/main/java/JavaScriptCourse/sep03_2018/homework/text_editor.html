@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text editor</title>
+</head>
+<body>
+<div class="form-group">
+    <label for="editorField">Edit text field</label>
+    <input name="editor" type="text" class="form-control" id="editorField" placeholder="text">
+</div>
+<button type="submit" class="btn btn-primary" onclick="alert('data saved')">Save text</button>
+<script type="text/javascript">
+    window.onbeforeunload = function () {
+        return "Did you save your stuff?";
+    }
+</script>
+</body>
+</html>

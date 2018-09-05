@@ -1,12 +1,9 @@
-package lana;
+package zzz;
 
 import javax.swing.*;
 import java.awt.*;
 import java.text.DecimalFormat;
-import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
-import java.util.Currency;
-import java.util.Locale;
 
 /**
  * Created by ivko on 21.04.18.

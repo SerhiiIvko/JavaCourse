@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event</title>
+    <style>
+        #scroll_text {
+            position: fixed;
+            top: 50px;
+            left: 50px;
+        }
+
+        .div {
+            height: 5000px;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+<p id="resize_text"></p>
+<p id="scroll_text"></p>
+<div class="div"></div>
+
+<script src="jquery-3.3.1.js"></script>
+
+<!--<button>Button example</button>-->
+<!--<button>Button example</button>-->
+<!--<button>Button example</button>-->
+<!--<button>Button example</button>-->
+<!--<button>Button example</button>-->
+<!--<button>Button example</button>-->
+<!--<button>Button example</button>-->
+
+<!--<script>-->
+<!--$(function () {-->
+<!--$(window).resize(function (e) {-->
+<!--$("#resize_text").text("Width: " + window.innerWidth + "Height: " + window.innerHeight)-->
+<!--});-->
+<!--$(window).scroll(function (e) {-->
+<!--$("#scroll_text").text("Pos Y: " + window.scrollY)-->
+<!--})-->
+<!--})-->
+<!--</script>-->
+
+<!--<script>-->
+<!--$(function () {-->
+<!--$("button").click(function (e) {-->
+<!--$(this).text("enter");-->
+<!--});-->
+<!--})-->
+<!--</script>-->
+
+<!--synchronyze functions-->
+<!--<script>-->
+<!--$(window).on("resize scroll", function (e) {-->
+<!--$(window).resize(function (e) {-->
+<!--$("#resize_text").text("Width: " + window.innerWidth + "Height: " + window.innerHeight);-->
+<!--});-->
+<!--$("#scroll_text").text("Pos Y: " + window.scrollY);-->
+<!--})-->
+<!--</script>-->
+
+<script>
+    $(window).on({
+        resize: function () {
+            $("#resize_text").text("Width: " + window.innerWidth + "Height: " + window.innerHeight);
+        },
+        scroll: function () {
+            $("#scroll_text").text("Pos Y: " + window.scrollY);
+        }
+    })
+</script>
+
+<div class="class"></div>
+
+</body>
+</html>

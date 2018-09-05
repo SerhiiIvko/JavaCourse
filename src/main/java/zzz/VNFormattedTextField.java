@@ -1,4 +1,4 @@
-package lana;
+package zzz;
 
 import javax.swing.*;
 import javax.swing.text.AbstractDocument;
