@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<ul>-->
+    <!--<li>1</li>-->
+    <!--<li>2</li>-->
+    <!--<li>3</li>-->
+    <!--<li>4</li>-->
+    <!--<li>5</li>-->
+    <!--<li>6</li>-->
+    <!--<li>7</li>-->
+    <!--<li>8</li>-->
+<!--</ul>-->
+
+<!--<ul>-->
+    <!--<li>9</li>-->
+    <!--<li>10</li>-->
+    <!--<li>11</li>-->
+    <!--<li>12</li>-->
+<!--</ul>-->
+<p>p-one</p>
+<p>p-two</p>
+
+<h1 class=".one">one</h1>
+<h1>two</h1>
+<h1>three</h1>
+<h2 class=".one">four</h2>
+<h2>five</h2>
+<h2>six</h2>
+
+<script src="jquery-3.3.1.js"></script>
+<!--<button class="btn" value="submit">test</button>-->
+<p class="one">p-three</p>
+<p>p-four</p>
+<p>p-five</p>
+<script>
+    // $("li:last").css("color", "red");
+    // $("li:first-child").css("color", "blue");
+    // $("li:eq(3)").css("color", "yellow");
+    // $("li:eq(3)").css("color", "yellow");
+    // $("li:even").css("color", "yellow");
+    // $(":has('li')").css("color", "green");
+    // $("li:odd").css("color", "blue");
+    $("h1").css("color", "green");//1
+
+    $(":p:not('.one')").css("color", "green");
+    // $(":header:not('.one')").css("color", "green");
+    $("p:has(b)").css("color", "red");
+    $("p:contains(10)").css("color", "red");
+
+</script>
+</body>
+</html>

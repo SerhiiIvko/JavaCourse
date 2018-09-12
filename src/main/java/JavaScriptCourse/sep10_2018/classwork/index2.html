@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .mydiv {
+            height: 100px;
+            width: 300px;
+            color: black;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+<script src="jquery-3.3.1.js"></script>
+
+
+<div class="mydiv" id="div1"></div>
+<button id="buttons">Enter</button>
+<script>
+    $("button").click(function () {
+        $(".mydiv").animate({height: 100, width: "+=50"}, 500);
+    })
+    // $(".mydiv").on("click", function (e) {
+    //     let modal = $("#div1");
+    //     modal.css("top", (window.innerHeight - modal.height) * 2);
+    //     modal.css("left", (window.innerWidth - modal.width) * 2);
+    //     modal.show();
+    // })
+</script>
+</body>
+</html>
