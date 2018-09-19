@@ -7,60 +7,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be783faf-f2e2-4e25-b9b7-1c9eacae0557" name="Default" comment="add classwork js 05 sep 2018">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/classwork/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/classwork/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/classwork/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/classwork/task1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/countries.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/hotel-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/img/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/img/coral-bay-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/img/cyprus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/img/egypt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/img/orig.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/img/travel-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/img/turkey.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/bootstrap-4.1.3/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/jquery-3.3.1/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/jquery-3.3.1/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/propper-1.11.0/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/logout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/manage/admin-welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/manage/customer-welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/manage/manager-welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/recovery-password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/search-tour.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tour-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep12_2018/classwork/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep12_2018/classwork/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-course/json_lesson1/src/main/java/com/ivko/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-course/json_lesson1/src/main/java/com/ivko/JsonFromStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/manage/admin-tours.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep12_2018/classwork/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/bootstrap-4.1.3/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/propper-1.11.0/popper.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/manage/admin-welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/manage/admin-welcome.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -123,12 +98,12 @@
     <session id="-1651408120">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="28" />
+          <entry key="html" value="35" />
           <entry key="iml" value="1" />
-          <entry key="java" value="60" />
+          <entry key="java" value="76" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="5" />
-          <entry key="js" value="16" />
+          <entry key="js" value="22" />
           <entry key="jsp" value="32" />
           <entry key="png" value="9" />
           <entry key="properties" value="1" />
@@ -138,20 +113,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="28" />
+          <entry key="HTML" value="35" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="15" />
-          <entry key="JAVA" value="60" />
+          <entry key="JAVA" value="76" />
           <entry key="JSP" value="32" />
-          <entry key="JavaScript" value="16" />
+          <entry key="JavaScript" value="22" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="4531" />
-          <entry key="java" value="726" />
+          <entry key="html" value="5243" />
+          <entry key="java" value="1469" />
           <entry key="js" value="1088" />
           <entry key="jsp" value="498" />
           <entry key="tld" value="50" />
@@ -161,8 +136,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="4531" />
-          <entry key="JAVA" value="726" />
+          <entry key="HTML" value="5243" />
+          <entry key="JAVA" value="1469" />
           <entry key="JSP" value="498" />
           <entry key="JavaScript" value="1088" />
           <entry key="PLAIN_TEXT" value="29" />
@@ -171,13 +146,15 @@
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -185,40 +162,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/hotel-form.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/classwork/jquery-3.3.1.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/classwork/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="106" column="27" lean-forward="true" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
-              <folding>
-                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1/index1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep05_2018/classwork/index1.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep12_2018/classwork/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="407">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep05_2018/classwork/Regexp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep12_2018/classwork/jquery.validate.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1/jquery.validate.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1/jquery-3.3.1.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/ddd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="e#0#6978#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -226,81 +220,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/classwork/index1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
+            <state relative-caret-position="363">
               <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/search-tour.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep12_2018/classwork/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="53" column="4" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-              <folding>
-                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep05_2018/classwork/jquery-3.3.1.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep12_2018/classwork/jquery-3.3.1.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/countries.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="127" column="25" lean-forward="true" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -315,8 +236,8 @@
         <option value="Interface" />
         <option value="Jsp File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -380,21 +301,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/error-invalid-data.jsp" />
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/WelcomeServlet.java" />
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/RegistrationServlet.java" />
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/ErrorServlet.java" />
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/error-invalid-data.jsp" />
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/filter/SecurityFilter.java" />
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/profile.jsp" />
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/dao/AppUserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/service/UserService.java" />
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/error-user-exists.jsp" />
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/web/servlet/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/register.jsp" />
         <option value="$PROJECT_DIR$/web-course/wine-shop/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/web-course/wine-shop/src/main/java/com/model/LiquorType.java" />
         <option value="$PROJECT_DIR$/web-course/wine-shop/src/main/java/com/SelectLiquorServlet.java" />
@@ -428,9 +334,24 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/customer-welcome.html" />
         <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/manager-welcome.html" />
         <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/admin-welcome.html" />
-        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/manage/admin-welcome.html" />
         <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep05_2018/classwork/Regexp.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep12_2018/classwork/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/manage/admin-welcome.html" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/manage/admin-tours.html" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/ddd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/hotels/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tours/Adress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tours/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/hotels/Academy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tours/Worker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tours/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tours/Academy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/hotels/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/hotels/Worker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tours/Phone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/index1.html" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1/index1.html" />
       </list>
     </option>
   </component>
@@ -503,9 +424,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -555,6 +476,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScriptCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sep05_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="classwork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScriptCourse" type="462c0819:PsiDirectoryNode" />
               <item name="sep10_2018" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -574,6 +505,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScriptCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sep10_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScriptCourse" type="462c0819:PsiDirectoryNode" />
               <item name="sep12_2018" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -585,6 +526,48 @@
               <item name="JavaScriptCourse" type="462c0819:PsiDirectoryNode" />
               <item name="sep12_2018" type="462c0819:PsiDirectoryNode" />
               <item name="classwork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScriptCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sep17_2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScriptCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sep17_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="classwork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScriptCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sep17_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="classwork" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScriptCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sep17_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="classwork" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery-3.3.1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -607,7 +590,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -630,18 +613,18 @@
       <recent name="classworks.dec262017.task7" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1" />
       <recent name="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep12_2018/classwork" />
+      <recent name="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork" />
       <recent name="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1" />
       <recent name="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/manage" />
       <recent name="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework" />
       <recent name="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/img" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/homework" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -656,7 +639,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.hotel-form.html">
+  <component name="RunManager" selected="JavaScript Debug.index1.html">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -712,25 +695,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ddd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaScriptCourse.sep10_2018.ddd" />
+      <module name="JavaCourse" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaScriptCourse.sep10_2018.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="countries.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/JavaScriptCourse/sep10_2018/homework/countries.html">
+    <configuration name="admin-tours.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/JavaScriptCourse/sep10_2018/homework/manage/admin-tours.html">
       <method v="2" />
     </configuration>
-    <configuration name="hotel-form.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/JavaScriptCourse/sep10_2018/homework/hotel-form.html">
+    <configuration name="admin-welcome.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/JavaScriptCourse/sep10_2018/homework/manage/admin-welcome.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/JavaScriptCourse/sep12_2018/classwork/index.html">
+    <configuration name="index1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1/index1.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/JavaScriptCourse/sep10_2018/homework/index.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="search-tour.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/JavaScriptCourse/sep10_2018/homework/search-tour.html">
+    <configuration name="index2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/JavaScriptCourse/sep10_2018/classwork/index2.html">
       <method v="2" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -815,19 +809,19 @@
     <list>
       <item itemvalue="Application.CalcGUI" />
       <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="JavaScript Debug.countries.html" />
-      <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JavaScript Debug.search-tour.html" />
-      <item itemvalue="JavaScript Debug.index.html (1)" />
-      <item itemvalue="JavaScript Debug.hotel-form.html" />
+      <item itemvalue="JavaScript Debug.admin-welcome.html" />
+      <item itemvalue="JavaScript Debug.admin-tours.html" />
+      <item itemvalue="Application.ddd" />
+      <item itemvalue="JavaScript Debug.index2.html" />
+      <item itemvalue="JavaScript Debug.index1.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.hotel-form.html" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.search-tour.html" />
-        <item itemvalue="JavaScript Debug.countries.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index1.html" />
+        <item itemvalue="JavaScript Debug.index2.html" />
+        <item itemvalue="Application.ddd" />
+        <item itemvalue="JavaScript Debug.admin-tours.html" />
+        <item itemvalue="JavaScript Debug.admin-welcome.html" />
       </list>
     </recent_temporary>
   </component>
@@ -852,7 +846,9 @@
       <workItem from="1536134942323" duration="14014000" />
       <workItem from="1536164199688" duration="6809000" />
       <workItem from="1536581780047" duration="40993000" />
-      <workItem from="1536757704802" duration="8683000" />
+      <workItem from="1536757704802" duration="10540000" />
+      <workItem from="1536856588028" duration="5709000" />
+      <workItem from="1537197356502" duration="5438000" />
     </task>
     <task id="LOCAL-00001" summary="First commit and push">
       <created>1513257446395</created>
@@ -1177,7 +1173,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106113000" />
+    <option name="totallyTimeSpent" value="119117000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1192,7 +1188,7 @@
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74733096" visible="true" weight="0.22186752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74733096" visible="true" weight="0.3064645" />
       <window_info id="Structure" order="1" sideWeight="0.25266904" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1209,7 +1205,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.51846033" weight="0.208981" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.51846033" weight="0.44041452" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.49175176" side_tool="true" weight="0.32820514" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.36960277" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.328152" />
@@ -1303,147 +1299,8 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="87" selection-start-line="46" selection-start-column="24" selection-end-line="50" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/wine-shop/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/classwork/jquery-3.3.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep05_2018/classwork/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/homework/text_editor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="94" selection-start-line="9" selection-start-column="94" selection-end-line="9" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/homework/text-color-change.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/homework/homework_03_09_objects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/service/SecurityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/converter/AppUserConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/homework/externalscript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/profile.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/epam-java-rd/src/main/java/org/epam/rd/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/json_lesson1/src/main/java/com/ivko/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/json_lesson1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/json_lesson1/src/main/java/com/ivko/JsonFromStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zzz/VNFormattedTextField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2045">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zzz/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/classwork/jquery-3.3.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/classwork/task1.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/classwork/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/jquery-3.3.1/jquery-3.3.1.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1472,26 +1329,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Travel-Agency-Logo-2.png" />
     <entry file="file://$PROJECT_DIR$/Travel-Agency-Logo-2.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="111" column="28" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tour-info.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="60" column="20" selection-end-line="130" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1499,15 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1535,33 +1367,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/img/cyprus.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/manage/admin-welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="87" column="38" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/countries.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="127" column="25" lean-forward="true" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1569,53 +1378,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep05_2018/classwork/jquery-3.3.1.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep12_2018/classwork/jquery-3.3.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/hotel-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="106" column="27" lean-forward="true" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="1590">
+          <caret line="106" column="27" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1628,25 +1400,212 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep05_2018/classwork/Regexp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="15">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/manage/admin-welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="91" column="22" selection-end-line="174" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/manage/admin-tours.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="105" column="19" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep12_2018/classwork/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="111" column="28" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tours/Manager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tours/Employee.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/hotels/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding>
-            <element signature="e#0#6978#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/hotels/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/hotels/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+          <folding>
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#1503#1504#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tours/Academy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tours/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" selection-start-line="10" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tours/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tours/Adress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tours/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/classwork/index1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
+        <state relative-caret-position="363">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/classwork/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/ddd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/tours/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/classwork/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/hotels/Academy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1/jquery.validate.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep12_2018/classwork/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="53" column="4" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        <state relative-caret-position="407">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep12_2018/classwork/jquery.validate.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1/jquery.validate.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>

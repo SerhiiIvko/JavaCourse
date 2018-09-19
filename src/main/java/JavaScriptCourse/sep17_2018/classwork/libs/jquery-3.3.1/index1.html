@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script src="jquery.validate.js"></script>
+    <style>
+        .error{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<form action="" method="get" id="formUserIn">
+
+    <label for="name_inp">Введите имя</label>
+    <br>
+    <input type="text" id="name_inp" class="name" name="nameUser">
+    <br>
+    <label for="email">Введите email</label>
+    <br>
+    <input type="text" id="email" class="email" name="emailUser">
+    <input type="submit" class="btn">
+</form>
+
+<script>
+    $('#formUserIn').validate({
+        rules: {
+            nameUser: {
+                required: true,
+                minlength: 8,
+                maxlength: 10
+            },
+            emailUser: {
+                required: true,
+                minlength: 4,
+                maxlength: 10
+            }
+        },
+        messages:{
+            nameUser:{
+                required: "Это поле обязательно для заполнения",
+                minlength: "Минимальное колличество символов 8",
+                maxlength: "Минимальное колличество символов 10"
+            }
+        }
+
+    })
+
+</script>
+
+
+</body>
+</html>
