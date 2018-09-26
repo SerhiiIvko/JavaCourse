@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        //----------------GET--------------
+        // var xhr = new XMLHttpRequest();
+        // // xhr.open("GET", "http://www.dfg.de/ru", false);
+        // xhr.open("POST", "http://www.dfg.de/ru/?name=pavel&password=pavel", false);
+        // xhr.onreadystatechange = function () {
+        //     if (xhr.readyState !== 4) {
+        //         return;
+        //     }
+        //     if (xhr.status === 200) {
+        //         alert(xhr.responseText);
+        //     } else {
+        //         alert("Error " + xhr.statusText);
+        //     }
+        // };
+        // xhr.send();
+        //----------------GET--------------
+        //----------------POST--------------
+        // var data = new FormData();
+        // data.append("name", "pavel");
+        // data.append("password", "pavel");
+        // xhr.send(data);
+        //----------------POST--------------
+
+        //---------------AJAX---------------
+        let ajax = {
+            post: function (url, params, callback, onerror) {
+                let xhr = new XMLHttpRequest();
+                xhr.open("POST", "http://www.dfg.de/ru/", false);
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState !== 4) {
+                        return;
+                    }
+                    if (xhr.status === 200) {
+                        alert(xhr.responseText);
+                    } else if (onerror) {
+                        onerror();
+                    }
+                };
+                let data = new FormData();
+                for (let key in params) {
+                    data.append(key, params[key]);
+                }
+                xhr.send(data);
+            },
+            get: function (url, callback, onerror) {
+                let xhr = new XMLHttpRequest();
+                xhr.open("GET", "http://www.dfg.de/ru", false);
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState !== 4) {
+                        return;
+                    }
+                    if (xhr.status === 200) {
+                        alert(xhr.responseText);
+                    } else if (onerror) {
+                        onerror();
+                    }
+                };
+                xhr.send();
+            }
+        };
+        ajax.get("http://www.dfg.de/ru", {name: "pavel", surname: "pavel"}, function (response) {
+            alert(response);
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>

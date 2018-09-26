@@ -8,13 +8,13 @@ import java.util.Random;
 public class Circle extends JFrame {
     private static final int WIDTH = 800;
     private static final int HEIGHT = 600;
-    private Random random = new Random();
-    private double xCircle;
-    private double yCircle;
-    private double xcCircle;
-    private double ycCircle;
+    private static Random random = new Random();
+    private static double xCircle;
+    private static double yCircle;
+    private static double xcCircle;
+    private static double ycCircle;
 
-    public void initAction() {
+    public static void initAction() {
         JFrame frame = new JFrame(MovingCircle.class.getSimpleName());
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
@@ -30,8 +30,8 @@ public class Circle extends JFrame {
                 int height = 100;
                 g2d.fillOval(position1, position2, width, height);
                 setLocation(position1, position2);
-//                xCircle = getNextSpeed() * (random.nextBoolean() ? 1 : -1);
-//                yCircle = getNextSpeed() * (random.nextBoolean() ? 1 : -1);
+                xCircle = getNextSpeed() * (random.nextBoolean() ? 1 : -1);
+                yCircle = getNextSpeed() * (random.nextBoolean() ? 1 : -1);
                 xCircle = getX();
                 yCircle = getY();
                 if (xCircle == 0) {
@@ -45,8 +45,8 @@ public class Circle extends JFrame {
                     yCircle = 1;
                 }
                 Timer timer = new Timer(1000, (ActionEvent e) -> {
-//                    xcCircle += xCircle;
-//                    ycCircle += yCircle;
+                    xcCircle += xCircle;
+                    ycCircle += yCircle;
                     xcCircle = random.nextInt(2) * xCircle;
                     ycCircle = random.nextInt(2) * yCircle;
                     Component owner = getParent();
@@ -57,20 +57,20 @@ public class Circle extends JFrame {
                     if (p.y <= 0 || p.y >= owner.getHeight() - height) {
                         yCircle = -yCircle;
                     }
-//                    if (xcCircle + width > frame.getContentPane().getWidth()) {
-//                        xcCircle = frame.getContentPane().getWidth() - width;
-//                        xCircle = -Circle.this.getNextSpeed();
-//                    } else if (xcCircle < 0) {
-//                        xcCircle = 0;
-//                        xCircle = Circle.this.getNextSpeed();
-//                    }
-//                    if (ycCircle + height > frame.getContentPane().getHeight()) {
-//                        ycCircle = frame.getContentPane().getHeight() - height;
-//                        yCircle = -Circle.this.getNextSpeed();
-//                    } else if (ycCircle < 0) {
-//                        ycCircle = 0;
-//                        yCircle = Circle.this.getNextSpeed();
-//                    }
+                    if (xcCircle + width > frame.getContentPane().getWidth()) {
+                        xcCircle = frame.getContentPane().getWidth() - width;
+                        xCircle = -Circle.getNextSpeed();
+                    } else if (xcCircle < 0) {
+                        xcCircle = 0;
+                        xCircle = Circle.getNextSpeed();
+                    }
+                    if (ycCircle + height > frame.getContentPane().getHeight()) {
+                        ycCircle = frame.getContentPane().getHeight() - height;
+                        yCircle = -Circle.getNextSpeed();
+                    } else if (ycCircle < 0) {
+                        ycCircle = 0;
+                        yCircle = Circle.getNextSpeed();
+                    }
                     setLocation((int) (xcCircle + xCircle), (int) (ycCircle + yCircle));
                 });
                 timer.start();
@@ -81,11 +81,11 @@ public class Circle extends JFrame {
         frame.setVisible(true);
     }
 
-    private double getNextSpeed() {
+    private static double getNextSpeed() {
         return 2 * Math.PI * (0.5 + random.nextDouble());
     }
 
     public static void main(String[] args) {
-
+        initAction();
     }
 }

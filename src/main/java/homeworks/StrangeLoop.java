@@ -9,11 +9,12 @@ public class StrangeLoop {
         int i = 0;
         try {
             i = 2;
-            return i;
+            System.out.println(i);
+//            return i;
         } finally {
             i = 12;
-            System.out.println("finally trumps return." + i);
+            System.out.println("finally trumps return = " + i);
         }
-
+return i;
     }
 }
