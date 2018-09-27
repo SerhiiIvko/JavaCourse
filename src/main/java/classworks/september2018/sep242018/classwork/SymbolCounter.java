@@ -15,9 +15,8 @@ public class SymbolCounter {
     }
 
     private static void getNumberChar(String string) {
-        int length = string.length();
-        Map<Character, Integer> numChars = new HashMap<>(Math.min(length, 26));
-        for (int i = 0; i < length; i++) {
+        Map<Character, Integer> numChars = new HashMap<>(Math.min(string.length(), 26));
+        for (int i = 0; i < string.length(); i++) {
             char charAt = string.charAt(i);
             if (!numChars.containsKey(charAt)) {
                 numChars.put(charAt, 1);
