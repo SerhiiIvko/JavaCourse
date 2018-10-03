@@ -1,10 +1,10 @@
-package classworks.september2018.sep262018.classwork;
+package classworks.september2018.sep262018.classwork.ex1;
 
 import java.io.*;
 import java.net.*;
 
 
-public class WebExamples {
+public class WebServer {
     public static final int PORT = 8080;
 
     public static void main(String[] args) throws IOException {
