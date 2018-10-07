@@ -5,7 +5,7 @@ import java.net.*;
 
 
 public class WebServer {
-    public static final int PORT = 8080;
+    public static final int PORT = 8081;
 
     public static void main(String[] args) throws IOException {
 //        InetAddress inetAddress = InetAddress.getByName(null);//return localhost
@@ -56,7 +56,6 @@ public class WebServer {
 
                     System.out.println("Enchoing " + string);
                     printWriter.println(string);
-
                 }
             } finally {
                 System.out.println("closing...");
@@ -65,10 +64,5 @@ public class WebServer {
         } finally {
             serverSocket.close();
         }
-
-
-
     }
-
-
 }

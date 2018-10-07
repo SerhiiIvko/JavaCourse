@@ -38,7 +38,7 @@ public class UDPServerClass {
                     break;
                 }
                 try {
-                    /*Создается входной поток, который считывает данные с консо-ли*/
+                    /*Создается входной поток, который считывает данные с консоли*/
                     in = new BufferedReader(new InputStreamReader(System.in));
 
                 } catch (Exception e) {

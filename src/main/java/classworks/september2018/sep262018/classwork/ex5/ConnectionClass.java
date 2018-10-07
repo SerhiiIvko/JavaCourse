@@ -34,7 +34,8 @@ public class ConnectionClass extends Thread {
     }
 
     public void run() {
-        String login, password;
+        String login;
+        String password;
         try {
             while (true) {
                 toClient.println("Login: ");

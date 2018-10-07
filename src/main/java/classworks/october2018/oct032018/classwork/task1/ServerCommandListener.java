@@ -1,4 +1,6 @@
-package classworks.september2018.sep262018.classwork.ex4;
+package classworks.october2018.oct032018.classwork.task1;
+
+import classworks.september2018.sep262018.classwork.ex4.Server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,15 +9,15 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 
-public class Server {
-    private BufferedReader in = null;
-    private String str = null;
+public class ServerCommandListener {
+    private BufferedReader inputReader = null;
+    private String string = null;
     private byte[] buffer;
     private DatagramPacket packet;
     private InetAddress address;
     private DatagramSocket socket;
 
-    public Server() throws IOException {
+    public ServerCommandListener() throws IOException {
         System.out.println("Sending messages");
         // Создается объект DatagramSocket для приема запросов клиента
         socket = new DatagramSocket();
@@ -26,11 +28,11 @@ public class Server {
     public void transmit() {
         try {
             // создается входной поток для приема данных с консоли
-            in = new BufferedReader(new InputStreamReader(System.in));
+            inputReader = new BufferedReader(new InputStreamReader(System.in));
             while (true) {
                 System.out.println("Введите строку для передачи клиентам: ");
-                str = in.readLine();
-                buffer = str.getBytes();
+                string = inputReader.readLine();
+                buffer = string.getBytes();
                 address = InetAddress.getByName("233.0.0.1");
                 // Посылка пакета датаграмм на порт номер 1502
                 packet = new DatagramPacket(buffer, buffer.length, address, 1502);
@@ -42,7 +44,7 @@ public class Server {
         } finally {
             try {
                 // Закрытие потока и сокета
-                in.close();
+                inputReader.close();
                 socket.close();
             } catch (Exception e) {
                 e.printStackTrace();
