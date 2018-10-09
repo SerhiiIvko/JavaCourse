@@ -1,0 +1,16 @@
+{
+  "name": "ivan",
+  "surname": "petrov",
+  "age": "35",
+  "subject": [
+    {
+      "name": "math"
+    },
+    {
+      "name": "physics"
+    },
+    {
+      "name": "biology"
+    }
+  ]
+}

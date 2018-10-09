@@ -1,4 +1,4 @@
-package classworks.october2018.oct032018.homework.ex1;
+package classworks.october2018.oct032018.classwork.ex3.ex1;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

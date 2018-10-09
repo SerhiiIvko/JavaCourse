@@ -8,26 +8,22 @@ import java.net.Socket;
 
 public class ConsoleServer {
     public static void main(String[] args) throws IOException {
-        // server is listening on port 5056
-        ServerSocket ss = new ServerSocket(9191);
-        // running infinite loop for getting
-        // client request
+        ServerSocket serverSocket = new ServerSocket(9191);
+        System.out.println("Server started...");
         while (true) {
-            Socket s = null;
+            Socket socket = null;
             try {
-                // socket object to receive incoming client requests
-                s = ss.accept();
-                System.out.println("A new client is connected : " + s);
-                // obtaining input and out streams
-                DataInputStream dis = new DataInputStream(s.getInputStream());
-                DataOutputStream dos = new DataOutputStream(s.getOutputStream());
+                socket = serverSocket.accept();
+                System.out.println("A new client is connected : " + socket);
+                DataInputStream inputStream = new DataInputStream(socket.getInputStream());
+                DataOutputStream outputStream = new DataOutputStream(socket.getOutputStream());
                 System.out.println("Assigning new thread for this client");
-                // create a new thread object
-                Thread t = new ConsoleClientHandler(s, dis, dos);
-                // Invoking the start() method
+                Thread t = new ConsoleClientHandler(socket, inputStream, outputStream);
                 t.start();
             } catch (Exception e) {
-                s.close();
+                if (socket != null) {
+                    socket.close();
+                }
                 e.printStackTrace();
             }
         }
