@@ -12,8 +12,12 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>wine-shop</module>
+        <module>tour-select</module>
         <module>json_lesson1</module>
+        <module>oct10_2018</module>
+        <module>farm</module>
+        <module>oct15_2018</module>
+        <module>oct17_2018</module>
     </modules>
 
 

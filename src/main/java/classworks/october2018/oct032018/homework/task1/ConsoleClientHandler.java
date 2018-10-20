@@ -56,6 +56,34 @@ public class ConsoleClientHandler extends Thread {
         return messageForReturn;
     }
 
+
+    private static String copyFileUsingStream(String arguments) throws IOException {
+        System.out.println("Copy file");
+        String[] copyCommand = arguments.split(" ");
+        if (copyCommand.length < 2 || copyCommand.length > 3) {
+            System.out.println("Incorrect arguments for operation");
+        }
+        String fileName = copyCommand[1];
+        String placeToSave = copyCommand[2];
+        String newFileName = copyCommand[3];
+        String messageForReturn;
+        File source = new File("/home/ivko/IdeaProjects/JavaCourse/src/main/resources/list/" + fileName);
+        File dest = new File(placeToSave + newFileName);
+        if (source.exists() && !source.isDirectory()) {
+            try (InputStream is = new FileInputStream(source); OutputStream os = new FileOutputStream(dest)) {
+                byte[] buffer = new byte[1024];
+                int length;
+                while ((length = is.read(buffer)) > 0) {
+                    os.write(buffer, 0, length);
+                }
+                messageForReturn = "File was saved successfully";
+            }
+        } else {
+            messageForReturn = "Failed to save the file";
+        }
+        return messageForReturn;
+    }
+
     @Override
     public void run() {
         String receivedMessage;
@@ -77,7 +105,8 @@ public class ConsoleClientHandler extends Thread {
                     messageForReturn = showFilesInDirectory("/home/ivko/IdeaProjects/JavaCourse/src/main/resources/list");
                     outputStream.writeUTF(messageForReturn);
                 } else if (receivedMessage.startsWith(GET_COMMAND)) {
-                    messageForReturn = saveFileAs(receivedMessage);
+//                    messageForReturn = saveFileAs(receivedMessage);
+                    messageForReturn = copyFileUsingStream(receivedMessage);
                     outputStream.writeUTF(messageForReturn);
                 } else {
                     outputStream.writeUTF("Invalid input");

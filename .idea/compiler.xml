@@ -6,17 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="farm" />
         <module name="json_lesson1" />
+        <module name="oct10_2018" />
+        <module name="oct15_2018" />
+        <module name="oct17_2018" />
+        <module name="tourSelect" />
         <module name="websession-test" />
-        <module name="wineshop" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="farm" target="1.8" />
+      <module name="firstWebApp" target="8" />
       <module name="JavaCourse" target="8" />
       <module name="json_lesson1" target="8" />
+      <module name="oct10_2018" target="8" />
+      <module name="oct15_2018" target="8" />
+      <module name="oct17_2018" target="8" />
+      <module name="tourSelect" target="1.8" />
       <module name="webcourse" target="8" />
       <module name="websession-test" target="1.8" />
-      <module name="wineshop" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
