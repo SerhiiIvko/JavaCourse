@@ -1,0 +1,9 @@
+com/step/model/EditPerson.class
+com/step/model/AddPerson.class
+com/step/controller/AddController.class
+com/step/controller/EditController.class
+com/step/RegisterUser.class
+com/step/model/EditPersonDao.class
+com/step/model/AddPersonDao.class
+com/step/EditUser.class
+com/step/DeleteUser.class

@@ -1,6 +1,8 @@
 package independentWork.advertMobile.zeroAndCruix;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -10,7 +12,11 @@ import java.util.Scanner;
 public class TicTacToeGame {
     private static final int SIZE = 3;
 
-    private static void mainMenu() {
+    public static int getSIZE() {
+        return SIZE;
+    }
+
+    public void mainMenu() {
         System.out.println("Game menu:\n" +
                 "1. Start new game\n" +
                 "2. Show history\n" +
@@ -23,7 +29,8 @@ public class TicTacToeGame {
                     startGame();
                     break;
                 case 2:
-                    showHistory();
+                    new LogSaver().showHistory();
+//                    showHistory();
                     break;
                 case 3:
                     System.out.println("You successfully quit from game");
@@ -214,67 +221,67 @@ public class TicTacToeGame {
                     break;
             }
             showField(field);
-            quitIndex = checkGameSteps(field, quitIndex, player1, player2);
+//            quitIndex = checkGameSteps(field, quitIndex, player1, player2);
+            quitIndex = new WinnerChecker(field, quitIndex, player1, player2).checkWinner();
         }
         System.out.println();
     }
 
-    private static int checkGameSteps(String[][] field, int quit, String player1, String player2) {
-        String resultField = "";
-        for (int t = 0; t < SIZE; t++) {
-            if (((field[t][0]).equalsIgnoreCase(" [O] ")
-                    & (field[t][1]).equalsIgnoreCase(" [O] ")
-                    & field[t][2].equalsIgnoreCase(" [O] ")) ||
-                    ((field[0][t]).equalsIgnoreCase(" [O] ")
-                            & (field[1][t]).equalsIgnoreCase(" [O] ")
-                            & field[2][t].equalsIgnoreCase(" [O] "))) {
-                System.out.println("\nWin " + player2);
-                resultField = resultField.concat(field[0][0] + field[0][1] + field[0][2] + "\n"
-                        + field[1][0] + field[1][1] + field[1][2] + "\n"
-                        + field[2][0] + field[2][1] + field[2][2]).concat("\nWinner: " + player2 + "\n" + new Date().toString() + "\n");
-                quit++;
-                exit();
-            } else if (((field[t][0]).equalsIgnoreCase(" [X] ")
-                    & (field[t][1]).equalsIgnoreCase(" [X] ")
-                    & field[t][2].equalsIgnoreCase(" [X] ")) ||
-                    ((field[0][t]).equalsIgnoreCase(" [X] ")
-                            & (field[1][t]).equalsIgnoreCase(" [X] ")
-                            & field[2][t].equalsIgnoreCase(" [X] "))) {
-                System.out.println("\nWin " + player1);
-                resultField = resultField.concat(field[0][0] + field[0][1] + field[0][2] + "\n"
-                        + field[1][0] + field[1][1] + field[1][2] + "\n"
-                        + field[2][0] + field[2][1] + field[2][2]).concat("\nWinner: " + player1);
-                quit++;
-                exit();
-            }
-        }
-        if (((field[0][0]).equalsIgnoreCase(" [X] ")
-                & (field[1][1]).equalsIgnoreCase(" [X] ")
-                & field[2][2].equalsIgnoreCase(" [X] ")) ||
-                ((field[0][2]).equalsIgnoreCase(" [X] ")
-                        & (field[1][1]).equalsIgnoreCase(" [X] ")
-                        & field[2][0].equalsIgnoreCase(" [X] "))) {
-            System.out.println("\nWin " + player1);
-            quit++;
-            exit();
-        } else if (((field[0][0]).equalsIgnoreCase(" [O] ")
-                & (field[1][1]).equalsIgnoreCase(" [O] ")
-                & field[2][2].equalsIgnoreCase(" [O] ")) ||
-                ((field[0][2]).equalsIgnoreCase(" [O] ")
-                        & (field[1][1]).equalsIgnoreCase(" [O] ")
-                        & field[2][0].equalsIgnoreCase(" [O] "))) {
-            System.out.println("\nWin " + player2);
-            quit++;
-            exit();
-        }
-//        Date date = new Date();
-        try {
-            saveLogOfGames(resultField);
-        } catch (IOException e) {
-            e.getMessage();
-        }
-        return quit;
-    }
+//    private static int checkGameSteps(String[][] field, int quit, String player1, String player2) {
+//        String resultField = "";
+//        for (int t = 0; t < SIZE; t++) {
+//            if (((field[t][0]).equalsIgnoreCase(" [O] ")
+//                    & (field[t][1]).equalsIgnoreCase(" [O] ")
+//                    & field[t][2].equalsIgnoreCase(" [O] ")) ||
+//                    ((field[0][t]).equalsIgnoreCase(" [O] ")
+//                            & (field[1][t]).equalsIgnoreCase(" [O] ")
+//                            & field[2][t].equalsIgnoreCase(" [O] "))) {
+//                System.out.println("\nWin " + player2);
+//                resultField = resultField.concat(field[0][0] + field[0][1] + field[0][2] + "\n"
+//                        + field[1][0] + field[1][1] + field[1][2] + "\n"
+//                        + field[2][0] + field[2][1] + field[2][2]).concat("\nWinner: " + player2 + "\n" + new Date().toString() + "\n");
+//                quit++;
+//                exit();
+//            } else if (((field[t][0]).equalsIgnoreCase(" [X] ")
+//                    & (field[t][1]).equalsIgnoreCase(" [X] ")
+//                    & field[t][2].equalsIgnoreCase(" [X] ")) ||
+//                    ((field[0][t]).equalsIgnoreCase(" [X] ")
+//                            & (field[1][t]).equalsIgnoreCase(" [X] ")
+//                            & field[2][t].equalsIgnoreCase(" [X] "))) {
+//                System.out.println("\nWin " + player1);
+//                resultField = resultField.concat(field[0][0] + field[0][1] + field[0][2] + "\n"
+//                        + field[1][0] + field[1][1] + field[1][2] + "\n"
+//                        + field[2][0] + field[2][1] + field[2][2]).concat("\nWinner: " + player1 + "\n" + new Date().toString() + "\n");
+//                quit++;
+//                exit();
+//            }
+//        }
+//        if (((field[0][0]).equalsIgnoreCase(" [X] ")
+//                & (field[1][1]).equalsIgnoreCase(" [X] ")
+//                & field[2][2].equalsIgnoreCase(" [X] ")) ||
+//                ((field[0][2]).equalsIgnoreCase(" [X] ")
+//                        & (field[1][1]).equalsIgnoreCase(" [X] ")
+//                        & field[2][0].equalsIgnoreCase(" [X] "))) {
+//            System.out.println("\nWin " + player1 + "\n" + new Date().toString() + "\n");
+//            quit++;
+//            exit();
+//        } else if (((field[0][0]).equalsIgnoreCase(" [O] ")
+//                & (field[1][1]).equalsIgnoreCase(" [O] ")
+//                & field[2][2].equalsIgnoreCase(" [O] ")) ||
+//                ((field[0][2]).equalsIgnoreCase(" [O] ")
+//                        & (field[1][1]).equalsIgnoreCase(" [O] ")
+//                        & field[2][0].equalsIgnoreCase(" [O] "))) {
+//            System.out.println("\nWin " + player2 + "\n" + new Date().toString() + "\n");
+//            quit++;
+//            exit();
+//        }
+//        try {
+//            saveLogOfGames(resultField);
+//        } catch (IOException e) {
+//            e.getMessage();
+//        }
+//        return quit;
+//    }
 
     private static void showField(String[][] field) {
         System.out.print("Current field statement");
@@ -289,16 +296,16 @@ public class TicTacToeGame {
         System.out.println();
     }
 
-    private static void saveLogOfGames(String resultField) throws IOException {
-        String path = "/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt";
-        File file = new File(path);
+//    private static void saveLogOfGames(String resultField) throws IOException {
+//        String path = "/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt";
+//        File file = new File(path);
+//
+//        FileWriter fooWriter = new FileWriter(file, true);
+//        fooWriter.write(resultField);
+//        fooWriter.close();
+//    }
 
-        FileWriter fooWriter = new FileWriter(file, true);
-        fooWriter.write(resultField);
-        fooWriter.close();
-    }
-
-    private static void exit() {
+    public static void exit() {
         Scanner scanner = new Scanner(System.in);
         String input;
         do {
@@ -314,19 +321,18 @@ public class TicTacToeGame {
         } while (input.equalsIgnoreCase("N") || input.equalsIgnoreCase("Y"));
     }
 
-    private static void showHistory(){
-        String history = null;
-        try {
-            history = new String(Files.readAllBytes
-                    (Paths.get("/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt")), StandardCharsets.UTF_8);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        System.out.println(history);
-    }
+//    private static void showHistory() {
+//        String history = null;
+//        try {
+//            history = new String(Files.readAllBytes
+//                    (Paths.get("/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt")), StandardCharsets.UTF_8);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        System.out.println(history);
+//    }
 
-    public static void main(String[] args) {
-//        startGame();
-        mainMenu();
-    }
+//    public static void main(String[] args) {
+//        mainMenu();
+//    }
 }

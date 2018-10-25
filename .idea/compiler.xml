@@ -11,6 +11,8 @@
         <module name="oct10_2018" />
         <module name="oct15_2018" />
         <module name="oct17_2018" />
+        <module name="oct22_2018" />
+        <module name="oct24_2018" />
         <module name="tourSelect" />
         <module name="websession-test" />
       </profile>
@@ -23,6 +25,8 @@
       <module name="oct10_2018" target="8" />
       <module name="oct15_2018" target="8" />
       <module name="oct17_2018" target="8" />
+      <module name="oct22_2018" target="8" />
+      <module name="oct24_2018" target="8" />
       <module name="tourSelect" target="1.8" />
       <module name="webcourse" target="8" />
       <module name="websession-test" target="1.8" />

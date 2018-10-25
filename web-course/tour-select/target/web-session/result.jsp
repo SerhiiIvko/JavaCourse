@@ -8,7 +8,7 @@
         Available tours
     </h1>
         <%
-        List result= (List) request.getAttribute("types");
+        List result = (List) request.getAttribute("types");
         Iterator iterator = result.iterator();
         out.println("<br>we have: <br><br>");
         while(iterator.hasNext()) {

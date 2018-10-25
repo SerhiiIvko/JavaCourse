@@ -6,14 +6,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import java.sql.*;
 
 @WebServlet(
         name = "RegisterUser",
-        urlPatterns = "/register")
+        urlPatterns = "/register"
+)
 public class RegisterUser extends HttpServlet {
     private static final long serialVersionUID = -6780333887644654820L;
 
@@ -42,8 +40,25 @@ public class RegisterUser extends HttpServlet {
                         try (PreparedStatement insert = connection.prepareStatement("insert into persons(name) values(?)")) {
                             insert.setString(1, name);
                             returnMessage = "Record has been inserted";
-                            writer.println("<font size='6' color=blue>" + returnMessage + "</font>");
+                            writer.println("<font size='6' color=blue>" + returnMessage + "</font>" + "<br>");
                             insert.executeUpdate();
+                            //output all table with all fields
+                            PreparedStatement select = connection.prepareStatement("SELECT * FROM persons");
+                            ResultSet set = select.executeQuery();
+                            ResultSetMetaData metadata = set.getMetaData();
+                            int columnCount = metadata.getColumnCount();
+                            for (int i = 1; i <= columnCount; i++) {
+                                writer.println("<font size='3' color=green>" + metadata.getColumnName(i) + " " + "</font>");
+                            }
+                            writer.println("<br>");
+                            while (set.next()) {
+                                StringBuilder row = new StringBuilder();
+                                for (int i = 1; i <= columnCount; i++) {
+                                    row.append(set.getString(i)).append(" ");
+                                }
+                                System.out.println();
+                                writer.println("<font size='3' color=green>" + row + "</font>" + "<br>");
+                            }
                         }
                     }
                 }

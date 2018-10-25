@@ -1,4 +1,4 @@
-package com.ivko;
+package com.ivko.json;
 
 public class Customer {
     private int age;

@@ -1,4 +1,4 @@
-package com.ivko;
+package com.ivko.json;
 
 import com.google.gson.Gson;
 
