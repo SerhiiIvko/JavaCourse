@@ -225,6 +225,7 @@ public class TicTacToeGame {
             quitIndex = new WinnerChecker(field, quitIndex, player1, player2).checkWinner();
         }
         System.out.println();
+        scanner.close();
     }
 
 //    private static int checkGameSteps(String[][] field, int quit, String player1, String player2) {

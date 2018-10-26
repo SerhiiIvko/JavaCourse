@@ -11,7 +11,7 @@ public class AddPersonDao {
         String name = addPerson.getName();
         String email = addPerson.getEmail();
         String password = addPerson.getPassword();
-        String dbUrl = "jdbc:mysql://localhost:3306/db_mvcoperation?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"; //database connection url string
+        String dbUrl = "jdbc:mysql://localhost:3306/db_mvcoperation?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
         String dbUsername = "root";
         String dbPassword = "root";
         String driver = "com.mysql.cj.jdbc.Driver";

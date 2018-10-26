@@ -12,7 +12,7 @@ public class EditPersonDao {
         String email_up = editPerson.getEmail();
         String password_up = editPerson.getPassword();
         int id = editPerson.getId();
-        String dbUrl = "jdbc:mysql://localhost:3306/db_mvcoperation?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"; //database connection url string
+        String dbUrl = "jdbc:mysql://localhost:3306/db_mvcoperation?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
         String dbUsername = "root";
         String dbPassword = "root";
         String driver = "com.mysql.cj.jdbc.Driver";

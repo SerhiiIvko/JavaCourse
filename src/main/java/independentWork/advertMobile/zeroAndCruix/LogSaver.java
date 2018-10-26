@@ -8,7 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class LogSaver {
-    String resultField;
+//    String resultField;
 
     public void saveHistory(String resultField) throws IOException {
         String path = "/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt";
