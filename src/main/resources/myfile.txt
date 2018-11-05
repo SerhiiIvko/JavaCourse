@@ -1,0 +1,15 @@
+ [X]  [X]  [X] 
+ [ ]  [O]  [O] 
+ [ ]  [ ]  [ ] 
+Winner: 111
+Mon Oct 29 20:04:54 EET 2018
+ [X]  [X]  [X] 
+ [O]  [O]  [ ] 
+ [ ]  [ ]  [ ] 
+Winner: 111
+Mon Nov 05 14:45:31 EET 2018
+ [X]  [ ]  [O] 
+ [O]  [X]  [ ] 
+ [ ]  [ ]  [X] 
+Winner: aaa
+Mon Nov 05 14:50:02 EET 2018

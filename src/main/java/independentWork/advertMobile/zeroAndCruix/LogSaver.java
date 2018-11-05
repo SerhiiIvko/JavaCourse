@@ -7,27 +7,35 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class LogSaver {
-//    String resultField;
+class LogSaver {
 
-    public void saveHistory(String resultField) throws IOException {
-        String path = "/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt";
-        File file = new File(path);
-
-        FileWriter fooWriter = new FileWriter(file, true);
-        fooWriter.write(resultField);
-        fooWriter.close();
+    void loadHistoryInMemory() {
+        LogSaver logSaver = new LogSaver();
+        String gameResult = logSaver.showHistory();
+        if (gameResult != null && !gameResult.isEmpty()) {
+            System.out.println(logSaver.showHistory());
+        } else {
+            System.out.println("You must play one game at least! Your history is empty yet!");
+        }
     }
 
+    void saveHistory(String resultField) throws IOException {
+        String path = "/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt";
+        File file = new File(path);
+        FileWriter fileWriter = new FileWriter(file, true);
+        fileWriter.write(resultField);
+        fileWriter.close();
+    }
 
-    public void showHistory(){
-        String history = null;
+    private String showHistory() {
+        String gameLog = null;
         try {
-            history = new String(Files.readAllBytes
-                    (Paths.get("/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt")), StandardCharsets.UTF_8);
+            gameLog = new String(Files.readAllBytes
+                    (Paths.get("/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt")),
+                    StandardCharsets.UTF_8);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println(history);
+        return gameLog;
     }
 }

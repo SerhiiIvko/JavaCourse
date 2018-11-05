@@ -1,22 +1,15 @@
 package independentWork.advertMobile.zeroAndCruix;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.Date;
 import java.util.Scanner;
 
 public class TicTacToeGame {
     private static final int SIZE = 3;
 
-    public static int getSIZE() {
+    static int getSIZE() {
         return SIZE;
     }
 
-    public void mainMenu() {
+    void mainMenu() {
         System.out.println("Game menu:\n" +
                 "1. Start new game\n" +
                 "2. Show history\n" +
@@ -29,8 +22,8 @@ public class TicTacToeGame {
                     startGame();
                     break;
                 case 2:
-                    new LogSaver().showHistory();
-//                    showHistory();
+                    new LogSaver().loadHistoryInMemory();
+                    mainMenu();
                     break;
                 case 3:
                     System.out.println("You successfully quit from game");
@@ -38,15 +31,16 @@ public class TicTacToeGame {
                     break;
                 default:
                     System.out.println("Incorrect input");
+                    mainMenu();
             }
         } else {
             System.out.println("Input digits only!");
+            mainMenu();
         }
     }
 
     private static void startGame() {
         Scanner scanner = new Scanner(System.in);
-        String point;
         String[][] field = new String[SIZE][SIZE];
         int playerIndex = 2;
         int quitIndex = 0;
@@ -63,7 +57,7 @@ public class TicTacToeGame {
         player1 = scanner.nextLine();
         System.out.println("Player 2, input your name, please: ");
         player2 = scanner.nextLine();
-        while ((playerIndex < 11) & (quitIndex == 0)) {
+        while ((playerIndex < 11) && (quitIndex == 0)) {
             if (playerIndex % 2 == 0) {
                 System.out.println("\n" + player1 + ", put X in the cell");
             } else {
@@ -71,7 +65,16 @@ public class TicTacToeGame {
             }
             System.out.print("Input number of the cell:> ");
             String errorMessage = "This cell is not empty, try enother value.";
-            switch (point = scanner.next()) {
+
+//            int input = Integer.parseInt(scanner.next());
+//            for (int i = 0; i < field.length; i++) {
+//                for (int j = 0; j < field.length; j++) {
+//
+//                }
+//            }
+
+
+            switch (scanner.next()) {
                 case "1": {
                     if (field[0][0].equalsIgnoreCase(cellPattern)) {
                         if (playerIndex % 2 == 0) {
@@ -221,68 +224,11 @@ public class TicTacToeGame {
                     break;
             }
             showField(field);
-//            quitIndex = checkGameSteps(field, quitIndex, player1, player2);
             quitIndex = new WinnerChecker(field, quitIndex, player1, player2).checkWinner();
         }
         System.out.println();
         scanner.close();
     }
-
-//    private static int checkGameSteps(String[][] field, int quit, String player1, String player2) {
-//        String resultField = "";
-//        for (int t = 0; t < SIZE; t++) {
-//            if (((field[t][0]).equalsIgnoreCase(" [O] ")
-//                    & (field[t][1]).equalsIgnoreCase(" [O] ")
-//                    & field[t][2].equalsIgnoreCase(" [O] ")) ||
-//                    ((field[0][t]).equalsIgnoreCase(" [O] ")
-//                            & (field[1][t]).equalsIgnoreCase(" [O] ")
-//                            & field[2][t].equalsIgnoreCase(" [O] "))) {
-//                System.out.println("\nWin " + player2);
-//                resultField = resultField.concat(field[0][0] + field[0][1] + field[0][2] + "\n"
-//                        + field[1][0] + field[1][1] + field[1][2] + "\n"
-//                        + field[2][0] + field[2][1] + field[2][2]).concat("\nWinner: " + player2 + "\n" + new Date().toString() + "\n");
-//                quit++;
-//                exit();
-//            } else if (((field[t][0]).equalsIgnoreCase(" [X] ")
-//                    & (field[t][1]).equalsIgnoreCase(" [X] ")
-//                    & field[t][2].equalsIgnoreCase(" [X] ")) ||
-//                    ((field[0][t]).equalsIgnoreCase(" [X] ")
-//                            & (field[1][t]).equalsIgnoreCase(" [X] ")
-//                            & field[2][t].equalsIgnoreCase(" [X] "))) {
-//                System.out.println("\nWin " + player1);
-//                resultField = resultField.concat(field[0][0] + field[0][1] + field[0][2] + "\n"
-//                        + field[1][0] + field[1][1] + field[1][2] + "\n"
-//                        + field[2][0] + field[2][1] + field[2][2]).concat("\nWinner: " + player1 + "\n" + new Date().toString() + "\n");
-//                quit++;
-//                exit();
-//            }
-//        }
-//        if (((field[0][0]).equalsIgnoreCase(" [X] ")
-//                & (field[1][1]).equalsIgnoreCase(" [X] ")
-//                & field[2][2].equalsIgnoreCase(" [X] ")) ||
-//                ((field[0][2]).equalsIgnoreCase(" [X] ")
-//                        & (field[1][1]).equalsIgnoreCase(" [X] ")
-//                        & field[2][0].equalsIgnoreCase(" [X] "))) {
-//            System.out.println("\nWin " + player1 + "\n" + new Date().toString() + "\n");
-//            quit++;
-//            exit();
-//        } else if (((field[0][0]).equalsIgnoreCase(" [O] ")
-//                & (field[1][1]).equalsIgnoreCase(" [O] ")
-//                & field[2][2].equalsIgnoreCase(" [O] ")) ||
-//                ((field[0][2]).equalsIgnoreCase(" [O] ")
-//                        & (field[1][1]).equalsIgnoreCase(" [O] ")
-//                        & field[2][0].equalsIgnoreCase(" [O] "))) {
-//            System.out.println("\nWin " + player2 + "\n" + new Date().toString() + "\n");
-//            quit++;
-//            exit();
-//        }
-//        try {
-//            saveLogOfGames(resultField);
-//        } catch (IOException e) {
-//            e.getMessage();
-//        }
-//        return quit;
-//    }
 
     private static void showField(String[][] field) {
         System.out.print("Current field statement");
@@ -297,15 +243,6 @@ public class TicTacToeGame {
         System.out.println();
     }
 
-//    private static void saveLogOfGames(String resultField) throws IOException {
-//        String path = "/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt";
-//        File file = new File(path);
-//
-//        FileWriter fooWriter = new FileWriter(file, true);
-//        fooWriter.write(resultField);
-//        fooWriter.close();
-//    }
-
     public static void exit() {
         Scanner scanner = new Scanner(System.in);
         String input;
@@ -313,27 +250,12 @@ public class TicTacToeGame {
             System.out.print("Do you want to continue? ");
             input = scanner.next();
             if (input.equalsIgnoreCase("Y")) {
-                System.out.println("New game");
-                startGame();
+                System.out.println();
+                new TicTacToeGame().mainMenu();
             } else if (input.equalsIgnoreCase("N")) {
                 System.out.println("Game over");
                 break;
             }
         } while (input.equalsIgnoreCase("N") || input.equalsIgnoreCase("Y"));
     }
-
-//    private static void showHistory() {
-//        String history = null;
-//        try {
-//            history = new String(Files.readAllBytes
-//                    (Paths.get("/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt")), StandardCharsets.UTF_8);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//        System.out.println(history);
-//    }
-
-//    public static void main(String[] args) {
-//        mainMenu();
-//    }
 }

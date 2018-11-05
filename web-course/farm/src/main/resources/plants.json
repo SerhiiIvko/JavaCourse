@@ -1,0 +1,24 @@
+{
+  "plant": [
+    {
+      "id": "1",
+      "name": "carrot",
+      "seedPrice": "10",
+      "harvestPrice": "15",
+      "isGrowing": "false",
+      "isRipen": "false",
+      "startGrowingTime": "0",
+      "endGrowingTime": "0"
+    },
+    {
+      "id": "2",
+      "name": "cabbage",
+      "seedPrice": "10",
+      "harvestPrice": "15",
+      "isGrowing": "false",
+      "isRipen": "false",
+      "startGrowingTime": "0",
+      "endGrowingTime": "0"
+    }
+  ]
+}

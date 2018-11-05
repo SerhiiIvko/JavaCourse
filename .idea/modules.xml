@@ -3,14 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaCourse.iml" filepath="$PROJECT_DIR$/JavaCourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-course/exam_work/exam_work.iml" filepath="$PROJECT_DIR$/web-course/exam_work/exam_work.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-course/farm/farm.iml" filepath="$PROJECT_DIR$/web-course/farm/farm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web-course/firstWebApp.iml" filepath="$PROJECT_DIR$/web-course/firstWebApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-course/web-course.iml" filepath="$PROJECT_DIR$/web-course/web-course.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-course/json_lesson1/json_lesson1.iml" filepath="$PROJECT_DIR$/web-course/json_lesson1/json_lesson1.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-course/oct10_2018/oct10_2018.iml" filepath="$PROJECT_DIR$/web-course/oct10_2018/oct10_2018.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-course/oct15_2018/oct15_2018.iml" filepath="$PROJECT_DIR$/web-course/oct15_2018/oct15_2018.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-course/oct17_2018/oct17_2018.iml" filepath="$PROJECT_DIR$/web-course/oct17_2018/oct17_2018.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-course/oct22_2018/oct22_2018.iml" filepath="$PROJECT_DIR$/web-course/oct22_2018/oct22_2018.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-course/oct24_2018/oct24_2018.iml" filepath="$PROJECT_DIR$/web-course/oct24_2018/oct24_2018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-course/oct29_2018/oct29_2018.iml" filepath="$PROJECT_DIR$/web-course/oct29_2018/oct29_2018.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-course/tour-select/tourSelect.iml" filepath="$PROJECT_DIR$/web-course/tour-select/tourSelect.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-course/webcourse.iml" filepath="$PROJECT_DIR$/web-course/webcourse.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-course/epam-java-rd/websession-test.iml" filepath="$PROJECT_DIR$/web-course/epam-java-rd/websession-test.iml" />
