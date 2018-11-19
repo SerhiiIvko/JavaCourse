@@ -14,7 +14,7 @@
 <p align="center"><tag:User></tag:User></p>
 <br>
 <div class="row justify-content-md-center">
-    <form class="col-6" action="/register.jsp" method="get">
+    <form class="col-6" action="register.jsp" method="get">
         <p align="center">
             <button type="submit" class="btn btn-primary">Register</button>
         </p>

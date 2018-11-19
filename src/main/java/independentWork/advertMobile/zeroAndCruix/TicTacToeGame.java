@@ -15,17 +15,16 @@ public class TicTacToeGame {
                 "2. Show history\n" +
                 "3. Exit");
         Scanner scanner = new Scanner(System.in);
-        int userChoice = scanner.nextInt();
-        if (!Character.isDigit(userChoice)) {
+        String userChoice = scanner.next();
             switch (userChoice) {
-                case 1:
+                case "1":
                     startGame();
                     break;
-                case 2:
-                    new LogSaver().loadHistoryInMemory();
+                case "2":
+                    new LogLoader().loadHistoryInMemory();
                     mainMenu();
                     break;
-                case 3:
+                case "3":
                     System.out.println("You successfully quit from game");
                     System.exit(1);
                     break;
@@ -33,10 +32,7 @@ public class TicTacToeGame {
                     System.out.println("Incorrect input");
                     mainMenu();
             }
-        } else {
-            System.out.println("Input digits only!");
-            mainMenu();
-        }
+        scanner.close();
     }
 
     private static void startGame() {
@@ -64,7 +60,7 @@ public class TicTacToeGame {
                 System.out.println("\n" + player2 + ", put O in the cell");
             }
             System.out.print("Input number of the cell:> ");
-            String errorMessage = "This cell is not empty, try enother value.";
+            String errorMessage = "This cell is not empty, try again.";
 
 //            int input = Integer.parseInt(scanner.next());
 //            for (int i = 0; i < field.length; i++) {
@@ -225,6 +221,7 @@ public class TicTacToeGame {
             }
             showField(field);
             quitIndex = new WinnerChecker(field, quitIndex, player1, player2).checkWinner();
+
         }
         System.out.println();
         scanner.close();

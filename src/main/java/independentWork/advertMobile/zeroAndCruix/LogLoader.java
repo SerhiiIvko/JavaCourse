@@ -7,15 +7,15 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-class LogSaver {
+class LogLoader {
 
     void loadHistoryInMemory() {
-        LogSaver logSaver = new LogSaver();
-        String gameResult = logSaver.showHistory();
-        if (gameResult != null && !gameResult.isEmpty()) {
-            System.out.println(logSaver.showHistory());
+        LogLoader logLoader = new LogLoader();
+        String gameResult = logLoader.showHistory();
+        if (gameResult != null && !gameResult.trim().isEmpty()) {
+            System.out.println(logLoader.showHistory());
         } else {
-            System.out.println("You must play one game at least! Your history is empty yet!");
+            System.out.println("You must play one game at least! Your history is empty yet!\n");
         }
     }
 
@@ -34,7 +34,7 @@ class LogSaver {
                     (Paths.get("/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt")),
                     StandardCharsets.UTF_8);
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
         return gameLog;
     }

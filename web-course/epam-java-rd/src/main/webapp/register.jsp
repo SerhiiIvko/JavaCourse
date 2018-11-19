@@ -22,7 +22,7 @@
         <c:choose>
             <c:when test="${empty sessionScope.user}">
                 <div class="row">
-                    <form class="col-6" action="/register" method="post">
+                    <form class="col-6" action="register" method="post">
                         <div class="form-group">
                             <label for="registrationEmail">Email</label>
                             <input name="email" type="email" class="form-control" id="registrationEmail"
@@ -53,7 +53,7 @@
                 </div>
             </c:when>
             <c:otherwise>
-                <form class="col-6" action="/index.jsp" method="get">
+                <form class="col-6" action="index.jsp" method="get">
                     <button type="submit" class="btn btn-primary">Return to welcomePage</button>
                 </form>
             </c:otherwise>

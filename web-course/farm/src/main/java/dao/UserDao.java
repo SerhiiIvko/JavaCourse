@@ -5,7 +5,6 @@ import entity.User;
 import javax.sql.DataSource;
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class UserDao extends AbstractDao<User> {

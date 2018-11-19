@@ -22,5 +22,8 @@
         <module>oct24_2018</module>
         <module>oct29_2018</module>
         <module>exam_work</module>
+        <module>nov07_2018</module>
+        <module>welcome_messages</module>
+        <module>REST-task-train</module>
     </modules>
 </project>
