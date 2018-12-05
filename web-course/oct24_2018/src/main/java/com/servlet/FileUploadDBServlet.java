@@ -14,13 +14,12 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-@WebServlet(name = "FileUploadDBServlet",
-        urlPatterns = "/FileUploadDBServlet")
+@WebServlet(name = "FileUploadDBServlet", urlPatterns = "/FileUploadDBServlet")
 @MultipartConfig(maxFileSize = 16177215)
 public class FileUploadDBServlet extends HttpServlet {
     private static final long serialVersionUID = 2939252677984521715L;
 
-    public Connection getConnection() {
+    Connection getConnection() {
         Connection connection;
         try {
             String driver = "com.mysql.cj.jdbc.Driver";

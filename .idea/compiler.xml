@@ -10,6 +10,12 @@
         <module name="farm" />
         <module name="json_lesson1" />
         <module name="nov07_2018" />
+        <module name="nov12_2018" />
+        <module name="nov14_2018" />
+        <module name="nov19_2018" />
+        <module name="nov21_2018" />
+        <module name="nov26_2018" />
+        <module name="nov28_2018" />
         <module name="oct10_2018" />
         <module name="oct15_2018" />
         <module name="oct17_2018" />
@@ -28,6 +34,12 @@
       <module name="JavaCourse" target="8" />
       <module name="json_lesson1" target="8" />
       <module name="nov07_2018" target="1.8" />
+      <module name="nov12_2018" target="1.8" />
+      <module name="nov14_2018" target="8" />
+      <module name="nov19_2018" target="8" />
+      <module name="nov21_2018" target="8" />
+      <module name="nov26_2018" target="8" />
+      <module name="nov28_2018" target="8" />
       <module name="oct10_2018" target="8" />
       <module name="oct15_2018" target="8" />
       <module name="oct17_2018" target="8" />
@@ -35,6 +47,7 @@
       <module name="oct24_2018" target="8" />
       <module name="oct29_2018" target="8" />
       <module name="RESTtasktrain" target="1.8" />
+      <module name="spring" target="8" />
       <module name="tourSelect" target="1.8" />
       <module name="web-course" target="8" />
       <module name="webcourse" target="8" />

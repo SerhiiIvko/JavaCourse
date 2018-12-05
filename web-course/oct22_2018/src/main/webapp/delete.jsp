@@ -5,7 +5,7 @@
 <%
     if (request.getParameter("delete_id") != null) {
         int id = Integer.parseInt(request.getParameter("delete_id"));
-        String url = "jdbc:mysql://localhost:3306/db_mvcoperation?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"; //database connection url string
+        String url = "jdbc:mysql://localhost:3306/db_mvcoperation?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
         String username = "root";
         String password = "root";
         try {

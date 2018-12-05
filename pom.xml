@@ -23,6 +23,7 @@
     </build>
     <modules>
         <module>web-course</module>
+        <module>spring</module>
     </modules>
     <dependencies>
         <dependency>
