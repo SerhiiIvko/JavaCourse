@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaCourse.iml" filepath="$PROJECT_DIR$/JavaCourse.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-course/REST-task-train/RESTtasktrain.iml" filepath="$PROJECT_DIR$/web-course/REST-task-train/RESTtasktrain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/dec05_2018/dec05_2018.iml" filepath="$PROJECT_DIR$/spring/dec05_2018/dec05_2018.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-course/exam_work/exam_work.iml" filepath="$PROJECT_DIR$/web-course/exam_work/exam_work.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-course/farm/farm.iml" filepath="$PROJECT_DIR$/web-course/farm/farm.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-course/json_lesson1/json_lesson1.iml" filepath="$PROJECT_DIR$/web-course/json_lesson1/json_lesson1.iml" />

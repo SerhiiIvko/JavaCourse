@@ -6,26 +6,15 @@
     <title>Session Tracking</title>
 </head>
 <body>
-<%
-    Integer visitCount = 0;
-    String visitCountKey = "visitCount";
-    if (session.isNew()) {
-        session.setAttribute(visitCountKey, visitCount);
-    }
-    visitCount = (Integer) session.getAttribute(visitCountKey);
-    visitCount = visitCount + 1;
-    session.setAttribute(visitCountKey, visitCount);
-%>
-
-<center>
-    <tr>
-        <td>Number of visits:</td>
-        <td>
-            <%
-                out.print(visitCount);
-            %>
-        </td>
-    </tr>
-</center>
+<h1>Welcome to veggie-shop!</h1>
+<form action="LoginServlet" method="POST">
+    User:<br/><label>
+    <input type="text" name="user"/>
+</label><br/>
+    Password:<br/><label>
+    <input type="password" name="password"/>
+</label><br/>
+    <input type="submit" value="LoginServlet"/>
+</form>
 </body>
 </html>

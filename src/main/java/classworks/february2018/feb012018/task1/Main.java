@@ -1,19 +1,23 @@
 package classworks.february2018.feb012018.task1;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<String> cities = new ArrayList<String>();
-        ArrayList<Integer> numbers = new ArrayList<Integer>();
-        List<String> list = new LinkedList<String>();
+        ArrayList<String> cities = new ArrayList<>();
+        ArrayList<Integer> numbers = new ArrayList<>();
+        List<String> list = new LinkedList<>();
         list.add("One");
-        list.get(0);
+        String object = list.get(0);
         cities.add("Dnipro");
         cities.add("Istanbul");
         cities.add("Antalya");
         cities.add("Kemer");
         numbers.add(10);
+        System.out.println(object);
         System.out.println(cities);
         cities.remove(0);
         System.out.println(cities);
@@ -31,7 +35,7 @@ public class Main {
 //        }
         //
 
-        int arr[] = {2, 5, 7, 9};
+        int[] arr = {2, 5, 7, 9};
         System.out.println(Arrays.toString(arr));
 
         String text = "abcdefghijklmnopqrstuvwxyz";
