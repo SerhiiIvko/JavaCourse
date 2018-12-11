@@ -6,8 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be783faf-f2e2-4e25-b9b7-1c9eacae0557" name="Default" comment="add homework 09 jul 2018">
-      <change afterPath="$PROJECT_DIR$/src/main/java/classworks/july2018/july04_2018/homework/index.html" afterDir="false" />
+    <list default="true" id="be783faf-f2e2-4e25-b9b7-1c9eacae0557" name="Default" comment="add homework 04 jul 2018">
+      <change afterPath="$PROJECT_DIR$/src/main/java/classworks/july2018/july02_2018/homework/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -65,15 +65,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/nov21_2018/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july09_2018/homework/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -115,11 +106,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july04_2018/homework/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="60">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july02_2018/homework/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -219,7 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web-course/nov12_2018/src/main/java/homework/MyTag.java" />
         <option value="$PROJECT_DIR$/web-course/nov12_2018/src/main/java/homework/CustomTag.java" />
         <option value="$PROJECT_DIR$/web-course/nov12_2018/src/main/java/homework/servlet/tag/CustomTag.java" />
         <option value="$PROJECT_DIR$/web-course/nov12_2018/src/main/java/homework/model/Student.java" />
@@ -270,6 +269,7 @@
         <option value="$PROJECT_DIR$/src/main/java/classworks/july2018/july09_2018/homework/lamborgini.html" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/july2018/july09_2018/homework/ferrari.html" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/july2018/july04_2018/homework/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/classworks/july2018/july02_2018/homework/index.html" />
       </list>
     </option>
   </component>
@@ -410,7 +410,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="classworks" type="462c0819:PsiDirectoryNode" />
               <item name="july2018" type="462c0819:PsiDirectoryNode" />
-              <item name="july04_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="july02_2018" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
@@ -420,7 +420,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="classworks" type="462c0819:PsiDirectoryNode" />
               <item name="july2018" type="462c0819:PsiDirectoryNode" />
-              <item name="july04_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="july02_2018" type="462c0819:PsiDirectoryNode" />
               <item name="homework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -771,7 +771,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -836,10 +836,10 @@
     <configuration name="ferrari.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/classworks/july2018/july09_2018/homework/ferrari.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="homework.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/classworks/august2018/html/popupMenu/homework.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/classworks/july2018/july04_2018/homework/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/classworks/july2018/july04_2018/homework/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/classworks/july2018/july02_2018/homework/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/classworks/july2018/july09_2018/homework/index.html" useBuiltInWebServerPort="true">
@@ -931,19 +931,19 @@
     <list>
       <item itemvalue="Application.CalcGUI" />
       <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="JavaScript Debug.homework.html" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.ferrari.html" />
       <item itemvalue="JavaScript Debug.lamborgini.html" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="JavaScript Debug.index.html (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.lamborgini.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.ferrari.html" />
-        <item itemvalue="JavaScript Debug.homework.html" />
       </list>
     </recent_temporary>
   </component>
@@ -1024,14 +1024,7 @@
       <workItem from="1543956742358" duration="2475000" />
       <workItem from="1543991949298" duration="24235000" />
       <workItem from="1544090043349" duration="4134000" />
-      <workItem from="1544170755497" duration="30550000" />
-    </task>
-    <task id="LOCAL-00004" summary="git adjusting">
-      <created>1513534208741</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1513534208741</updated>
+      <workItem from="1544170755497" duration="31375000" />
     </task>
     <task id="LOCAL-00005" summary="git adjusting">
       <created>1513534246422</created>
@@ -1369,7 +1362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544521270799</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="add homework 04 jul 2018">
+      <created>1544523282495</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1544523282495</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1405,7 +1405,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="622448000" />
+    <option name="totallyTimeSpent" value="623273000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1507,7 +1507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="works 16.03.2018" />
     <MESSAGE value="works 22.03.2018" />
     <MESSAGE value="menu item with description" />
     <MESSAGE value="new tasks 28 mar 2018" />
@@ -1532,7 +1531,8 @@
     <MESSAGE value="add homework 14 nov 2018" />
     <MESSAGE value="add homework 19 nov 2018" />
     <MESSAGE value="add homework 09 jul 2018" />
-    <option name="LAST_COMMIT_MESSAGE" value="add homework 09 jul 2018" />
+    <MESSAGE value="add homework 04 jul 2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="add homework 04 jul 2018" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1558,13 +1558,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Application/MyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/MainGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1907,8 +1900,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july04_2018/homework/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="60">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july02_2018/homework/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
         </state>
       </provider>
     </entry>
