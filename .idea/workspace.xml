@@ -2,13 +2,37 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="nov19_2018:war exploded" />
+      <artifact name="dec05_2018:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be783faf-f2e2-4e25-b9b7-1c9eacae0557" name="Default" comment="add homework 04 jul 2018">
-      <change afterPath="$PROJECT_DIR$/src/main/java/classworks/july2018/july02_2018/homework/index.html" afterDir="false" />
+    <list default="true" id="be783faf-f2e2-4e25-b9b7-1c9eacae0557" name="Default" comment="add homework 02 jul 2018">
+      <change afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/views/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/nov28_2018/src/main/java/example/SpringBootWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/nov28_2018/src/main/java/example/WelcomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/nov28_2018/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/nov28_2018/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classworks/july2018/july18_2018/homework/selector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classworks/july2018/july18_2018/homework/selectors_hw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classworks/june2018/june11_2018/homework/task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classworks/june2018/june25_2018/homework/task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/dec05_2018/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/dec05_2018/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/nov26_2018/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/nov26_2018/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/nov28_2018/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/nov28_2018/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,79 +89,90 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july09_2018/homework/index.html">
+        <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/views/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/views/user.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/june2018/june25_2018/homework/task.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july09_2018/homework/lamborgini.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/june2018/june11_2018/homework/task.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july09_2018/homework/images/ferrari/preview/f0001.jpg">
+        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july18_2018/homework/selectors_hw.png">
           <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july09_2018/homework/images/ferrari.gif">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july09_2018/homework/images/lamborghini.gif">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july09_2018/homework/ferrari.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july04_2018/homework/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july02_2018/homework/index.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july18_2018/homework/selector.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            <state relative-caret-position="285">
+              <caret line="76" column="21" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/nov19_2018/src/main/webapp/addVeggies.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july18_2018/homework/ex.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="70" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/spring-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/nov19_2018/src/main/webapp/basket.jsp">
+        <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="360">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,10 +186,12 @@
         <option value="package.json" />
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
-        <option value="Enum" />
-        <option value="Jsp File" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Enum" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -219,37 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web-course/nov12_2018/src/main/java/homework/CustomTag.java" />
-        <option value="$PROJECT_DIR$/web-course/nov12_2018/src/main/java/homework/servlet/tag/CustomTag.java" />
-        <option value="$PROJECT_DIR$/web-course/nov12_2018/src/main/java/homework/model/Student.java" />
-        <option value="$PROJECT_DIR$/web-course/nov12_2018/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/web-course/nov14_2018/src/main/webapp/welcome.jsp" />
-        <option value="$PROJECT_DIR$/web-course/nov14_2018/src/main/java/model/AuthenticationFilter.java" />
-        <option value="$PROJECT_DIR$/web-course/nov14_2018/src/main/java/model/LogoutServlet.java" />
-        <option value="$PROJECT_DIR$/web-course/nov14_2018/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/web-course/nov14_2018/src/main/webapp/home.jsp" />
-        <option value="$PROJECT_DIR$/web-course/nov14_2018/src/main/java/model/Login.java" />
-        <option value="$PROJECT_DIR$/web-course/nov14_2018/src/main/java/model/Servlet.java" />
-        <option value="$PROJECT_DIR$/web-course/nov14_2018/src/main/java/filter/AuthenticationFilter.java" />
-        <option value="$PROJECT_DIR$/web-course/nov14_2018/src/main/java/servlet/LogoutServlet.java" />
-        <option value="$PROJECT_DIR$/web-course/nov14_2018/src/main/java/servlet/Login.java" />
-        <option value="$PROJECT_DIR$/web-course/nov14_2018/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web-course/nov14_2018/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/web-course/nov14_2018/src/main/webapp/LoginSuccess.jsp" />
-        <option value="$PROJECT_DIR$/web-course/nov14_2018/pom.xml" />
-        <option value="$PROJECT_DIR$/web-course/nov19_2018/src/main/webapp/visitCounter.jsp" />
-        <option value="$PROJECT_DIR$/web-course/nov19_2018/pom.xml" />
-        <option value="$PROJECT_DIR$/web-course/nov19_2018/src/main/webapp/busket.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/august2018/html/popupMenu/style.css" />
-        <option value="$PROJECT_DIR$/src/main/java/independentWork/calculatorGraphic/CalculatorRun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/february2018/feb012018/task1/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/february2018/feb062018/homework/task1/CreateArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/independentWork/ByteIncr.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/august2018/html/popupMenu/menu.html" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/august2018/html/popupMenu/popup.html" />
-        <option value="$PROJECT_DIR$/src/main/java/classworks/august2018/html/popupMenu/example1.html" />
-        <option value="$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/Servlet.java" />
-        <option value="$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/PageHitCounter.java" />
         <option value="$PROJECT_DIR$/web-course/nov21_2018/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web-course/nov21_2018/pom.xml" />
         <option value="$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/HitCountServletFilter.java" />
@@ -270,6 +276,37 @@
         <option value="$PROJECT_DIR$/src/main/java/classworks/july2018/july09_2018/homework/ferrari.html" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/july2018/july04_2018/homework/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/july2018/july02_2018/homework/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/classworks/june2018/june11_2018/homework/task.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/classworks/june2018/june25_2018/homework/task.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/classworks/july2018/july18_2018/homework/ex.html" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/newTest/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/newTest/Worker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/newTest/Academy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/newTest/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/newTest/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/ccc/ShapeType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/ccc/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/ccc/Square.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/ccc/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classworks/july2018/july18_2018/homework/style.css" />
+        <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/Robot.java" />
+        <option value="$PROJECT_DIR$/spring/nov26_2018/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/nov28_2018/src/main/java/example/SpringBootWebApplication.java" />
+        <option value="$PROJECT_DIR$/spring/nov28_2018/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
+        <option value="$PROJECT_DIR$/spring/nov28_2018/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring/nov28_2018/src/main/java/example/WelcomeController.java" />
+        <option value="$PROJECT_DIR$/spring/nov28_2018/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/HomeController.java" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/src/webapp/WEB-INF/spring-servlet.xml" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/model/User.java" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/src/webapp/home.jsp" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/src/webapp/user.jsp" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/src/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/spring-servlet.xml" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/classworks/july2018/july18_2018/homework/selector.html" />
       </list>
     </option>
   </component>
@@ -299,12 +336,17 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="nov19_2018" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="dec05_2018" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="nov19_2018" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="dec05_2018" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dec05_2018" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -352,8 +394,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -365,11 +405,6 @@
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -410,7 +445,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="classworks" type="462c0819:PsiDirectoryNode" />
               <item name="july2018" type="462c0819:PsiDirectoryNode" />
-              <item name="july02_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="july18_2018" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
@@ -420,34 +455,64 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="classworks" type="462c0819:PsiDirectoryNode" />
               <item name="july2018" type="462c0819:PsiDirectoryNode" />
-              <item name="july02_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="july18_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classworks" type="462c0819:PsiDirectoryNode" />
+              <item name="june2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classworks" type="462c0819:PsiDirectoryNode" />
+              <item name="june2018" type="462c0819:PsiDirectoryNode" />
+              <item name="june11_2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classworks" type="462c0819:PsiDirectoryNode" />
+              <item name="june2018" type="462c0819:PsiDirectoryNode" />
+              <item name="june11_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classworks" type="462c0819:PsiDirectoryNode" />
+              <item name="june2018" type="462c0819:PsiDirectoryNode" />
+              <item name="june25_2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classworks" type="462c0819:PsiDirectoryNode" />
+              <item name="june2018" type="462c0819:PsiDirectoryNode" />
+              <item name="june25_2018" type="462c0819:PsiDirectoryNode" />
               <item name="homework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
               <item name="web-course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="farm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="farm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="farm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
@@ -469,233 +534,13 @@
               <item name="nov14_2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov14_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov14_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov14_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov19_2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov19_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov19_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov19_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov19_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov19_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov19_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov19_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov21_2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov21_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov21_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov21_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov21_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov21_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov21_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov21_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="oct10_2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="oct10_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="oct10_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="oct10_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="oct10_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classwork" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="oct10_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="oct29_2018" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -703,8 +548,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535978121317" />
@@ -715,6 +562,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="/usr/lib/jvm/java-1.8.0-openjdk-amd64" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -745,18 +593,18 @@
       <recent name="classworks.dec262017.task7" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/classworks/july2018/july18_2018/homework" />
       <recent name="$PROJECT_DIR$/src/main/java/classworks/july2018/july09_2018/homework" />
       <recent name="$PROJECT_DIR$/web-course/nov19_2018/src/main/webapp/lib" />
       <recent name="$PROJECT_DIR$/web-course/nov12_2018/src/main/webapp/WEB-INF/lib" />
       <recent name="$PROJECT_DIR$/web-course/nov12_2018/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/web-course/nov12_2018/src/main/java/homework/model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/views" />
+      <recent name="$PROJECT_DIR$/spring/dec05_2018/src/main" />
+      <recent name="$PROJECT_DIR$/spring/dec05_2018/src" />
+      <recent name="$PROJECT_DIR$/spring/dec05_2018/src/main/java" />
       <recent name="$PROJECT_DIR$/web-course/nov19_2018/src/main/webapp/classwork" />
-      <recent name="$PROJECT_DIR$/web-course/nov12_2018/src/main/webapp/META-INF" />
-      <recent name="$PROJECT_DIR$/web-course/nov12_2018/src/main/webapp/WEB-INF/lib" />
-      <recent name="$PROJECT_DIR$/web-course/nov07_2018/src/main" />
-      <recent name="$PROJECT_DIR$/web-course/REST-task-train/src/main/webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -771,7 +619,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+  <component name="RunManager" selected="JavaScript Debug.selector.html">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -821,6 +669,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="independentWork.testSoftServe.newTest.Main" />
+      <module name="JavaCourse" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="independentWork.testSoftServe.newTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -833,7 +695,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ferrari.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/classworks/july2018/july09_2018/homework/ferrari.html" useBuiltInWebServerPort="true">
+    <configuration name="ex.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/classworks/july2018/july18_2018/homework/ex.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/classworks/july2018/july04_2018/homework/index.html" useBuiltInWebServerPort="true">
@@ -842,11 +704,15 @@
     <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/classworks/july2018/july02_2018/homework/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/classworks/july2018/july09_2018/homework/index.html" useBuiltInWebServerPort="true">
+    <configuration name="selector.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/classworks/july2018/july18_2018/homework/selector.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="lamborgini.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaCourse/classworks/july2018/july09_2018/homework/lamborgini.html" useBuiltInWebServerPort="true">
-      <method v="2" />
+    <configuration name="SpringBootWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nov28_2018" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="example.SpringBootWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -857,10 +723,9 @@
       </method>
     </configuration>
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.11" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="nov19_2018:war exploded">
+        <artifact name="dec05_2018:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -924,26 +789,27 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="nov19_2018:war exploded" />
+          <artifact name="dec05_2018:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.CalcGUI" />
-      <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JavaScript Debug.ferrari.html" />
-      <item itemvalue="JavaScript Debug.lamborgini.html" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
       <item itemvalue="JavaScript Debug.index.html (2)" />
+      <item itemvalue="JavaScript Debug.selector.html" />
+      <item itemvalue="JavaScript Debug.ex.html" />
+      <item itemvalue="Spring Boot.SpringBootWebApplication" />
+      <item itemvalue="Tomcat Server.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.selector.html" />
+        <item itemvalue="JavaScript Debug.ex.html" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.lamborgini.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.ferrari.html" />
       </list>
     </recent_temporary>
   </component>
@@ -1024,14 +890,8 @@
       <workItem from="1543956742358" duration="2475000" />
       <workItem from="1543991949298" duration="24235000" />
       <workItem from="1544090043349" duration="4134000" />
-      <workItem from="1544170755497" duration="31375000" />
-    </task>
-    <task id="LOCAL-00005" summary="git adjusting">
-      <created>1513534246422</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1513534246422</updated>
+      <workItem from="1544170755497" duration="53916000" />
+      <workItem from="1544693839636" duration="3495000" />
     </task>
     <task id="LOCAL-00006" summary="git adjusting">
       <created>1513534264992</created>
@@ -1369,7 +1229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544523282495</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="add homework 02 jul 2018">
+      <created>1544524220038</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1544524220039</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1405,7 +1272,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="623273000" />
+    <option name="totallyTimeSpent" value="649309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1420,7 +1287,7 @@
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74733096" visible="true" weight="0.2490024" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74733096" visible="true" weight="0.2019154" />
       <window_info id="Structure" order="1" sideWeight="0.25266904" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1432,13 +1299,13 @@
       <window_info id="Web" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.38965517" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5067837" visible="true" weight="0.3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5059856" weight="0.39310345" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34369603" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298791" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.51846033" weight="0.31260794" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.49321628" side_tool="true" weight="0.37241378" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5179569" weight="0.17931035" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4820431" side_tool="true" weight="0.3" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3689655" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.26551723" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -1446,6 +1313,7 @@
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3298791" />
       <window_info anchor="bottom" id="Spring" order="14" weight="0.3298791" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Thumbnails" order="16" weight="0.32931036" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.19233839" />
       <window_info anchor="right" id="Palette" order="2" />
@@ -1457,7 +1325,7 @@
       <window_info anchor="right" id="Properties" order="8" />
       <window_info anchor="right" id="Database" order="9" weight="0.14046289" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32960895" />
-      <window_info anchor="right" id="Maven" order="11" weight="0.13088587" />
+      <window_info anchor="right" id="Maven" order="11" visible="true" weight="0.13168396" />
       <window_info anchor="right" id="JSF" order="12" weight="0.14365523" />
       <window_info anchor="right" id="CDI" order="13" weight="0.15163608" />
     </layout>
@@ -1507,7 +1375,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="works 22.03.2018" />
     <MESSAGE value="menu item with description" />
     <MESSAGE value="new tasks 28 mar 2018" />
     <MESSAGE value="new tasks 29 mar 2018" />
@@ -1532,7 +1399,8 @@
     <MESSAGE value="add homework 19 nov 2018" />
     <MESSAGE value="add homework 09 jul 2018" />
     <MESSAGE value="add homework 04 jul 2018" />
-    <option name="LAST_COMMIT_MESSAGE" value="add homework 04 jul 2018" />
+    <MESSAGE value="add homework 02 jul 2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="add homework 02 jul 2018" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1558,272 +1426,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/MainGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/LogLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/ardas/task2/BorderEvent.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/TestingTasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zzz/VNFormattedTextField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zzz/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/oct10_2018/src/main/java/homework/StudentsBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/MenuManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/entity/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/entity/Plant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/dao/MyJSONParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/dao/PlantDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/config/PropertiesManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/august2018/html/popupMenu/popup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="145" column="34" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/august2018/html/popupMenu/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/august2018/html/popupMenu/homework.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/PageHitCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov21_2018/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov19_2018/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov21_2018/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov14_2018/src/main/java/servlet/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov14_2018/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov14_2018/src/main/webapp/LoginSuccess.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov19_2018/src/main/java/homework/servlet/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="23" selection-start-column="2" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov19_2018/src/main/java/homework/LogoutServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov19_2018/src/main/webapp/CheckoutPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov19_2018/src/main/webapp/LoginSuccess.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" column="41" lean-forward="true" selection-start-column="4" selection-end-line="34" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/HitCountServletFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov19_2018/src/main/java/homework/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov19_2018/src/main/java/homework/servlet/AddProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov19_2018/src/main/webapp/classwork/visitCounter.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/nov19_2018/src/main/java/homework/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-course/nov19_2018/src/main/webapp/lib/popper-1.11.0/popper.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1898,17 +1500,290 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july02_2018/homework/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july04_2018/homework/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="-30">
           <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july02_2018/homework/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/ccc/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/ccc/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/ccc/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/newTest/Academy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="2" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/newTest/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="16" lean-forward="true" selection-end-line="25" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/newTest/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="24" column="5" lean-forward="true" selection-end-line="26" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/ccc/ShapeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/newTest/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" lean-forward="true" selection-end-line="25" />
+          <folding>
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/newTest/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="2" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/testSoftServe/TestingTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july18_2018/homework/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2145">
+          <caret line="143" column="1" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov28_2018/src/main/webapp/WEB-INF/jsp/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov28_2018/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov28_2018/src/main/java/example/WelcomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#312#337#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov28_2018/src/main/java/example/SpringBootWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/web/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov28_2018/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" column="28" selection-start-line="92" selection-start-column="12" selection-end-line="94" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/views/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/views/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/june2018/june25_2018/homework/task.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/june2018/june11_2018/homework/task.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july18_2018/homework/selectors_hw.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july18_2018/homework/ex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="70" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/july2018/july18_2018/homework/selector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="76" column="21" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
         </state>
       </provider>
     </entry>

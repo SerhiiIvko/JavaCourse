@@ -16,6 +16,14 @@
         <module>nov28_2018</module>
         <module>dec05_2018</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.0.9.RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>

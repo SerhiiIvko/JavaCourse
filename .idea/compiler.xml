@@ -30,7 +30,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="dec05_2018" target="8" />
+      <module name="dec05_2018" target="1.8" />
       <module name="exam_work" target="8" />
       <module name="farm" target="1.8" />
       <module name="JavaCourse" target="8" />
@@ -50,6 +50,7 @@
       <module name="oct29_2018" target="8" />
       <module name="RESTtasktrain" target="1.8" />
       <module name="spring" target="8" />
+      <module name="springFirstApp" target="8" />
       <module name="tourSelect" target="1.8" />
       <module name="web-course" target="8" />
       <module name="webcourse" target="8" />

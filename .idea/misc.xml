@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring/dec05_2018" />
+    <file type="web" url="file://$PROJECT_DIR$/spring/nov26_2018" />
+    <file type="web" url="file://$PROJECT_DIR$/spring/nov28_2018" />
     <file type="web" url="file://$PROJECT_DIR$/web-course" />
   </component>
   <component name="JavaScriptSettings">
