@@ -1,7 +1,6 @@
 package itstep.dao.mapper;
 
-import model.User;
-import org.springframework.jdbc.core.RowCallbackHandler;
+import springApp.model.User;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

@@ -1,7 +1,7 @@
 package itstep.dao;
 
 import itstep.dao.mapper.UserMapper;
-import model.User;
+import springApp.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 
@@ -13,6 +13,6 @@ public class UserDataBaseDao implements UserDAO {
 
     @Override
     public List<User> getAll() {
-        return template.query("SELECT * FROM User",new UserMapper());
+        return template.query("SELECT * FROM User", new UserMapper());
     }
 }

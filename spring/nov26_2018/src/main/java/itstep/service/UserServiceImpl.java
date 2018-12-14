@@ -1,12 +1,12 @@
 package itstep.service;
 
 import itstep.dao.UserDAO;
-import model.User;
+import springApp.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
     @Autowired
     UserDAO dao;
 

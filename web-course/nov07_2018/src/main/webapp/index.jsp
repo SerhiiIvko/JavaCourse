@@ -7,7 +7,7 @@
     <title>Get and set studentBean properties in Expression Language</title>
 </head>
 <body>
-<jsp:useBean id="students" class="model.StudentBean">
+<jsp:useBean id="students" class="springApp.model.StudentBean">
     <jsp:setProperty name="students" property="name" value="Ивко"/>
     <jsp:setProperty name="students" property="secondName" value="Сергей"/>
     <jsp:setProperty name="students" property="surname" value="Александрович"/>

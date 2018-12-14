@@ -15,6 +15,7 @@
         <module>nov26_2018</module>
         <module>nov28_2018</module>
         <module>dec05_2018</module>
+        <module>dec03_2018</module>
     </modules>
     <dependencies>
         <dependency>

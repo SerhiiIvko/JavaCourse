@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dec03_2018" />
         <module name="dec05_2018" />
         <module name="exam_work" />
         <module name="farm" />
@@ -30,6 +31,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="dec03_2018" target="1.8" />
       <module name="dec05_2018" target="1.8" />
       <module name="exam_work" target="8" />
       <module name="farm" target="1.8" />
@@ -40,7 +42,7 @@
       <module name="nov14_2018" target="8" />
       <module name="nov19_2018" target="8" />
       <module name="nov21_2018" target="8" />
-      <module name="nov26_2018" target="8" />
+      <module name="nov26_2018" target="1.8" />
       <module name="nov28_2018" target="8" />
       <module name="oct10_2018" target="8" />
       <module name="oct15_2018" target="8" />

@@ -1,4 +1,4 @@
-package model;
+package springApp.model;
 
 public class Robot {
     private String name;

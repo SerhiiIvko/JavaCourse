@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring/dec03_2018" />
     <file type="web" url="file://$PROJECT_DIR$/spring/dec05_2018" />
     <file type="web" url="file://$PROJECT_DIR$/spring/nov26_2018" />
     <file type="web" url="file://$PROJECT_DIR$/spring/nov28_2018" />
@@ -16,6 +17,11 @@
         <option value="$PROJECT_DIR$/web-course/epam-java-rd/pom.xml" />
         <option value="$PROJECT_DIR$/web-course/nov07_2018/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">

@@ -1,6 +1,6 @@
 package itstep.dao;
 
-import model.User;
+import springApp.model.User;
 
 import java.util.List;
 

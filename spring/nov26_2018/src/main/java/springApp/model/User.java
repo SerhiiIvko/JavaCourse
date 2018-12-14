@@ -1,10 +1,10 @@
-package model;
+package springApp.model;
 
 public class User {
-    int id=0;
-    String name="";
-    int age=0;
-    String src="";
+    int id = 0;
+    String name = "";
+    int age = 0;
+    String src = "";
 
     public User() {
     }

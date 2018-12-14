@@ -14,11 +14,11 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HomeController {
 
-	@Autowired
-	UserService userService;
+    @Autowired
+    UserService userService;
 
-	@RequestMapping(value="/")
-	public ModelAndView test(Model model) throws IOException{
-		return new ModelAndView("home").addObject("users",userService.getAllUser());
-	}
+    @RequestMapping(value = "/")
+    public ModelAndView test(Model model) throws IOException {
+        return new ModelAndView("home").addObject("users", userService.getAllUser());
+    }
 }

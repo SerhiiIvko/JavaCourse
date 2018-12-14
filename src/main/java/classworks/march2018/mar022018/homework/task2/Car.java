@@ -56,7 +56,7 @@ public class Car {
                 ", yearProduction: " + yearProduction +
                 ", price = " + price +
                 ", type: " + type +
-                ", model: " + model +
+                ", springApp.model: " + model +
                 ", color: " + color;
     }
 }
