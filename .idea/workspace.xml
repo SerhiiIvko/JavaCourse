@@ -6,46 +6,40 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be783faf-f2e2-4e25-b9b7-1c9eacae0557" name="Default" comment="add homework 21 nov 2018">
-      <change afterPath="$PROJECT_DIR$/hibernate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/MenuManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/independentWork/lab1/BlackBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/independentWork/lab1/DemoBlackBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-course/farm/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-course/farm/src/main/java/service/BedManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-course/farm/src/main/java/service/CashService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-course/farm/src/main/java/service/MenuManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-course/farm/src/main/java/service/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-course/nov21_2018/src/main/webapp/visit.jsp" afterDir="false" />
+    <list default="true" id="be783faf-f2e2-4e25-b9b7-1c9eacae0557" name="Default" comment="add homework 26 nov 2018">
+      <change afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/java/car/ICar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/java/car/Peugeot_107.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/java/engine/Dfihatsu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/java/engine/IEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/java/transmission/ITransmission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/java/transmission/Toyota_aygo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/hand/IHand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/hand/IHandImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/head/IHead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/head/IHeadImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/leg/ILeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/leg/ILegImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/robot/IRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/robot/IRobotImplR2D2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/classwork/jquery-3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep03_2018/classwork/jquery-3.3.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep05_2018/classwork/jquery-3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep05_2018/classwork/jquery-3.3.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/classwork/jquery-3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/classwork/jquery-3.3.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/jquery-3.3.1/jquery-3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep10_2018/homework/libs/jquery-3.3.1/jquery-3.3.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep12_2018/classwork/jquery-3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep12_2018/classwork/jquery-3.3.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1/jquery-3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaScriptCourse/sep17_2018/classwork/libs/jquery-3.3.1/jquery-3.3.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/GameField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/MainGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/MainGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/LogLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/LogLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/TicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/TicTacToeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/WinnerChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/WinnerChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/myfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/myfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/libs/jquery-3.3.1/jquery-3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/epam-java-rd/src/main/webapp/libs/jquery-3.3.1/jquery-3.3.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/farm/src/main/java/MenuManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/farm/src/main/java/entity/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/farm/src/main/java/entity/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/farm/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/farm/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/farm/target/classes/MenuManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/farm/target/classes/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/farm/target/classes/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/farm/target/classes/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/farm/target/classes/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/farm/target/classes/entity/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/farm/target/classes/entity/Field.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/HitCountServletFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/HitCountServletFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/PageHitCounter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/Servlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/nov21_2018/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/nov21_2018/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/nov21_2018/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/nov21_2018/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/dec05_2018/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/dec05_2018/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/car/Peugeot_147.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/car/Peugeot_107.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/dec05_2018/src/main/resources/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/resources/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/itstep/config/MvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/classwork/itstep/config/MvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/itstep/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/classwork/itstep/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/itstep/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/classwork/itstep/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/itstep/dao/UserDataBaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/classwork/itstep/dao/UserDataBaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/itstep/dao/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/classwork/itstep/dao/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/itstep/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/classwork/itstep/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/itstep/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/classwork/itstep/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/nov26_2018/src/main/java/springApp/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/nov26_2018/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/nov26_2018/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/nov26_2018/src/main/webapp/resources/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring/nov26_2018/src/main/resources/context.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,10 +98,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/service/BedManager.java">
+        <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/robot/IRobotImplR2D2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            <state relative-caret-position="221">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,75 +110,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/HitCountServletFilter.java">
+        <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/hand/IHandImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="81">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/head/IHead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/head/IHeadImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/leg/ILeg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/leg/ILegImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/robot/IRobot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/Robot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/nov21_2018/src/main/webapp/visit.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dot.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alice.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/nov21_2018/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/nov21_2018/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/Servlet.java">
+        <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/classwork/itstep/config/MvcConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="105">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -201,9 +196,9 @@
         <option value="CSS File" />
         <option value="Enum" />
         <option value="spring-beans.schema" />
+        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -268,24 +263,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring/dec03_2018/src/main/webapp/WEB-INF/views/index.jsp" />
-        <option value="$PROJECT_DIR$/spring/dec03_2018/pom.xml" />
-        <option value="$PROJECT_DIR$/spring/dec03_2018/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/spring/dec03_2018/src/main/webapp/WEB-INF/views/robot.jsp" />
-        <option value="$PROJECT_DIR$/spring/dec03_2018/src/main/java/springApp/controller/RoboController.java" />
-        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/transmission/ITransmission.java" />
-        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/car/ICar.java" />
-        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/transmission/Toyota_aygo.java" />
-        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/com/example/demo/DemoApplication.java" />
-        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/car/Peugeout_147.java" />
-        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/car/Peugeot_147.java" />
-        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/spring-servlet.xml" />
-        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/context.xml" />
-        <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/Robot.java" />
         <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/views/home.jsp" />
         <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/views/user.jsp" />
-        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/resources/context.xml" />
         <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/model/User.java" />
         <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/spring/dec03_2018/src/main/webapp/WEB-INF/views/home.jsp" />
@@ -319,6 +298,22 @@
         <option value="$PROJECT_DIR$/web-course/nov21_2018/src/main/webapp/visit.jsp" />
         <option value="$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/HitCountServletFilter.java" />
         <option value="$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/Servlet.java" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/car/Peugeot_147.java" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/car/Peugeot_107.java" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/com/example/demo/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/resources/context.xml" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/robot/IRobot.java" />
+        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/car/Peugeot_107.java" />
+        <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/hand/IHandImpl.java" />
+        <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/leg/ILegImpl.java" />
+        <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/resources/context.xml" />
+        <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/hand/IHand.java" />
+        <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/head/IHead.java" />
+        <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/head/IHeadImpl.java" />
+        <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/leg/ILeg.java" />
+        <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/robot/IRobotImplR2D2.java" />
+        <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/Robot.java" />
       </list>
     </option>
   </component>
@@ -348,12 +343,17 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="nov21_2018" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="dec05_2018" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="nov21_2018" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="dec05_2018" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dec05_2018" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -410,89 +410,34 @@
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dec05_2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dec05_2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="independentWork" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="independentWork" type="462c0819:PsiDirectoryNode" />
-              <item name="advertMobile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="independentWork" type="462c0819:PsiDirectoryNode" />
-              <item name="advertMobile" type="462c0819:PsiDirectoryNode" />
-              <item name="farm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="independentWork" type="462c0819:PsiDirectoryNode" />
-              <item name="advertMobile" type="462c0819:PsiDirectoryNode" />
-              <item name="zeroAndCruix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov21_2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov21_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov21_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dec05_2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov21_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dec05_2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -500,18 +445,80 @@
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov21_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dec05_2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov21_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dec05_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dec05_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dec05_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dec05_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dec05_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="transmission" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dec05_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dec05_2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -519,12 +526,56 @@
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web-course" type="462c0819:PsiDirectoryNode" />
-              <item name="nov21_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dec05_2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="nov26_2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="nov26_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="nov26_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="nov26_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="nov26_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web-course" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -582,11 +633,11 @@
       <recent name="classworks.dec262017.task7" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring/dec05_2018/src/main/java" />
       <recent name="$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/spring/nov26_2018/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/java/classworks/july2018/july18_2018/homework" />
       <recent name="$PROJECT_DIR$/src/main/java/classworks/july2018/july09_2018/homework" />
-      <recent name="$PROJECT_DIR$/web-course/nov19_2018/src/main/webapp/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring/dec03_2018/src/main/webapp/WEB-INF/views" />
@@ -608,7 +659,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
+  <component name="RunManager" selected="Application.Robot">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -658,6 +709,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring.com.example.demo.DemoApplication" />
+      <module name="dec05_2018" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Field" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="entity.Field" />
       <module name="farm" />
@@ -672,38 +737,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="independentWork.advertMobile.zeroAndCruix.Game" />
-      <module name="JavaCourse" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="independentWork.advertMobile.zeroAndCruix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="farm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="independentWork.advertMobile.farm.MainGame" />
-      <module name="JavaCourse" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="independentWork.advertMobile.farm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -722,6 +759,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Robot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.Robot" />
+      <module name="nov26_2018" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -730,6 +781,13 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dec05_2018" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -822,21 +880,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.CalcGUI" />
-      <item itemvalue="Application.Game" />
-      <item itemvalue="Application.MainGame" />
       <item itemvalue="Application.Field" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MyJSONParser" />
       <item itemvalue="Spring Boot.SpringBootWebApplication" />
       <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Application.DemoApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Application.Robot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Robot" />
+        <item itemvalue="Application.DemoApplication" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MyJSONParser" />
         <item itemvalue="Application.Field" />
-        <item itemvalue="Application.MainGame" />
-        <item itemvalue="Application.Game" />
       </list>
     </recent_temporary>
   </component>
@@ -923,14 +982,7 @@
       <workItem from="1544978891595" duration="4290000" />
       <workItem from="1545225214846" duration="2638000" />
       <workItem from="1545403217202" duration="6212000" />
-      <workItem from="1545505324726" duration="14634000" />
-    </task>
-    <task id="LOCAL-00008" summary="git adjusting">
-      <created>1513938969231</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1513938969231</updated>
+      <workItem from="1545505324726" duration="20942000" />
     </task>
     <task id="LOCAL-00009" summary="git adjusting">
       <created>1514541197267</created>
@@ -1268,7 +1320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544822553844</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="add homework 21 nov 2018">
+      <created>1545588191777</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1545588191778</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1304,7 +1363,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="698977000" />
+    <option name="totallyTimeSpent" value="705285000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1318,7 +1377,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74733096" visible="true" weight="0.28252193" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74733096" visible="true" weight="0.28252193" />
       <window_info id="Structure" order="1" sideWeight="0.25266904" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1330,7 +1389,7 @@
       <window_info id="Web" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.38965517" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5059856" weight="0.33793104" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5059856" weight="0.45172414" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34310344" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1356,7 +1415,7 @@
       <window_info anchor="right" id="Properties" order="8" />
       <window_info anchor="right" id="Database" order="9" weight="0.14046289" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32960895" />
-      <window_info anchor="right" id="Maven" order="11" weight="0.15482841" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.19553073" />
       <window_info anchor="right" id="JSF" order="12" weight="0.14365523" />
       <window_info anchor="right" id="CDI" order="13" weight="0.15163608" />
     </layout>
@@ -1406,7 +1465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tasks 05 apr 2018" />
     <MESSAGE value="tasks 16 apr 2018" />
     <MESSAGE value="tasks 19 apr 2018" />
     <MESSAGE value="lanaNumEditField" />
@@ -1431,7 +1489,8 @@
     <MESSAGE value="add homework 03 dec 2018" />
     <MESSAGE value="tmp commit" />
     <MESSAGE value="add homework 21 nov 2018" />
-    <option name="LAST_COMMIT_MESSAGE" value="add homework 21 nov 2018" />
+    <MESSAGE value="add homework 26 nov 2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="add homework 26 nov 2018" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1457,265 +1516,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring/dec03_2018/src/main/java/springApp/controller/RoboController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/nov28_2018/src/main/java/example/WelcomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/nov28_2018/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-start-column="1" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/lab1/BlackBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/nov28_2018/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/dec03_2018/src/main/java/springApp/model/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/lab1/DemoBlackBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/dao/ApplicationLifecycleListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/GameLogic.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/Plant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/LogLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/TicTacToeGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="24" selection-start-line="12" selection-start-column="8" selection-end-line="34" selection-end-column="24" />
-          <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/WinnerChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/Shop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/MainGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/GameField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/MenuManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/dao/AbstractDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/config/PropertiesManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/entity/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-740">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/dao/DataSourceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1001#1051#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/dao/DBJsonConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/dao/MyJSONParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/java/dao/DatabaseManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-course/farm/src/main/resources/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1890,6 +1690,237 @@
             <element signature="e#289#290#0" expanded="true" />
             <element signature="e#317#318#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/car/Peugeot_107.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/com/example/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/java/engine/IEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/java/engine/Dfihatsu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/java/transmission/Toyota_aygo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/springApp/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/classwork/itstep/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/classwork/itstep/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/classwork/itstep/dao/UserDataBaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/classwork/itstep/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/java/car/ICar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/java/car/Peugeot_107.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/resources/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/src/main/java/com/example/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" selection-start-line="13" selection-start-column="8" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/resources/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/hand/IHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/hand/IHandImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/head/IHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/head/IHeadImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/leg/ILeg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/leg/ILegImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/robot/IRobot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/robot/IRobotImplR2D2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/webapp/WEB-INF/views/home.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/java/classwork/itstep/config/MvcConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>

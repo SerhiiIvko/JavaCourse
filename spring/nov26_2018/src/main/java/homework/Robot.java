@@ -1,4 +1,5 @@
 package homework;
+
 //Повторить тему анотации
 //если не успели создать проект Spring + Maven по примеру из видео то создать
 //в проекте реализовать класс Robot
@@ -11,6 +12,14 @@ package homework;
 //указать в файле настройки спринга бин Робота
 //Запустить приложение используя механизм Бинов
 
-public class Robot {
+import homework.robot.IRobot;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+public class Robot {
+    public static void main(String[] args) {
+        ApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
+        IRobot robot = (IRobot) context.getBean("r2d2");
+        System.out.println(robot);
+    }
 }
