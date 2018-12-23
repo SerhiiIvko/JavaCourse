@@ -4,7 +4,7 @@ public class Field {
     private static final int SIZE = 8;
 
     public static void initField() {
-        String cellPattern = "[Bed ready for planting]";
+        String cellPattern = "[ Bed ready for planting ]";
         String[] field = new String[SIZE];
         for (int i = 0; i < SIZE; i++) {
             field[i] = cellPattern;

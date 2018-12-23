@@ -8,23 +8,18 @@ import java.io.IOException;
 public class HitCountServletFilter implements Filter {
     private int hitCount;
 
-    public void destroy() {
+    public void init(FilterConfig fConfig) {
+        hitCount = 0;
     }
 
-    public void doFilter(ServletRequest request, ServletResponse response,
-                         FilterChain chain) throws IOException, ServletException {
-        // increase counter by one
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+            throws IOException, ServletException {
         hitCount++;
-
-        // Print the counter.
-        System.out.println("Site visits count :" + hitCount);
         request.setAttribute("counter", hitCount);
-        // pass the request along the filter chain
         chain.doFilter(request, response);
     }
 
-    public void init(FilterConfig fConfig) throws ServletException {
-        // Reset hit counter.
-        hitCount = 0;
+    public void destroy() {
+        //do something
     }
 }

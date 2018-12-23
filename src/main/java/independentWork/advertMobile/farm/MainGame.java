@@ -1,5 +1,7 @@
 package independentWork.advertMobile.farm;
 
+import java.util.Scanner;
+
 public class MainGame {
     public static void main(String[] args) {
 //        GameField gameField = new GameField();
@@ -8,4 +10,6 @@ public class MainGame {
         GameField.initField();
 
     }
+
+
 }

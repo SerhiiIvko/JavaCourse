@@ -62,14 +62,6 @@ public class TicTacToeGame {
             System.out.print("Input number of the cell:> ");
             String errorMessage = "This cell is not empty, try again.";
 
-//            int input = Integer.parseInt(scanner.next());
-//            for (int i = 0; i < field.length; i++) {
-//                for (int j = 0; j < field.length; j++) {
-//
-//                }
-//            }
-
-
             switch (scanner.next()) {
                 case "1": {
                     if (field[0][0].equalsIgnoreCase(cellPattern)) {

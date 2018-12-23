@@ -1,12 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Hit Count Servlet Index Page</title>
+    <title>Hit Count Servlet Visit Page</title>
 </head>
 <body>
 <p>Number of visitors all pages = <%=request.getAttribute("counter")%>
 </p>
-<a href="visit.jsp">visit page</a>
+<a href="index.jsp">home page</a>
 </body>
 </html>

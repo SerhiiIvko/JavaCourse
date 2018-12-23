@@ -5,13 +5,13 @@
 <web-app>
     <display-name>Web Application</display-name>
     <servlet>
-        <servlet-name>PageHitCounter</servlet-name>
-        <servlet-class>homework.PageHitCounter</servlet-class>
+        <servlet-name>Servlet</servlet-name>
+        <servlet-class>homework.Servlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>PageHitCounter</servlet-name>
-        <url-pattern>/PageHitCounter</url-pattern>
+        <servlet-name>Servlet</servlet-name>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>15</session-timeout>

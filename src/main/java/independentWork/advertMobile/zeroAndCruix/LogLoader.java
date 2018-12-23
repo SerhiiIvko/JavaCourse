@@ -19,12 +19,16 @@ class LogLoader {
         }
     }
 
-    void saveHistory(String resultField) throws IOException {
-        String path = "/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt";
-        File file = new File(path);
-        FileWriter fileWriter = new FileWriter(file, true);
-        fileWriter.write(resultField);
-        fileWriter.close();
+    void saveHistory(String resultField) {
+        try {
+            String path = "/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt";
+            File file = new File(path);
+            FileWriter fileWriter = new FileWriter(file, true);
+            fileWriter.write(resultField);
+            fileWriter.close();
+        } catch (IOException e) {
+            e.getMessage();
+        }
     }
 
     private String showHistory() {

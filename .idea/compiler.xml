@@ -10,6 +10,7 @@
         <module name="dec05_2018" />
         <module name="exam_work" />
         <module name="farm" />
+        <module name="hibernate" />
         <module name="json_lesson1" />
         <module name="nov07_2018" />
         <module name="nov12_2018" />
@@ -35,6 +36,7 @@
       <module name="dec05_2018" target="1.8" />
       <module name="exam_work" target="8" />
       <module name="farm" target="1.8" />
+      <module name="hibernate" target="8" />
       <module name="JavaCourse" target="8" />
       <module name="json_lesson1" target="8" />
       <module name="nov07_2018" target="1.8" />

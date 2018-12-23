@@ -4,3 +4,13 @@
  [X]  [ ]  [O] 
 Winner: 111
 Tue Nov 06 12:25:07 EET 2018
+ [X]  [ ]  [ ] 
+ [X]  [O]  [O] 
+ [X]  [ ]  [ ] 
+Winner: aaa
+Fri Dec 21 17:58:50 EET 2018
+ [O]  [X]  [ ] 
+ [X]  [O]  [X] 
+ [ ]  [ ]  [O] 
+Winner: ddd
+Fri Dec 21 18:00:49 EET 2018
