@@ -1,6 +1,6 @@
 package classwork.itstep.dao.mapper;
 
-import springApp.model.User;
+import classwork.itstep.model.User;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

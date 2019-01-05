@@ -1,7 +1,7 @@
 package classwork.itstep.service;
 
 import classwork.itstep.dao.UserDAO;
-import springApp.model.User;
+import classwork.itstep.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;

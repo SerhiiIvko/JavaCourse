@@ -66,7 +66,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="JavaCourse" options="" />
       <module name="RESTtasktrain" options="-parameters" />
-      <module name="dec05_2018" options="-parameters" />
+      <module name="dec05_2018" options="" />
     </option>
   </component>
 </project>

@@ -1,6 +1,6 @@
 package classwork.itstep.dao;
 
-import springApp.model.User;
+import classwork.itstep.model.User;
 
 import java.util.List;
 

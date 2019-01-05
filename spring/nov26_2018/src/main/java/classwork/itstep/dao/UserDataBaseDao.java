@@ -1,7 +1,7 @@
 package classwork.itstep.dao;
 
 import classwork.itstep.dao.mapper.UserMapper;
-import springApp.model.User;
+import classwork.itstep.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 
