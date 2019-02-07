@@ -8,8 +8,7 @@ public class MyMergeSort {
     private int[] tempMergArr;
     private int length;
 
-    public static void main(String a[]) {
-
+    public static void main(String[] a) {
         int[] inputArr = {45, 23, 11, 89, 77, 98, 4, 28, 65, 43};
         MyMergeSort mms = new MyMergeSort();
         mms.sort(inputArr);
@@ -19,7 +18,7 @@ public class MyMergeSort {
         }
     }
 
-    public void sort(int inputArr[]) {
+    public void sort(int[] inputArr) {
         this.array = inputArr;
         this.length = inputArr.length;
         this.tempMergArr = new int[length];
@@ -27,7 +26,6 @@ public class MyMergeSort {
     }
 
     private void doMergeSort(int lowerIndex, int higherIndex) {
-
         if (lowerIndex < higherIndex) {
             int middle = lowerIndex + (higherIndex - lowerIndex) / 2;
             // Below step sorts the left side of the array
@@ -41,9 +39,8 @@ public class MyMergeSort {
 
     private void mergeParts(int lowerIndex, int middle, int higherIndex) {
 
-        for (int i = lowerIndex; i <= higherIndex; i++) {
-            tempMergArr[i] = array[i];
-        }
+        if (higherIndex + 1 - lowerIndex >= 0)
+            System.arraycopy(array, lowerIndex, tempMergArr, lowerIndex, higherIndex + 1 - lowerIndex);
         int i = lowerIndex;
         int j = middle + 1;
         int k = lowerIndex;
@@ -62,6 +59,5 @@ public class MyMergeSort {
             k++;
             i++;
         }
-
     }
 }

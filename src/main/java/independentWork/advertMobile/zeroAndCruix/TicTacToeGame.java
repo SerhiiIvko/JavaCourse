@@ -16,23 +16,23 @@ public class TicTacToeGame {
                 "3. Exit");
         Scanner scanner = new Scanner(System.in);
         String userChoice = scanner.next();
-            switch (userChoice) {
-                case "1":
-                    startGame();
-                    break;
-                case "2":
-                    new LogLoader().loadHistoryInMemory();
-                    mainMenu();
-                    break;
-                case "3":
-                    System.out.println("You successfully quit from game");
-                    System.exit(1);
-                    break;
-                default:
-                    System.out.println("Incorrect input");
-                    mainMenu();
-            }
-        scanner.close();
+        switch (userChoice) {
+            case "1":
+                startGame();
+                break;
+            case "2":
+                new LogLoader().loadHistoryInMemory();
+                mainMenu();
+                break;
+            case "3":
+                System.out.println("You successfully quit from game");
+                scanner.close();
+                System.exit(1);
+                break;
+            default:
+                System.out.println("Incorrect input");
+                mainMenu();
+        }
     }
 
     private static void startGame() {

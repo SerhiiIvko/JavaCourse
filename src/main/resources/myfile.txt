@@ -14,3 +14,19 @@ Fri Dec 21 17:58:50 EET 2018
  [ ]  [ ]  [O] 
 Winner: ddd
 Fri Dec 21 18:00:49 EET 2018
+ [O]  [O]  [X] 
+ [X]  [O]  [X] 
+ [ ]  [ ]  [X] 
+Winner: www
+Wed Jan 16 20:18:33 EET 2019
+ [X]  [O]  [O] 
+ [X]  [ ]  [ ] 
+ [X]  [ ]  [ ] 
+Winner: rrr
+Wed Jan 16 20:19:04 EET 2019
+Start new main menu [X]  [O]  [ ] 
+ [X]  [O]  [ ] 
+ [X]  [ ]  [ ] 
+Winner: sss
+Wed Jan 16 20:23:13 EET 2019
+Start new main menu
