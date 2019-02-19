@@ -1,4 +1,7 @@
-package independentWork.advertMobile.zeroAndCruix;
+package independentWork.advertMobile.zeroAndCruix.history;
+
+import independentWork.advertMobile.zeroAndCruix.properties.AppProperties;
+import independentWork.advertMobile.zeroAndCruix.properties.ConsoleWriter;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -7,21 +10,21 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-class LogLoader {
+public class LogLoader {
 
-    void loadHistoryInMemory() {
+    public void loadHistoryInMemory() {
         LogLoader logLoader = new LogLoader();
         String gameResult = logLoader.showHistory();
         if (gameResult != null && !gameResult.trim().isEmpty()) {
             System.out.println(logLoader.showHistory());
         } else {
-            System.out.println("You must play one game at least! Your history is empty yet!\n");
+            ConsoleWriter.printOut(ConsoleWriter.PLAY_FIRST_GAME);
         }
     }
 
-    void saveHistory(String resultField) {
+    public void saveHistory(String resultField) {
         try {
-            String path = "/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt";
+            String path = AppProperties.HISTORY_FILE_PATH;
             File file = new File(path);
             FileWriter fileWriter = new FileWriter(file, true);
             fileWriter.write(resultField);
@@ -35,7 +38,7 @@ class LogLoader {
         String gameLog = null;
         try {
             gameLog = new String(Files.readAllBytes
-                    (Paths.get("/home/ivko/IdeaProjects/JavaCourse/src/main/resources/myfile.txt")),
+                    (Paths.get(AppProperties.HISTORY_FILE_PATH)),
                     StandardCharsets.UTF_8);
         } catch (IOException e) {
             System.out.println(e.getMessage());

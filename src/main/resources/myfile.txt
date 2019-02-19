@@ -23,10 +23,3 @@ Wed Jan 16 20:18:33 EET 2019
  [X]  [ ]  [ ] 
  [X]  [ ]  [ ] 
 Winner: rrr
-Wed Jan 16 20:19:04 EET 2019
-Start new main menu [X]  [O]  [ ] 
- [X]  [O]  [ ] 
- [X]  [ ]  [ ] 
-Winner: sss
-Wed Jan 16 20:23:13 EET 2019
-Start new main menu

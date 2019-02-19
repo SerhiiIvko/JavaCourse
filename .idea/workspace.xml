@@ -6,28 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be783faf-f2e2-4e25-b9b7-1c9eacae0557" name="Default" comment="add homeworks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/classworks/june2018/june06_2018/homework/data_base_creation.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classworks/june2018/june11_2018/homework/task.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classworks/june2018/june11_2018/homework/task2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/FieldInArray.java" afterDir="false" />
+    <list default="true" id="be783faf-f2e2-4e25-b9b7-1c9eacae0557" name="Default" comment="add some changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/gameLogic/WinnerChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/menu/GameMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/properties/AppProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/properties/ConsoleWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaCourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCourse.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/dec05_2018/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/dec05_2018/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classworks/january2018/jan252018/task4/MyMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classworks/january2018/jan252018/task4/MyMergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classworks/june2018/june06_2018/homework/task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classworks/june2018/june06_2018/homework/task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/LogLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/history/LogLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/TicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/TicTacToeGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/WinnerChecker.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/myfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/myfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/farm/farm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/farm/farm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/json_lesson1/json_lesson1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/json_lesson1/json_lesson1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/nov07_2018/nov07_2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/nov07_2018/nov07_2018.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/nov14_2018/nov14_2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/nov14_2018/nov14_2018.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/nov19_2018/nov19_2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/nov19_2018/nov19_2018.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/nov21_2018/nov21_2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/nov21_2018/nov21_2018.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/oct10_2018/oct10_2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/oct10_2018/oct10_2018.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/oct17_2018/oct17_2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/oct17_2018/oct17_2018.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/web-course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/web-course.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-course/webcourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-course/webcourse.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,91 +81,106 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/work1/loops/task4/Factorial.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/properties/ConsoleWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding>
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/history/LogLoader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/january2018/jan232018/arrays/task10/NegativesCount.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/TicTacToeGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/january2018/jan232018/arrays/task13/ArrayCopy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/january2018/jan252018/task1/BubbleSort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/menu/GameMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/january2018/jan252018/task2/InsertionSort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/gameLogic/WinnerChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/january2018/jan252018/task3/SelectionSort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/MenuManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/january2018/jan252018/task4/MyMergeSort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/Plant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/january2018/jan252018/task5/EvenArray.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/january2018/jan252018/task6/AverageArray.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classworks/january2018/jan252018/task7/ChangeByZero.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/properties/AppProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -263,16 +266,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web-course/nov21_2018/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/web-course/nov21_2018/src/main/webapp/visit.jsp" />
-        <option value="$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/HitCountServletFilter.java" />
-        <option value="$PROJECT_DIR$/web-course/nov21_2018/src/main/java/homework/Servlet.java" />
-        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/car/Peugeot_147.java" />
-        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/car/Peugeot_107.java" />
-        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/spring/com/example/demo/DemoApplication.java" />
-        <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/robot/IRobot.java" />
-        <option value="$PROJECT_DIR$/spring/dec05_2018/src/main/java/car/Peugeot_107.java" />
-        <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/hand/IHandImpl.java" />
         <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/leg/ILegImpl.java" />
         <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/resources/context.xml" />
         <option value="$PROJECT_DIR$/spring/nov26_2018/src/main/java/homework/hand/IHand.java" />
@@ -307,13 +300,23 @@
         <option value="$PROJECT_DIR$/src/main/java/classworks/june2018/june06_2018/homework/B.java" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/june2018/june06_2018/homework/A.java" />
         <option value="$PROJECT_DIR$/spring/dec05_2018/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/TicTacToeGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/june2018/june11_2018/homework/task.sql" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/march2018/mar012018/homework/part1/task1/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/homeworks/FieldInArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/independentWork/work1/loops/task4/Factorial.java" />
         <option value="$PROJECT_DIR$/src/main/java/classworks/january2018/jan252018/task4/MyMergeSort.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/myfile.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/ConsoleWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/AppProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/properties/AppProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/properties/ConsoleWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/LogLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/history/LogLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/WinnerChecker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/TicTacToeGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/gameLogic/WinnerChecker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/menu/GameMenu.java" />
       </list>
     </option>
   </component>
@@ -358,10 +361,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="47" />
+    <option name="x" value="67" />
     <option name="y" value="27" />
-    <option name="width" value="1319" />
-    <option name="height" value="714" />
+    <option name="width" value="1299" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -392,6 +395,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -423,7 +427,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="independentWork" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
@@ -431,7 +435,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
+              <item name="independentWork" type="462c0819:PsiDirectoryNode" />
+              <item name="advertMobile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
@@ -439,8 +444,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
+              <item name="independentWork" type="462c0819:PsiDirectoryNode" />
+              <item name="advertMobile" type="462c0819:PsiDirectoryNode" />
+              <item name="zeroAndCruix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
@@ -448,9 +454,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan162018" type="462c0819:PsiDirectoryNode" />
+              <item name="independentWork" type="462c0819:PsiDirectoryNode" />
+              <item name="advertMobile" type="462c0819:PsiDirectoryNode" />
+              <item name="zeroAndCruix" type="462c0819:PsiDirectoryNode" />
+              <item name="gameLogic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
@@ -458,9 +465,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan182018" type="462c0819:PsiDirectoryNode" />
+              <item name="independentWork" type="462c0819:PsiDirectoryNode" />
+              <item name="advertMobile" type="462c0819:PsiDirectoryNode" />
+              <item name="zeroAndCruix" type="462c0819:PsiDirectoryNode" />
+              <item name="history" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
@@ -468,379 +476,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="task3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="task4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="task5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="task6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="task7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="task8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="task9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="task10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="task11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="task12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="task13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="task3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="task4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="task5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="task6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan232018" type="462c0819:PsiDirectoryNode" />
-              <item name="task7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan252018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan252018" type="462c0819:PsiDirectoryNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan252018" type="462c0819:PsiDirectoryNode" />
-              <item name="task5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan252018" type="462c0819:PsiDirectoryNode" />
-              <item name="task6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="january2018" type="462c0819:PsiDirectoryNode" />
-              <item name="jan252018" type="462c0819:PsiDirectoryNode" />
-              <item name="task7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="june2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="june2018" type="462c0819:PsiDirectoryNode" />
-              <item name="june06_2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="june2018" type="462c0819:PsiDirectoryNode" />
-              <item name="june06_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="june2018" type="462c0819:PsiDirectoryNode" />
-              <item name="june11_2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="june2018" type="462c0819:PsiDirectoryNode" />
-              <item name="june11_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="june2018" type="462c0819:PsiDirectoryNode" />
-              <item name="june25_2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classworks" type="462c0819:PsiDirectoryNode" />
-              <item name="june2018" type="462c0819:PsiDirectoryNode" />
-              <item name="june25_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="independentWork" type="462c0819:PsiDirectoryNode" />
+              <item name="advertMobile" type="462c0819:PsiDirectoryNode" />
+              <item name="zeroAndCruix" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
@@ -853,9 +492,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Course" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -940,7 +578,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyMergeSort">
+  <component name="RunManager" selected="Application.Game">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -1010,7 +648,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="independentWork.advertMobile.zeroAndCruix.*" />
+          <option name="PATTERN" value="independentWork.advertMobile.zeroAndCruix.properties.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1180,9 +818,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Game" />
         <item itemvalue="Application.MyMergeSort" />
         <item itemvalue="Application.FieldInArray" />
-        <item itemvalue="Application.Game" />
         <item itemvalue="Application.WindowTest" />
         <item itemvalue="Application.Robot" />
       </list>
@@ -1287,13 +925,8 @@
       <workItem from="1549292372825" duration="2256000" />
       <workItem from="1549298042474" duration="1847000" />
       <workItem from="1549472052176" duration="127000" />
-    </task>
-    <task id="LOCAL-00011" summary="after refactoring chess">
-      <created>1516099110002</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1516099110002</updated>
+      <workItem from="1549568871416" duration="84000" />
+      <workItem from="1550133144659" duration="10523000" />
     </task>
     <task id="LOCAL-00012" summary="homeworks 19.12.2017&#10;&#10;(cherry picked from commit 385dd8a)">
       <created>1516224408569</created>
@@ -1631,7 +1264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546694679556</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="add some changes">
+      <created>1549568908161</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1549568908161</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1667,7 +1307,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="769989000" />
+    <option name="totallyTimeSpent" value="780596000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1680,8 +1320,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7413793" visible="true" weight="0.30327216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7413793" visible="true" weight="0.27294493" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1691,16 +1332,17 @@
       <window_info id="Nl-Palette" order="7" />
       <window_info id="Learn" order="8" />
       <window_info id="Web" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.48931384" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5059856" weight="0.32068965" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5059856" weight="0.39827585" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34310344" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298791" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5179569" weight="0.17931035" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.49162012" side_tool="true" weight="0.32931036" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.2672414" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.26632303" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.26551723" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3298791" />
@@ -1771,7 +1413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tasks 19 apr 2018" />
     <MESSAGE value="lanaNumEditField" />
     <MESSAGE value="my commit 23 may 2018" />
     <MESSAGE value="my commit 25 may 2018" />
@@ -1796,7 +1437,8 @@
     <MESSAGE value="add homework 21 nov 2018" />
     <MESSAGE value="add homework 26 nov 2018" />
     <MESSAGE value="add homeworks" />
-    <option name="LAST_COMMIT_MESSAGE" value="add homeworks" />
+    <MESSAGE value="add some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some changes" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1822,72 +1464,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring/nov26_2018/src/main/resources/context.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/dec05_2018/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/LogLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/myfile.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/march2018/mar012018/homework/part1/task1/CircleRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/march2018/mar012018/homework/part1/task2/Segments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/march2018/mar012018/homework/part1/task3/RightAngleTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/march2018/mar012018/homework/part1/task3/TrianglesRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/march2018/mar012018/homework/part2/task1/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classworks/march2018/mar012018/homework/part2/task1/RectangleRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/classworks/march2018/mar012018/homework/part2/task2/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1972,13 +1548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/WinnerChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/classworks/june2018/june11_2018/homework/task2.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2013,31 +1582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/MainGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/TicTacToeGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2174,6 +1718,123 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/myfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/GameField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/MainGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/MenuManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/Plant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/farm/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/properties/AppProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/properties/ConsoleWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/history/LogLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/gameLogic/WinnerChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/TicTacToeGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/independentWork/advertMobile/zeroAndCruix/menu/GameMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
