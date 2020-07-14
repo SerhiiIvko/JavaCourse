@@ -102,10 +102,10 @@ public class CalcGUI {
             JButton b = (JButton) e.getSource();
             displayText.setText(displayText.getText() + b.getText());
         };
-        for (JButton b : operationButtons) {
+        operationButtons.forEach(b -> {
             b.setFont(font);
             b.addActionListener(a);
-        }
+        });
         p2.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {

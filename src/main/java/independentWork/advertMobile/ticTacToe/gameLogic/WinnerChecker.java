@@ -1,8 +1,8 @@
-package independentWork.advertMobile.zeroAndCruix.gameLogic;
+package independentWork.advertMobile.ticTacToe.gameLogic;
 
-import independentWork.advertMobile.zeroAndCruix.TicTacToeGame;
-import independentWork.advertMobile.zeroAndCruix.history.LogLoader;
-import independentWork.advertMobile.zeroAndCruix.properties.ConsoleWriter;
+import independentWork.advertMobile.ticTacToe.TicTacToeGame;
+import independentWork.advertMobile.ticTacToe.history.LogLoader;
+import independentWork.advertMobile.ticTacToe.properties.ConsoleWriter;
 
 import java.util.Date;
 

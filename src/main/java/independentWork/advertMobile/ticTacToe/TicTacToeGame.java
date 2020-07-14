@@ -1,8 +1,8 @@
-package independentWork.advertMobile.zeroAndCruix;
+package independentWork.advertMobile.ticTacToe;
 
-import independentWork.advertMobile.zeroAndCruix.gameLogic.WinnerChecker;
-import independentWork.advertMobile.zeroAndCruix.history.LogLoader;
-import independentWork.advertMobile.zeroAndCruix.properties.ConsoleWriter;
+import independentWork.advertMobile.ticTacToe.gameLogic.WinnerChecker;
+import independentWork.advertMobile.ticTacToe.history.LogLoader;
+import independentWork.advertMobile.ticTacToe.properties.ConsoleWriter;
 
 import java.util.Scanner;
 

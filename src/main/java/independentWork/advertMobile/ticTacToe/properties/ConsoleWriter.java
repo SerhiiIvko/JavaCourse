@@ -1,4 +1,4 @@
-package independentWork.advertMobile.zeroAndCruix.properties;
+package independentWork.advertMobile.ticTacToe.properties;
 
 public class ConsoleWriter {
     public static final String X = " [X] ";

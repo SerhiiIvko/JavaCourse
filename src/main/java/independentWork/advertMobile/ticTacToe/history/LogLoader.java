@@ -1,7 +1,7 @@
-package independentWork.advertMobile.zeroAndCruix.history;
+package independentWork.advertMobile.ticTacToe.history;
 
-import independentWork.advertMobile.zeroAndCruix.properties.AppProperties;
-import independentWork.advertMobile.zeroAndCruix.properties.ConsoleWriter;
+import independentWork.advertMobile.ticTacToe.properties.AppProperties;
+import independentWork.advertMobile.ticTacToe.properties.ConsoleWriter;
 
 import java.io.File;
 import java.io.FileWriter;

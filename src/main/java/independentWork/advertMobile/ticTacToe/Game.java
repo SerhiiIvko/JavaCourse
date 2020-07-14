@@ -1,4 +1,4 @@
-package independentWork.advertMobile.zeroAndCruix;
+package independentWork.advertMobile.ticTacToe;
 
 public class Game {
     public static void main(String[] args) {
